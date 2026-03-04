@@ -1,0 +1,437 @@
+anti_bot_tracking:
+  criteo:
+    base_url: https://gum.criteo.com/syncframe
+    params:
+      origin: onetag
+      topUrl: www.coupang.com
+  facebook_pixel:
+    base_url: https://www.facebook.com/tr/
+    default_screen:
+      height: 1117
+      width: 1728
+    event_type: PageView
+    pixel_id: '652323801535981'
+    version: 2.9.211
+  ip_detection:
+    external_port: 80
+    external_servers:
+    - 8.8.8.8
+    fallback_ip: 192.168.1.100
+  ljc:
+    app_code: coupang
+    base_url: https://ljc.coupang.com/api/v2/submit
+    market: KR
+    patterns:
+      extended:
+        call_count: 7
+        probability: 0.3
+      standard:
+        call_count: 5
+        probability: 0.7
+    payload_defaults:
+      color_depth: 24
+      language: ko-KR
+      page_type: category
+      timezone: Asia/Seoul
+    timing:
+      max_delay: 0.2
+      min_delay: 0.08
+  mercury:
+    base_url: https://mercury.coupang.com/e.gif
+    patterns:
+      extended:
+        events:
+        - event: impression
+          type: 2
+        - event: impression
+          type: 2
+        - event: view
+          type: 3
+        - event: view
+          type: 3
+        probability: 0.3
+      standard:
+        events:
+        - event: impression
+          type: 2
+        - event: view
+          type: 3
+        probability: 0.7
+    timing:
+      max_delay: 0.15
+      min_delay: 0.05
+    token_settings:
+      market: KR
+      random_id_range:
+      - 100000
+      - 999999
+      session_prefix: ChB
+      session_suffix: EgwxMC4yMTkuMzguNjk
+      type: FLAT
+  resource_preloading:
+    css_files:
+    - https://front.coupangcdn.com/front-web-next/_next/static/css/f69e2cf87f46f380.css
+    - https://front.coupangcdn.com/front-web-next/_next/static/css/d3c7601329ff82eb.css
+    - https://front.coupangcdn.com/front-web-next/_next/static/css/f3e0ebee625e5d43.css
+    - https://front.coupangcdn.com/front-web-next/_next/static/css/5eac7fa97b0287ad.css
+    - https://front.coupangcdn.com/front-web-next/_next/static/css/4c1d2808e82a4b45.css
+    - https://front.coupangcdn.com/front-web-next/_next/static/css/86411aca8bc22705.css
+    - https://front.coupangcdn.com/front-web-next/_next/static/css/a4b3f8e2708a4348.css
+    - https://front.coupangcdn.com/front-web-next/_next/static/css/27547a4d90748c4d.css
+    enabled: true
+    js_files:
+    - https://front.coupangcdn.com/front-web-next/_next/static/chunks/1ad287c6-17e638f0f15f5084.js
+    - https://front.coupangcdn.com/front-web-next/_next/static/chunks/409ba913-abcf08c88e9c4c53.js
+    - https://front.coupangcdn.com/front-web-next/_next/static/chunks/417-46e41d1b620b2af6.js
+    - https://front.coupangcdn.com/front-web-next/_next/static/chunks/main-app-24e041dd9857cbe9.js
+    - https://front.coupangcdn.com/front-web-next/_next/static/chunks/app/global-error-56d17ba2cab14486.js
+    - https://front.coupangcdn.com/front-web-next/_next/static/chunks/app/not-found-875ab123633869ff.js
+    - https://front.coupangcdn.com/front-web-next/_next/static/chunks/7082-5c7ffd3e58ef0a1b.js
+    - https://front.coupangcdn.com/front-web-next/_next/static/chunks/9216-d4c67a56eb8fec95.js
+    - https://front.coupangcdn.com/front-web-next/_next/static/chunks/7962-9d5b0b0dec8b87a1.js
+    - https://front.coupangcdn.com/front-web-next/_next/static/chunks/5770-b83d0a95664ac35f.js
+    - https://front.coupangcdn.com/front-web-next/_next/static/chunks/6639-d4c8af57283fb69a.js
+    - https://front.coupangcdn.com/front-web-next/_next/static/chunks/3967-e747e21760756334.js
+    - https://front.coupangcdn.com/front-web-next/_next/static/chunks/app/gw/page-256fcb9340a637a3.js
+    - https://front.coupangcdn.com/front-web-next/_next/static/chunks/polyfills-42372ed130431b0a.js
+    - https://front.coupangcdn.com/front-web-next/_next/static/chunks/webpack-462de88349a35034.js
+    timing:
+      css_delay_range:
+      - 0.1
+      - 0.3
+      js_delay_range:
+      - 0.2
+      - 0.5
+chrome_options:
+  basic:
+  - --disable-blink-features=AutomationControlled
+  - --no-sandbox
+  - --ignore-certificate-errors
+  - --lang=ko-KR
+  - --password-store=basic # contianer security
+  - --use-mock-keychain # contianer security
+  dangerous_options_to_avoid:
+  - --disable-dev-shm-usage
+  - --disable-gpu
+  - --disable-web-security
+  - --disable-features=VizDisplayCompositor
+chromedriver:
+  # undetected_chromedriver 드라이버 버전 고정 (메이저 버전)
+  # 예) 설치된 Chrome이 139.x이면 139로 설정
+  version_main: 145
+crawler_settings:
+  api_endpoints:
+    goldbox_products: https://pages.coupang.com/api/products
+  api_headers:
+    accept: application/json, text/plain, */*
+    accept-encoding: gzip, deflate, br
+    accept-language: ko-KR,ko;q=0.9,en;q=0.8
+    content-type: application/json
+    sec-fetch-dest: empty
+    sec-fetch-mode: cors
+    sec-fetch-site: same-site
+  delays:
+    after_page_load:
+      max: 5000
+      min: 2000
+    between_actions:
+      max: 3000
+      min: 800
+    between_requests:
+      max: 600000
+      min: 180000
+    between_scrolls:
+      max: 2000
+      min: 800
+    ljc_calls:
+      max: 500
+      min: 200
+    mercury_calls:
+      max: 800
+      min: 300
+  profile_rotation:
+    url_count_max: 15
+    url_count_min: 10
+  selectors:
+    body: body
+    category_button: div.category-btn
+    pagination:
+      current_page: button[aria-current="page"]
+      next_button: button[aria-label="다음 페이지"]
+      page_numbers: button[aria-label*="페이지"]
+      prev_button: button[aria-label="이전 페이지"]
+    product_detail:
+      add_to_cart: button[class*="로켓와우"]
+      brand: link[class*="brand"]
+      discount: span[class*="PriceInfo_discountRate"]
+      price: strong[class*="Price_priceValue"]
+      title: h1[class*="productName"]
+    product_items: li.baby-product.renew-badge, li.ProductUnit_productUnit__Qd6sv,
+      [data-product-id]
+    product_link: a[href*="/vp/products/"]
+    search_product: .search-product
+    sort_buttons:
+      newest: button[data-testid="sorter-newest"]
+      price_high: button[data-testid="sorter-priceHigh"]
+      price_low: button[data-testid="sorter-priceLow"]
+      rating: button[data-testid="sorter-rating"]
+      sales_volume: button[data-testid="sorter-salesVolume"]
+  timeouts:
+    element_wait: 8
+    navigation: 25
+    page_load: 30
+    resource_load: 15
+crawling_behavior:
+  auto_pagination:
+    delay_between_pages:
+      max: 5000
+      min: 3000
+    enabled: true
+    max_pages: 9
+    scroll_before_next: true
+  auto_rocket_delivery:
+    delay_after_selection:
+      max: 3000
+      min: 1500
+    enabled: true
+    retry_attempts: 6
+  auto_sort_by_sales:
+    delay_after_sort:
+      max: 4000
+      min: 2000
+    enabled: true
+    retry_attempts: 3
+  enhanced_human_behavior:
+    category_exploration_probability: 10
+    enabled: true
+    random_actions_probability: 15
+    search_box_interaction_probability: 5
+  general_control:
+    emergency_stop:
+      enabled: true
+      error_threshold: 3
+    max_total_pages: 15
+    respect_robots_txt: false
+    session_break_interval:
+      break_duration:
+        max: 180000
+        min: 60000
+      enabled: false
+      pages_between_breaks: 20
+  multi_page_processing:
+    description: Controls whether to process multiple pages with full automation features
+    enabled: true
+dynamic_config_update:
+  backup:
+    enabled: true
+    max_backups: 3
+  enabled: true
+  timeout_seconds: 15
+  update_interval_hours: 1
+  update_targets:
+    facebook_pixel_id: true
+    resource_files: true
+    static_cookies: true
+    tracking_scripts: false
+essential_cookies:
+  dynamic:
+  - PCID
+  - _coupang_session
+  - coupang_tracking
+  - visit_id
+  static:
+    baby-isWide: wide
+    gd1: Y
+    x-coupang-origin-region: KR
+    x-coupang-target-market: KR
+fallback_settings:
+  canvas_noise_level: 2
+  color_depth: 24
+  hardware_cores: 8
+  languages:
+  - ko-KR
+  - ko
+  - en-US
+  - en
+  plugin_count: 23
+  primary_language: ko-KR
+  timezone_offset: -540
+  webgl_renderer: WebKit WebGL
+  webgl_shader_version: WebGL GLSL ES 1.0 (OpenGL ES GLSL ES 1.0 Chromium)
+  webgl_vendor: WebKit
+  webgl_version: WebGL 1.0 (OpenGL ES 2.0 Chromium)
+http_headers:
+  basic:
+    Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+    Accept-Encoding: gzip, deflate, br
+    Accept-Language: ko-KR,ko;q=0.9,en;q=0.8
+    Cache-Control: max-age=0
+    Upgrade-Insecure-Requests: '1'
+  security:
+    Sec-CH-UA: '"Not_A Brand";v="8", "Chromium";v="120", "Google Chrome";v="120"'
+    Sec-CH-UA-Mobile: ?0
+    Sec-CH-UA-Platform: '"macOS"'
+    Sec-Fetch-Dest: document
+    Sec-Fetch-Mode: navigate
+    Sec-Fetch-Site: none
+    Sec-Fetch-User: ?1
+human_simulation:
+  behavior_patterns:
+    delay_after_behavior:
+      max: 8000
+      min: 3000
+    enabled: true
+    execution_probability: 80
+    patterns:
+      browse_categories: 20
+      browse_recommendations: 5
+      check_deals: 12
+      check_reviews: 8
+      scroll_and_browse: 15
+      search_random_keyword: 25
+      simulate_comparison: 5
+      view_product_details: 10
+  delays:
+    after_page_load:
+    - 2000
+    - 4000
+    between_actions:
+    - 1000
+    - 3000
+  scrolling:
+    count_range:
+    - 3
+    - 5
+    position_randomness: 100
+    reading_time_range:
+    - 0.8
+    - 2.0
+javascript_injection:
+  canvas_protection: true
+  chrome_object:
+    csi: true
+    loadTimes: true
+    runtime: true
+  language_spoofing: true
+  plugin_simulation: true
+  timezone_spoofing: true
+  webdriver_removal: true
+  webgl_protection: true
+referrer_settings:
+  coupang_main: https://www.coupang.com/
+  google_search: https://www.google.com/search?q=coupang+deals
+  rules:
+    categories_page: coupang_main
+    default: google_search
+session_warmup:
+  actions:
+  - warmup
+  browser_initialization:
+    basic_mouse_movements:
+      count_range:
+      - 1
+      - 2
+      speed_profile: fast
+    viewport_info_collection: true
+    window_focus_blur: true
+  browser_trust_signals: true
+  coupang_exploration:
+    banner_hover_probability: 0.1
+    category_pre_exploration:
+      categories_to_explore_range:
+      - 0
+      - 0
+      click_based_exploration: true
+      enabled: false
+      product_hover_probability: 0.1
+      return_to_main_probability: 1.0
+    main_page_exploration: true
+    main_page_scroll_count:
+    - 0
+    - 1
+    special_pages:
+      click_based_exploration: true
+      enabled: true
+      interaction_probability: 0.3
+      return_to_main_probability: 0.9
+      visit_probability: 0.3
+  duration_range:
+  - 15
+  - 25
+  enabled: true
+  external_trust_building:
+    google_search:
+      click_coupang_link_probability: 0.7
+      coupang_keywords:
+      - 쿠팡 할인
+      - 쿠팡 특가
+      - 쿠팡 로켓배송
+      - 쿠팡 이벤트
+      - 쿠팡 세일
+      - 쿠팡 무료배송
+      - 쿠팡 골드박스
+      - 쿠팡 추천
+      - 쿠팡 베스트
+      - 쿠팡 인기상품
+      - 쿠팡 타임딜
+      - 쿠팡 와우
+      - 쿠팡 멤버십
+      - 쿠팡 오늘의발견
+      enabled: true
+    korean_portals:
+      coupang_search_probability: 0.7
+      enabled: true
+      portals:
+      - name: naver
+        url: https://www.naver.com
+        weight: 80
+      - name: daum
+        url: https://www.daum.net
+        weight: 20
+      scroll_count_range:
+      - 1
+      - 2
+      visit_probability: 0.4
+  final_stabilization:
+    browser_stabilization:
+      browser_events_simulation: true
+      cookie_maturation_time:
+      - 0.5
+      - 1
+      localStorage_setup: true
+      sessionStorage_setup: true
+    final_user_familiarity:
+      elements_to_consider: 3
+      final_hover_probability: 0.2
+    micro_interactions:
+      category_menu_hover_probability: 0.7
+      micro_scroll_amount:
+      - 50
+      - 100
+      micro_scroll_count:
+      - 0
+      - 1
+      search_box_click_cancel_probability: 0.0
+  frequency_control:
+    enabled: true
+    max_consecutive: 5
+    skip_probability: 0.1
+  phase_durations:
+    browser_init:
+    - 1
+    - 2
+    coupang_exploration:
+    - 4
+    - 7
+    external_trust:
+    - 5
+    - 8
+    final_stabilization:
+    - 3
+    - 5
+  pre_exploration: true
+  warmup_triggers:
+    error_recovery: false
+    new_session: true
+    new_url_in_session: true
+    profile_change: true

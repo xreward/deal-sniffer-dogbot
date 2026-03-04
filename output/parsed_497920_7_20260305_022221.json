@@ -1,0 +1,347 @@
+{
+  "request_info": {
+    "url": "https://www.coupang.com/np/categories/497920?listSize=120&page=7&filterType=rocket",
+    "method": "GET",
+    "timestamp": "2026-03-05T02:22:21.255810",
+    "category_id": "497920",
+    "list_size": 120,
+    "page": 7
+  },
+  "response_info": {
+    "status_code": 200,
+    "headers": {
+      "content-type": "text/html; charset=utf-8",
+      "x-accel-expires": "0",
+      "cache-control": "no-store, no-cache, must-revalidate,private, no-cache, no-store, max-age=0, must-revalidate",
+      "server": "envoy",
+      "vary": "Accept-Encoding,rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch",
+      "x-build-id": "0.14.3-6772365dbbb99f1a85ab7d0a7399b72ab8bf7f09",
+      "x-cp-auth-member": "0",
+      "link": "<https://assets.coupangcdn.com/front/front-web-next/_next/static/css/7fa2651df2cdd3a4.css>; rel=preload; as=\"style\"; crossorigin=\"anonymous\", <https://assets.coupangcdn.com/front/front-web-next/_next/static/css/4866c133497f94ef.css>; rel=preload; as=\"style\"; crossorigin=\"anonymous\", <https://assets.coupangcdn.com/front/front-web-next/_next/static/css/17b6f855bd8d90c8.css>; rel=preload; as=\"style\"; crossorigin=\"anonymous\", <https://assets.coupangcdn.com/front/front-web-next/_next/static/css/8b8b55cc583c55e9.css>; rel=preload; as=\"style\"; crossorigin=\"anonymous\"",
+      "content-security-policy": "frame-src https://www.youtube.com/ https://www.googletagmanager.com/ https://www.googleadservices.com/ https://googleads.g.doubleclick.net/ https://*.facebook.net/ https://td.doubleclick.net/ https://*.criteo.com/ https://*.criteo.net/ https://*.coupang.com/ https://*.sentry.io/",
+      "x-xss-protection": "1; mode=block",
+      "x-envoy-upstream-service-time": "501",
+      "x-envoy-decorator-operation": ":0/*",
+      "x-akamai-transformed": "0 - 0 -",
+      "content-encoding": "gzip",
+      "date": "Wed, 04 Mar 2026 17:22:23 GMT",
+      "set-cookie": "sid=3e83e28f31174c62ac7cc779935778058adc4694; Max-Age=432000; Expires=Mon, 09 Mar 2026 17:22:23 GMT; Path=/; Domain=coupang.com, member_srl=; Max-Age=0; Expires=Wed, 04 Mar 2026 17:22:23 GMT; Path=/; Domain=coupang.com, SAID=; Max-Age=0; Expires=Wed, 04 Mar 2026 17:22:23 GMT; Path=/; Domain=coupang.com; HTTPOnly, ak_bmsc=5B9264A02717EA44BDCEFD784D2A5074~000000000000000000000000000000~YAAQZWHKF86ZbK6cAQAApkXfuR9d6Wj6nUEc3pVBij5hIpWuNtl1mdBtlqR7rvLZLNVOvB8RPVcisH3ApaqCQuH0ZhQS+IMt+z6hHPywTRFzX3RvtoFuuV8cfjeuJW+BkocRUwAVUrMBxxn70YPnXBP0LiYKeqOrBenNQ7tvQMvxmGy2SFLngmbe5zUtbv1TLvC6OOPh/PqkR9bersib/JfuVFKdpuNV1A+t8DD6BQe+5JEsA7wnvahJD2ZGWIOGyrVnTy24C868NjfOje1deuv632yoJsC3Y2W9fKJWOdYgsxiam745W31BLqMmFt3fjx5xusLxy1ZROHn5K/K0QyxSeagkrVxEsMIUDJSuBHERR5L+tr1Fqd0Do0vkmaOX7u2p4NuMEGCav//6bh3rxx1fqnFc4TVIukHamyiviQlx2UVZshwkriuhz2aazhgOHxeuNSsZCUCTp3ywwi8Udd+FphpHx2B6Yczu7enY2g==; Domain=.coupang.com; Path=/; Expires=Wed, 04 Mar 2026 18:52:43 GMT; Max-Age=5420; HttpOnly, bm_s=YAAQZWHKF8+ZbK6cAQAApkXfuQUY4pijPUUiSr0v+KQ9cdlPyMnw4wGjbcL3aZFcIX29YjY93UwWJ21YcffNI04ntSJtquRNcLzqROOQeQp34FwCd0YKX1h47LQjKlut7kgXmG446q7NyjuI+Ds41RJylPI/ls/lbzW8kB5sZVPFJIaDtXvps4cw7o8JmVKKtobq/zC570j/r/3LfAJo0BULG00H8ieKONHSUXKLCaot/lJtRwl+V9c6e0/KCF0+LjCMOYq1QFxEz8S7VTPGvtF7dpA5uAAqabDDZ+iWMTxJicPGNDEzA8zbWCh7JmsjprUecx69paxIa4M08r692Ixe/79FiDFGmvOPt5r2grI+ZuZDVDas2Kf6A5e8K2v0Vc3Jcg4mtbp/JV7KIDjlhLpbc0lJWm/Dl68atdgMXluTDZ1/y3tS/zA6Zvz0LJra6eFCRVOsGoc0u3T1kBswxy3lJ9ySUP0wAqM+HySrHVEtixpxM3x1Wr06vtCCfmhluTDcL3a3oH1mntvsbjQGG254RKps8of7TnMs91OZJPs5Lm+eln+mvddayWQafzYGCJlyo69P7BkaE4I11TufPf3hkh7alHvNXhe++mWcj4TAD/w0nvdq3jDmVcs/FsWfBXXX3SlMfBI8dKP6JbQc+j4EfbQWNvkXSAeE9YdrSfSuz9QdZrOTEXcuLDLSa2ZHM1SlKOtjmLgQMjg4xAP53oFZ+Ud44IgsCLKCZOi+cKATP2jQR7IEMh0=; Domain=.coupang.com; Path=/; Expires=Sat, 04 Apr 2026 17:22:23 GMT; Max-Age=2678400; Secure; HttpOnly, bm_so=0F3EBB832684BBB4FBD017F95556A777C8EE5B7A43580ED8DEA3619451803570~YAAQZWHKF9CZbK6cAQAApkXfuQYYU53R7bqhmxcdmlseSJcv2Np7gcICRJRSSx6zCJvm/WfyubQq26yzIVHCtM/7ZVHZmpniGZsP8VR1+wYWaCFo+yuO9gZM6JWk6oO5UO7XDA2au3uVuOHl3p+z7sboGfdzh5Uwmr+9/r2yaR5z175JhoGYx999Q81UAaFERI9g0nWWR1WuRo9rZrOYqZk7ptTMw6XAplkBMaQN9VpcUZjkcnT/yvUsf0kdNf8ZHhlRpGaf2BzGk2tuA84RiGnXnbpbDfDM9P+r0FRE+fzLi2sXtbJ4istJF9Q3OS+BxuKaukxMn+oiAU++SoaWVvzuGQ+IRaVa6fue7k6MQijw3locShF6Mxm0glUotT7SE7Hc1JLmT6qwBAirCxRWVVR1cg8QwsXjt5V09SSNvtcMYnv/wQQdj+2r7xlYG0IKhAohP4eVzUW1Eh9HCHSkIA==; Domain=.coupang.com; Path=/; Expires=Thu, 05 Mar 2026 17:22:23 GMT; Max-Age=86400; Secure, bm_sv=5BC448B0E6CE5B209A8708BC23944886~YAAQZWHKF9GZbK6cAQAApkXfuR8Q9kUgCxRcN5FblkUaTD60kd3BVyLdP8FrcDit2bRdYii3CuLQaqOeGeju1PA0fRsSZEnsCSlIKjvHhsXTK6ihUhyZfgO19RoJQaWRAbZ9Xzg2VD/NOGlZKR3DMdxVOQcZECPeHxUoBr2BdJAUZ2JvaT3Fq7psPXTFbwOkk28PKT4pvTNIf+MLpawH1pvOs9N3P6CROoQPYP0ZUkQIbj9+i/1Q0B4OcotNn5b+rcs=~1; Domain=.coupang.com; Path=/; Expires=Wed, 04 Mar 2026 18:52:45 GMT; Max-Age=5422; Secure, bm_sz=01615C621959529C0A28190B7CCBAD4E~YAAQZWHKF9KZbK6cAQAApkXfuR9cqfess+0yqEHPFfvbFNNGA1d58SkBtb4jjQteXIU11TZb5sgdA9GgfV0Zp2m90vnaZ7QCHu7+rWtSN/lu78GeK6fQbJL7lR3nl7SvqAekV18TN7IstT0wbMbPJl4RvNNRcaVNx/3S3fCZTxOq/zCGdTFH2c/KeFlZnUmOIv2s2bnAjYkMcUL+Rnkeu+jALVpeR+y/W3zneTKytzswQzzOq748sCIFFipkgi/dXWBhw4hD8HUSm9Lhl1/j5COCkze9KW1delKUB9IRIBJvDVsA2z7p0bChG8OMLejXv74CHJsHKvzXDlv1DTjexy7e3K1NO6eIkNGx8/u5uUOtCxHmUZbjESHsftYuiP3erM6jARH7V21WyOwI4bxECDXpjZVfNNgw3gl1DIWfeVK/94JMbd1K1sYyUdSc9frXZE7nCz8yRI0mx9h48ryJSYZfoXCwl4C7JsILwasE~3621427~4604484; Domain=.coupang.com; Path=/; Expires=Wed, 04 Mar 2026 20:52:43 GMT; Max-Age=12620",
+      "strict-transport-security": "max-age=31536000"
+    },
+    "cookies": {
+      "sid": "3e83e28f31174c62ac7cc779935778058adc4694",
+      "member_srl": "",
+      "SAID": "",
+      "ak_bmsc": "5B9264A02717EA44BDCEFD784D2A5074~000000000000000000000000000000~YAAQZWHKF86ZbK6cAQAApkXfuR9d6Wj6nUEc3pVBij5hIpWuNtl1mdBtlqR7rvLZLNVOvB8RPVcisH3ApaqCQuH0ZhQS+IMt+z6hHPywTRFzX3RvtoFuuV8cfjeuJW+BkocRUwAVUrMBxxn70YPnXBP0LiYKeqOrBenNQ7tvQMvxmGy2SFLngmbe5zUtbv1TLvC6OOPh/PqkR9bersib/JfuVFKdpuNV1A+t8DD6BQe+5JEsA7wnvahJD2ZGWIOGyrVnTy24C868NjfOje1deuv632yoJsC3Y2W9fKJWOdYgsxiam745W31BLqMmFt3fjx5xusLxy1ZROHn5K/K0QyxSeagkrVxEsMIUDJSuBHERR5L+tr1Fqd0Do0vkmaOX7u2p4NuMEGCav//6bh3rxx1fqnFc4TVIukHamyiviQlx2UVZshwkriuhz2aazhgOHxeuNSsZCUCTp3ywwi8Udd+FphpHx2B6Yczu7enY2g==",
+      "bm_s": "YAAQZWHKF8+ZbK6cAQAApkXfuQUY4pijPUUiSr0v+KQ9cdlPyMnw4wGjbcL3aZFcIX29YjY93UwWJ21YcffNI04ntSJtquRNcLzqROOQeQp34FwCd0YKX1h47LQjKlut7kgXmG446q7NyjuI+Ds41RJylPI/ls/lbzW8kB5sZVPFJIaDtXvps4cw7o8JmVKKtobq/zC570j/r/3LfAJo0BULG00H8ieKONHSUXKLCaot/lJtRwl+V9c6e0/KCF0+LjCMOYq1QFxEz8S7VTPGvtF7dpA5uAAqabDDZ+iWMTxJicPGNDEzA8zbWCh7JmsjprUecx69paxIa4M08r692Ixe/79FiDFGmvOPt5r2grI+ZuZDVDas2Kf6A5e8K2v0Vc3Jcg4mtbp/JV7KIDjlhLpbc0lJWm/Dl68atdgMXluTDZ1/y3tS/zA6Zvz0LJra6eFCRVOsGoc0u3T1kBswxy3lJ9ySUP0wAqM+HySrHVEtixpxM3x1Wr06vtCCfmhluTDcL3a3oH1mntvsbjQGG254RKps8of7TnMs91OZJPs5Lm+eln+mvddayWQafzYGCJlyo69P7BkaE4I11TufPf3hkh7alHvNXhe++mWcj4TAD/w0nvdq3jDmVcs/FsWfBXXX3SlMfBI8dKP6JbQc+j4EfbQWNvkXSAeE9YdrSfSuz9QdZrOTEXcuLDLSa2ZHM1SlKOtjmLgQMjg4xAP53oFZ+Ud44IgsCLKCZOi+cKATP2jQR7IEMh0=",
+      "bm_so": "0F3EBB832684BBB4FBD017F95556A777C8EE5B7A43580ED8DEA3619451803570~YAAQZWHKF9CZbK6cAQAApkXfuQYYU53R7bqhmxcdmlseSJcv2Np7gcICRJRSSx6zCJvm/WfyubQq26yzIVHCtM/7ZVHZmpniGZsP8VR1+wYWaCFo+yuO9gZM6JWk6oO5UO7XDA2au3uVuOHl3p+z7sboGfdzh5Uwmr+9/r2yaR5z175JhoGYx999Q81UAaFERI9g0nWWR1WuRo9rZrOYqZk7ptTMw6XAplkBMaQN9VpcUZjkcnT/yvUsf0kdNf8ZHhlRpGaf2BzGk2tuA84RiGnXnbpbDfDM9P+r0FRE+fzLi2sXtbJ4istJF9Q3OS+BxuKaukxMn+oiAU++SoaWVvzuGQ+IRaVa6fue7k6MQijw3locShF6Mxm0glUotT7SE7Hc1JLmT6qwBAirCxRWVVR1cg8QwsXjt5V09SSNvtcMYnv/wQQdj+2r7xlYG0IKhAohP4eVzUW1Eh9HCHSkIA==",
+      "bm_sv": "5BC448B0E6CE5B209A8708BC23944886~YAAQZWHKF9GZbK6cAQAApkXfuR8Q9kUgCxRcN5FblkUaTD60kd3BVyLdP8FrcDit2bRdYii3CuLQaqOeGeju1PA0fRsSZEnsCSlIKjvHhsXTK6ihUhyZfgO19RoJQaWRAbZ9Xzg2VD/NOGlZKR3DMdxVOQcZECPeHxUoBr2BdJAUZ2JvaT3Fq7psPXTFbwOkk28PKT4pvTNIf+MLpawH1pvOs9N3P6CROoQPYP0ZUkQIbj9+i/1Q0B4OcotNn5b+rcs=~1",
+      "bm_sz": "01615C621959529C0A28190B7CCBAD4E~YAAQZWHKF9KZbK6cAQAApkXfuR9cqfess+0yqEHPFfvbFNNGA1d58SkBtb4jjQteXIU11TZb5sgdA9GgfV0Zp2m90vnaZ7QCHu7+rWtSN/lu78GeK6fQbJL7lR3nl7SvqAekV18TN7IstT0wbMbPJl4RvNNRcaVNx/3S3fCZTxOq/zCGdTFH2c/KeFlZnUmOIv2s2bnAjYkMcUL+Rnkeu+jALVpeR+y/W3zneTKytzswQzzOq748sCIFFipkgi/dXWBhw4hD8HUSm9Lhl1/j5COCkze9KW1delKUB9IRIBJvDVsA2z7p0bChG8OMLejXv74CHJsHKvzXDlv1DTjexy7e3K1NO6eIkNGx8/u5uUOtCxHmUZbjESHsftYuiP3erM6jARH7V21WyOwI4bxECDXpjZVfNNgw3gl1DIWfeVK/94JMbd1K1sYyUdSc9frXZE7nCz8yRI0mx9h48ryJSYZfoXCwl4C7JsILwasE~3621427~4604484"
+    },
+    "content_length": 347965
+  },
+  "products": [
+    {
+      "position": 1,
+      "name": "미네마인 스파클링 레몬,",
+      "url": "https://www.coupang.com/vp/products/7856388046?itemId=19154733980&vendorItemId=86273585773&sourceType=CATEGORY&categoryId=497820",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/b4c3078f-cce3-4050-8fc2-8570ea5ba3a55020789456318840897.png",
+      "price": 91,
+      "currency": "KRW",
+      "rating": 5.0,
+      "review_count": null
+    },
+    {
+      "position": 2,
+      "name": "메이플 스파클링 워터 오리지널, 355ml,",
+      "url": "https://www.coupang.com/vp/products/2227884973?itemId=3800452115&vendorItemId=71785430907&sourceType=CATEGORY&categoryId=497820",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/2020/10/08/18/8/2207fed2-28b6-4cbd-bc42-6eaa35513ddc.jpg",
+      "price": 880,
+      "currency": "KRW",
+      "rating": null,
+      "review_count": null
+    },
+    {
+      "position": 3,
+      "name": "오라클 파동수 탄산수 1박스, 500ml,",
+      "url": "https://www.coupang.com/vp/products/1727605?itemId=7536714&vendorItemId=3010170303&sourceType=CATEGORY&categoryId=497820",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/product/image/vendoritem/2016/01/20/3010170303/6be7dea9-ea11-44d6-b473-70f53b8f8f76.jpg",
+      "price": 260,
+      "currency": "KRW",
+      "rating": null,
+      "review_count": null
+    },
+    {
+      "position": 4,
+      "name": "티난트 탄산수 블루, 330ml,",
+      "url": "https://www.coupang.com/vp/products/1653623?itemId=273590993&vendorItemId=3661909077&sourceType=CATEGORY&categoryId=497820",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/2018/04/27/15/3/27c3a2b5-a49e-4277-8aab-0e47758248a9.jpg",
+      "price": 2179,
+      "currency": "KRW",
+      "rating": 4.0,
+      "review_count": null
+    },
+    {
+      "position": 5,
+      "name": "라인바싸 탄산음료 샤인머스켓 랜덤발송,",
+      "url": "https://www.coupang.com/vp/products/9413376684?itemId=27612647033&vendorItemId=94575791057&sourceType=CATEGORY&categoryId=497820",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/36c6dced-f194-4097-a4b6-a3119381267d16346375889869449655.png",
+      "price": 102,
+      "currency": "KRW",
+      "rating": null,
+      "review_count": null
+    },
+    {
+      "position": 6,
+      "name": "더비나인 TOCTOC 톡톡 스파클링, 190ml,",
+      "url": "https://www.coupang.com/vp/products/8636268573?itemId=25058613185&vendorItemId=92062877223&sourceType=CATEGORY&categoryId=497820",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/4e5f4183-ceaf-44c6-9d3f-718d04afa4068464250526986319128.png",
+      "price": 143,
+      "currency": "KRW",
+      "rating": 4.5,
+      "review_count": null
+    },
+    {
+      "position": 7,
+      "name": "라인바싸 탄산음료 라임민트 랜덤발송,",
+      "url": "https://www.coupang.com/vp/products/9392120143?itemId=27612646863&vendorItemId=94575790978&sourceType=CATEGORY&categoryId=497820",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/5d3bcac6-1d29-499b-871f-74e7f4fd684f12285966384306935063.png",
+      "price": 32800,
+      "currency": "KRW",
+      "rating": null,
+      "review_count": null
+    },
+    {
+      "position": 8,
+      "name": "더 빅토리아 에코 플레인 탄산수, 350ml,",
+      "url": "https://www.coupang.com/vp/products/8225096869?itemId=23653380816&vendorItemId=90678747177&sourceType=CATEGORY&categoryId=497820",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/263323035662002-cb5f4717-c399-4bed-82ea-a22fe4ec0d06.jpg",
+      "price": 127,
+      "currency": "KRW",
+      "rating": 5.0,
+      "review_count": null
+    },
+    {
+      "position": 9,
+      "name": "멜트워터 스파클링 빙하 탄산수,",
+      "url": "https://www.coupang.com/vp/products/6250517111?itemId=12667527997&vendorItemId=79934673764&sourceType=CATEGORY&categoryId=497820",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/2021/12/23/9/1/128ff98b-82ab-4109-ab46-9955bc73a01f.jpg",
+      "price": 320,
+      "currency": "KRW",
+      "rating": null,
+      "review_count": null
+    },
+    {
+      "position": 10,
+      "name": "쿠우 젤리 복숭아,",
+      "url": "https://www.coupang.com/vp/products/7836319531?itemId=27266377351&vendorItemId=94233151753&sourceType=CATEGORY&categoryId=497820",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/9d1f8f3e-d6f9-4f5a-bb9e-9900eb75c91e7705858847029216601.png",
+      "price": 58480,
+      "currency": "KRW",
+      "rating": 4.5,
+      "review_count": null
+    },
+    {
+      "position": 11,
+      "name": "트레비 탄산음료 레몬맛 무라벨, 300ml,",
+      "url": "https://www.coupang.com/vp/products/9257691605?itemId=27240376126&vendorItemId=94207370753&sourceType=CATEGORY&categoryId=497820",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/187490343489405-147d81f8-e9c3-486b-bc9a-95de538b9756.jpg",
+      "price": 149,
+      "currency": "KRW",
+      "rating": 5.0,
+      "review_count": null
+    },
+    {
+      "position": 12,
+      "name": "티난트 블루, 330ml,",
+      "url": "https://www.coupang.com/vp/products/1653623?itemId=1060008&vendorItemId=3000334144&sourceType=CATEGORY&categoryId=497820",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/365661994561694-10aa3881-c297-4706-bb5c-9e16606e64b8.jpg",
+      "price": 1445,
+      "currency": "KRW",
+      "rating": 4.0,
+      "review_count": null
+    },
+    {
+      "position": 13,
+      "name": "아바티 스파클링 워터, 330ml,",
+      "url": "https://www.coupang.com/vp/products/1077259857?itemId=2030691026&vendorItemId=70030148672&sourceType=CATEGORY&categoryId=497820",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/2019/12/11/10/6/692f0440-904b-4261-a21a-714e1ece4620.jpg",
+      "price": 1208,
+      "currency": "KRW",
+      "rating": null,
+      "review_count": null
+    },
+    {
+      "position": 14,
+      "name": "토마스헨리 소다 탄산음료,",
+      "url": "https://www.coupang.com/vp/products/8152153591?itemId=607180683&vendorItemId=4592596348&sourceType=CATEGORY&categoryId=497820",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/2019/04/05/17/4/882fde4e-d059-4a6c-ad27-b29fcf6e5722.jpg",
+      "price": 1025,
+      "currency": "KRW",
+      "rating": null,
+      "review_count": null
+    },
+    {
+      "position": 15,
+      "name": "신세계푸드 산까를로 폰테 아우렐리아 탄산수, 250ml,",
+      "url": "https://www.coupang.com/vp/products/346956118?itemId=1101372737&vendorItemId=5629416468&sourceType=CATEGORY&categoryId=497820",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/2019/11/29/17/7/459b5139-bc67-4a3e-a2b3-a5f89491bc0b.jpg",
+      "price": 1600,
+      "currency": "KRW",
+      "rating": 3.0,
+      "review_count": null
+    },
+    {
+      "position": 16,
+      "name": "라쿠아 스파클링 플레인 탄산수 캔,",
+      "url": "https://www.coupang.com/vp/products/7969739283?itemId=25565075631&vendorItemId=92556295290&sourceType=CATEGORY&categoryId=497820",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/9ca28bdc-124d-46b2-9f62-fb9d7eb5fc411108168588625406679.png",
+      "price": 163,
+      "currency": "KRW",
+      "rating": 5.0,
+      "review_count": null
+    },
+    {
+      "position": 17,
+      "name": "라인바싸 탄산음료 라임민트 랜덤발송,",
+      "url": "https://www.coupang.com/vp/products/9392120143?itemId=27621283287&vendorItemId=94584263601&sourceType=CATEGORY&categoryId=497820",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/0579fb97-be21-4e6a-b80f-1307ecbc5c186096647514895419228.png",
+      "price": 41000,
+      "currency": "KRW",
+      "rating": null,
+      "review_count": null
+    },
+    {
+      "position": 18,
+      "name": "라쿠아 스파클링 플레인 탄산수 캔,",
+      "url": "https://www.coupang.com/vp/products/7969739283?itemId=25565075673&vendorItemId=92556295314&sourceType=CATEGORY&categoryId=497820",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/ea2e1588-7533-4907-988d-da4931a7662a1152622901135935651.png",
+      "price": 163,
+      "currency": "KRW",
+      "rating": 5.0,
+      "review_count": null
+    },
+    {
+      "position": 19,
+      "name": "라인바싸 탄산음료 라임민트 랜덤발송,",
+      "url": "https://www.coupang.com/vp/products/9392120143?itemId=27621394856&vendorItemId=94584373228&sourceType=CATEGORY&categoryId=497820",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/79de2f34-3d99-47c4-b222-e87f275ab7bd9243277497757964778.png",
+      "price": 49200,
+      "currency": "KRW",
+      "rating": null,
+      "review_count": null
+    },
+    {
+      "position": 20,
+      "name": "창 소다 레몬향 탄산수, 325ml,",
+      "url": "https://www.coupang.com/vp/products/6918659209?itemId=18764252032&vendorItemId=85896055032&sourceType=CATEGORY&categoryId=497820",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/13db0bf6-727d-44ca-bd1f-d3aea13c55235855576872133921760.png",
+      "price": 296,
+      "currency": "KRW",
+      "rating": 5.0,
+      "review_count": null
+    },
+    {
+      "position": 21,
+      "name": "아바티 스파클링 워터, 750ml,",
+      "url": "https://www.coupang.com/vp/products/1077259857?itemId=2028015317&vendorItemId=70027546668&sourceType=CATEGORY&categoryId=497820",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/13828899134733-6dcb95c1-98c9-4d6a-92ac-47eeb4a5ab11.jpg",
+      "price": 802,
+      "currency": "KRW",
+      "rating": null,
+      "review_count": null
+    },
+    {
+      "position": 22,
+      "name": "비쉬카탈란 스파클링워터,",
+      "url": "https://www.coupang.com/vp/products/6675395147?itemId=15374027167&vendorItemId=82594124528&sourceType=CATEGORY&categoryId=497820",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/rs_quotation_api/l8rqgbko/832aa93e2eec4fe79bb0afdc3a799f4d.jpg",
+      "price": 1200,
+      "currency": "KRW",
+      "rating": null,
+      "review_count": null
+    },
+    {
+      "position": 23,
+      "name": "팔도 뿌요 워터젤리 사과, 120ml,",
+      "url": "https://www.coupang.com/vp/products/7526530606?itemId=22948687140&vendorItemId=89982959735&sourceType=CATEGORY&categoryId=497820",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/e545e3d9-1667-476f-b999-d82a5577a1366999312437284649722.png",
+      "price": 690,
+      "currency": "KRW",
+      "rating": 5.0,
+      "review_count": null
+    },
+    {
+      "position": 24,
+      "name": "팔도 뿌요 워터젤리 사과, 120ml,",
+      "url": "https://www.coupang.com/vp/products/7526530606?itemId=19790002850&vendorItemId=86892632689&sourceType=CATEGORY&categoryId=497820",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/36b11975-caca-4957-9133-862b561307229151813703690437956.png",
+      "price": 1272,
+      "currency": "KRW",
+      "rating": 5.0,
+      "review_count": null
+    },
+    {
+      "position": 25,
+      "name": "비쉬카탈란 스파클링워터,",
+      "url": "https://www.coupang.com/vp/products/6675395147?itemId=15374027165&vendorItemId=82594124515&sourceType=CATEGORY&categoryId=497820",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/rs_quotation_api/phlrb30r/f236cdb9a6b84aa5b261cb293c2446b0.jpg",
+      "price": 800,
+      "currency": "KRW",
+      "rating": null,
+      "review_count": null
+    },
+    {
+      "position": 26,
+      "name": "더 빅토리아 에코 플레인 탄산수, 350ml,",
+      "url": "https://www.coupang.com/vp/products/8225096869?itemId=23852647647&vendorItemId=90876013884&sourceType=CATEGORY&categoryId=497820",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/263364462506405-27563fd4-dee4-40f4-b1a7-a806565522c7.jpg",
+      "price": 126,
+      "currency": "KRW",
+      "rating": 5.0,
+      "review_count": null
+    },
+    {
+      "position": 27,
+      "name": "동아제약 써큐란 아르기닌 6000",
+      "url": "https://www.coupang.com/vp/products/7108742247?itemId=25935750958&vendorItemId=92919104315&sourceType=CATEGORY&categoryId=497820",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/6d446861-6737-4abf-9476-7900ab7d4ed93385226847377865660.png",
+      "price": 1094,
+      "currency": "KRW",
+      "rating": 5.0,
+      "review_count": null
+    },
+    {
+      "position": 28,
+      "name": "아쿠나블루 스파클링 워터, 750ml,",
+      "url": "https://www.coupang.com/vp/products/134077093?itemId=393863783&vendorItemId=3958435619&sourceType=CATEGORY&categoryId=497820",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/2018/09/14/11/7/c8e1685b-6ea0-49fe-9562-c27fae8e2f3f.jpg",
+      "price": 72000,
+      "currency": "KRW",
+      "rating": null,
+      "review_count": null
+    },
+    {
+      "position": 29,
+      "name": "탄산수 테스트,",
+      "url": "https://www.coupang.com/vp/products/7770288553?itemId=20975553237&vendorItemId=88046359194&sourceType=CATEGORY&categoryId=497820",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/vendor_inventory/6b3a/a0721872cea35c86e6661ba59a73bf27a3e8eac77c472a7e01c2a1f20727.png",
+      "price": 1666667,
+      "currency": "KRW",
+      "rating": null,
+      "review_count": null
+    },
+    {
+      "position": 30,
+      "name": "탄산수,",
+      "url": "https://www.coupang.com/vp/products/7635489798?itemId=20270100826&vendorItemId=87365006030&sourceType=CATEGORY&categoryId=497820",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/vendor_inventory/db5c/7fb04358b159f0848f2800ccb2b7fa2e7d64e09c3a9bb50302170b2233ce.jpg",
+      "price": 10000000,
+      "currency": "KRW",
+      "rating": null,
+      "review_count": null
+    }
+  ],
+  "html_content_length": 334224,
+  "is_challenge_page": false
+}

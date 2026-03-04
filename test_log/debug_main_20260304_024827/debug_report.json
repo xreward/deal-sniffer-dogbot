@@ -1,0 +1,44 @@
+{
+  "steps": [
+    {
+      "tag": "01_google",
+      "url": "https://www.google.com/",
+      "title": "Google",
+      "cookies": []
+    },
+    {
+      "tag": "02_coupang_main",
+      "url": "https://www.coupang.com/",
+      "title": "로켓배송으로 빠르게, 로켓와우 멤버십으로 할인과 무료 반품까지 | 쿠팡",
+      "cookies": [
+        {
+          "domain": ".coupang.com",
+          "expiry": 1807120112,
+          "httpOnly": false,
+          "name": "PCID",
+          "path": "/",
+          "sameSite": "Lax",
+          "secure": false,
+          "value": "17725599969557151713423"
+        }
+      ]
+    },
+    {
+      "tag": "03_coupang_category",
+      "url": "https://www.coupang.com/np/categories/195050?listSize=120",
+      "title": "탄산/스포츠음료 - 콜라, 사이다, 환타/써니텐, 웰치스 | 쿠팡",
+      "cookies": [
+        {
+          "domain": ".coupang.com",
+          "expiry": 1807120112,
+          "httpOnly": false,
+          "name": "PCID",
+          "path": "/",
+          "sameSite": "Lax",
+          "secure": false,
+          "value": "17725599969557151713423"
+        }
+      ]
+    }
+  ]
+}

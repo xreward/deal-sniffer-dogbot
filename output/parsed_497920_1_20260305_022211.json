@@ -1,0 +1,1247 @@
+{
+  "request_info": {
+    "url": "https://www.coupang.com/np/categories/497920?listSize=120&page=1&filterType=rocket",
+    "method": "GET",
+    "timestamp": "2026-03-05T02:22:11.710809",
+    "category_id": "497920",
+    "list_size": 120,
+    "page": 1
+  },
+  "response_info": {
+    "status_code": 200,
+    "headers": {
+      "content-type": "text/html; charset=utf-8",
+      "x-accel-expires": "0",
+      "cache-control": "no-store, no-cache, must-revalidate,private, no-cache, no-store, max-age=0, must-revalidate",
+      "server": "envoy",
+      "vary": "Accept-Encoding,rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch",
+      "x-build-id": "0.14.3-6772365dbbb99f1a85ab7d0a7399b72ab8bf7f09",
+      "x-cp-auth-member": "0",
+      "link": "<https://assets.coupangcdn.com/front/front-web-next/_next/static/css/7fa2651df2cdd3a4.css>; rel=preload; as=\"style\"; crossorigin=\"anonymous\", <https://assets.coupangcdn.com/front/front-web-next/_next/static/css/4866c133497f94ef.css>; rel=preload; as=\"style\"; crossorigin=\"anonymous\", <https://assets.coupangcdn.com/front/front-web-next/_next/static/css/17b6f855bd8d90c8.css>; rel=preload; as=\"style\"; crossorigin=\"anonymous\", <https://assets.coupangcdn.com/front/front-web-next/_next/static/css/8b8b55cc583c55e9.css>; rel=preload; as=\"style\"; crossorigin=\"anonymous\"",
+      "content-security-policy": "frame-src https://www.youtube.com/ https://www.googletagmanager.com/ https://www.googleadservices.com/ https://googleads.g.doubleclick.net/ https://*.facebook.net/ https://td.doubleclick.net/ https://*.criteo.com/ https://*.criteo.net/ https://*.coupang.com/ https://*.sentry.io/",
+      "x-xss-protection": "1; mode=block",
+      "x-envoy-upstream-service-time": "919",
+      "x-envoy-decorator-operation": ":0/*",
+      "x-akamai-transformed": "0 - 0 -",
+      "content-encoding": "gzip",
+      "date": "Wed, 04 Mar 2026 17:22:13 GMT",
+      "set-cookie": "sid=3e83e28f31174c62ac7cc779935778058adc4694; Max-Age=432000; Expires=Mon, 09 Mar 2026 17:22:13 GMT; Path=/; Domain=coupang.com, member_srl=; Max-Age=0; Expires=Wed, 04 Mar 2026 17:22:13 GMT; Path=/; Domain=coupang.com, SAID=; Max-Age=0; Expires=Wed, 04 Mar 2026 17:22:13 GMT; Path=/; Domain=coupang.com; HTTPOnly, ak_bmsc=5B9264A02717EA44BDCEFD784D2A5074~000000000000000000000000000000~YAAQRGHKFzSJeLacAQAAbh/fuR9nfRr8GBYeX3TwhzGniU1OEwicZPmEJ9MQ85+SbZ54XLBILyZ4oeoveO2Gpfi8k2EiUbms/vUwUgYmINqfDxcOzeHbPrjjN/VjNTYAAvQqCkM4ZYiswt3/zsmspToFHUoXlkn6gsgH4Dx8BL0cjMUwi7gW/3oUSwZErMs0RGBAdqtjV5CBXRHZSvnWhIHzv1kIF8LAXJbOoZKX2/dgTsH+ucM+dxYvMJuNpxlaOYFoTzg9amh6JOHtvCyanNAu9WyfbTmGWyMVh9wllbq59jtHs14kPDmtghccE8yAp4FfDt196RIkTBEqjGqihukS5iDkihzK5gv3JwdjkJARpOkkwocIF0aDNb3MFSN4rdwFG/Rnwvh1nsQ1UvdKGrLTtLHf6+4ml1FrRGfJ5vITWL/1MwVNYrlAH17645A9fHmUTe92G9zOSHiXwzDrSyRwWD9BChR9zPMF8gtLwQ==; Domain=.coupang.com; Path=/; Expires=Wed, 04 Mar 2026 18:52:43 GMT; Max-Age=5430; HttpOnly, bm_s=YAAQRGHKFzWJeLacAQAAbh/fuQX/VO8OfHK2f5wEPswOiNS0PRgfT0ApDn22avgukf1Gm3JwGT+WQGNHfa5met+7CJ9sx/2RxXz5ar9T7yfBdbpB7OKRO6qZsFqezr3OM5NVAv1DJE+92aM+OskbgATxuEkWsQv4DxpGyu/C3m5dOyu7HbVoc2RKLreZqs0mTazDsfwNWG1KREVEIMvlNFhkcDCfC6WsPYS9dVSox93RhtjCvr9DwdhQ9ut2aLvGKBwE7CNl/Z4uzSLqF5+nBGwABcY13tfguY2qc+EqI1NkX/1n6AOXA92AMan3ju+2k1c7tDW7DxYSMie3hv+FEzS9jZfUhLF+JwoZz+7kcW2sgvLIxc6sDtC3IrEiMOMj/SONp9Xr5U9f/PaPknhDn0s7ay6SuRLDjDRSU/QdQSCCLacalkHfjX3PONptmFn9fCAKysddsjge5FhAgU1sqUQNqvIKQl5Wi2/1BuQD4RqKQSjOcG/xHzZ5VkFX1zVLgg03xY00rPQOEnwwZLkJcdbPy1urBsB0Lf3jo0EPzH6VGc78JOMu58p0jERtPKK64qBqSdF+Giu1eyXBRSen7SkVORr2Mu9ZOgw+ZjkH31NopozMUhApBY+LHtOAmxSjs3YMWPdHC0g902PqpNUHnynarLaZWrvW+ucycoXVhiA2AwyV4tF9rPcvBy7xmxFt8A3oRkMbEiAY2Y3XVzH+b4fS/ni8zsXrbaFgO3ePNMkRMnJR/MO0yyY=; Domain=.coupang.com; Path=/; Expires=Sat, 04 Apr 2026 17:22:13 GMT; Max-Age=2678400; Secure; HttpOnly, bm_so=7C8C5B70DD6EDA546E10003DAC0E3C125B5B644DD9F42C4AC498D52C77AD3EDF~YAAQRGHKFzaJeLacAQAAbh/fuQa8pj+KMJZEPkFq36yOUs8OJU9Oaoeq7FRIEbCCqhi/JwLSn/qZI6bqniOl1/jcalIT4HlrGnU/BTFfFLT4Bv8vz9q1tAYQBTrA30YDmbGx0a/8B9/ZCxUCJ7fHqO/sAuXETkKkzBrKfEYr9WEz4bgQUcUb7npvKKGFMvFtz9V67/BkMbKWewTJGmTEmhVHvdWcL1SyciBAY8vYpUyjuDKl2NC17N0MU5DQiri19AH/MNTLQEDdBoI8ExfAj0uYhM2lctIJlLmXzOjl+HBDIIiC/Oi+k/QkPydG/66a/owZyY8k30h5TG+Dv16666ldSQvxH7P+OTpm8scNUX/e7C20JrhUl2QBvA3sN85QGRmXF323F2+4YKSWLYcTTLzQ8uIbwP7z3N7A5KnnPY8e/uxYUuLfKIil3zOlglUpMm0SmiVvpJuD29vBMT7ttA==; Domain=.coupang.com; Path=/; Expires=Thu, 05 Mar 2026 17:22:13 GMT; Max-Age=86400; Secure, bm_sv=5BC448B0E6CE5B209A8708BC23944886~YAAQRGHKFzeJeLacAQAAbh/fuR/R4ZTFK85jvaNB+TvbK85X1U0wQe9ua0aiiaXLQx6hcI+edoHDF4jglKUISxERIL9hXZ9DzWGyPKlDiTr2BWQym+UP1YYJhdjYnuZR1wY71mUMqLWeiohKvENoyO3ARWuI0aA8py9detIsXyETFr500sf3RqkSahXkvhPjSKXwzzicY5vED87jHMdNRrKsIPh1CpGzlCx2O2gPL/ZOghe3p+3odCMlUnTmFuLt74I=~1; Domain=.coupang.com; Path=/; Expires=Wed, 04 Mar 2026 18:52:45 GMT; Max-Age=5432; Secure, bm_sz=01615C621959529C0A28190B7CCBAD4E~YAAQRGHKFziJeLacAQAAbh/fuR8r0u/NlNUygxkud+Lo9VzWURDKvJDd+wRz+1Lpi3hCyQeeOWnvtD6ugHpK6Tug6yfV18Lfh0WVnkjnea4gSNKs01Izgmep/i4AZaM2GUyol96IRW08JKL4I6sR9F448GSeUGfOpSr37gDLaXco0bHkllUWWS7tiJQyQHMZmKOMbx2085LUyxQ/PL6av8hY/1l0F6tHfsPf6l2E959wG4lqeM9Vx8rcjA5c2iwgILX14lb8JB0J6szt/WymVOI8LXso4pPE0kwioBQExnpVOsXHgE484OwrTrir3Im5CNWmLjfpYoxPUqqhZVjwoTmNHDvItgUROAQphrxvNI1GcAYoImfDpLeOTbAR4oeR7rX8c3+LwGMaws3/j6+teTBHO2vN805QkvS0xMCOI+Xko/EZv1YqKKTYegluarm20E9J8XC3XOvCi5zo3Te60ZAtVpE0cFL6InhFoTVd~3621427~4604484; Domain=.coupang.com; Path=/; Expires=Wed, 04 Mar 2026 20:52:43 GMT; Max-Age=12630",
+      "strict-transport-security": "max-age=31536000"
+    },
+    "cookies": {
+      "sid": "3e83e28f31174c62ac7cc779935778058adc4694",
+      "member_srl": "",
+      "SAID": "",
+      "ak_bmsc": "5B9264A02717EA44BDCEFD784D2A5074~000000000000000000000000000000~YAAQRGHKFzSJeLacAQAAbh/fuR9nfRr8GBYeX3TwhzGniU1OEwicZPmEJ9MQ85+SbZ54XLBILyZ4oeoveO2Gpfi8k2EiUbms/vUwUgYmINqfDxcOzeHbPrjjN/VjNTYAAvQqCkM4ZYiswt3/zsmspToFHUoXlkn6gsgH4Dx8BL0cjMUwi7gW/3oUSwZErMs0RGBAdqtjV5CBXRHZSvnWhIHzv1kIF8LAXJbOoZKX2/dgTsH+ucM+dxYvMJuNpxlaOYFoTzg9amh6JOHtvCyanNAu9WyfbTmGWyMVh9wllbq59jtHs14kPDmtghccE8yAp4FfDt196RIkTBEqjGqihukS5iDkihzK5gv3JwdjkJARpOkkwocIF0aDNb3MFSN4rdwFG/Rnwvh1nsQ1UvdKGrLTtLHf6+4ml1FrRGfJ5vITWL/1MwVNYrlAH17645A9fHmUTe92G9zOSHiXwzDrSyRwWD9BChR9zPMF8gtLwQ==",
+      "bm_s": "YAAQRGHKFzWJeLacAQAAbh/fuQX/VO8OfHK2f5wEPswOiNS0PRgfT0ApDn22avgukf1Gm3JwGT+WQGNHfa5met+7CJ9sx/2RxXz5ar9T7yfBdbpB7OKRO6qZsFqezr3OM5NVAv1DJE+92aM+OskbgATxuEkWsQv4DxpGyu/C3m5dOyu7HbVoc2RKLreZqs0mTazDsfwNWG1KREVEIMvlNFhkcDCfC6WsPYS9dVSox93RhtjCvr9DwdhQ9ut2aLvGKBwE7CNl/Z4uzSLqF5+nBGwABcY13tfguY2qc+EqI1NkX/1n6AOXA92AMan3ju+2k1c7tDW7DxYSMie3hv+FEzS9jZfUhLF+JwoZz+7kcW2sgvLIxc6sDtC3IrEiMOMj/SONp9Xr5U9f/PaPknhDn0s7ay6SuRLDjDRSU/QdQSCCLacalkHfjX3PONptmFn9fCAKysddsjge5FhAgU1sqUQNqvIKQl5Wi2/1BuQD4RqKQSjOcG/xHzZ5VkFX1zVLgg03xY00rPQOEnwwZLkJcdbPy1urBsB0Lf3jo0EPzH6VGc78JOMu58p0jERtPKK64qBqSdF+Giu1eyXBRSen7SkVORr2Mu9ZOgw+ZjkH31NopozMUhApBY+LHtOAmxSjs3YMWPdHC0g902PqpNUHnynarLaZWrvW+ucycoXVhiA2AwyV4tF9rPcvBy7xmxFt8A3oRkMbEiAY2Y3XVzH+b4fS/ni8zsXrbaFgO3ePNMkRMnJR/MO0yyY=",
+      "bm_so": "7C8C5B70DD6EDA546E10003DAC0E3C125B5B644DD9F42C4AC498D52C77AD3EDF~YAAQRGHKFzaJeLacAQAAbh/fuQa8pj+KMJZEPkFq36yOUs8OJU9Oaoeq7FRIEbCCqhi/JwLSn/qZI6bqniOl1/jcalIT4HlrGnU/BTFfFLT4Bv8vz9q1tAYQBTrA30YDmbGx0a/8B9/ZCxUCJ7fHqO/sAuXETkKkzBrKfEYr9WEz4bgQUcUb7npvKKGFMvFtz9V67/BkMbKWewTJGmTEmhVHvdWcL1SyciBAY8vYpUyjuDKl2NC17N0MU5DQiri19AH/MNTLQEDdBoI8ExfAj0uYhM2lctIJlLmXzOjl+HBDIIiC/Oi+k/QkPydG/66a/owZyY8k30h5TG+Dv16666ldSQvxH7P+OTpm8scNUX/e7C20JrhUl2QBvA3sN85QGRmXF323F2+4YKSWLYcTTLzQ8uIbwP7z3N7A5KnnPY8e/uxYUuLfKIil3zOlglUpMm0SmiVvpJuD29vBMT7ttA==",
+      "bm_sv": "5BC448B0E6CE5B209A8708BC23944886~YAAQRGHKFzeJeLacAQAAbh/fuR/R4ZTFK85jvaNB+TvbK85X1U0wQe9ua0aiiaXLQx6hcI+edoHDF4jglKUISxERIL9hXZ9DzWGyPKlDiTr2BWQym+UP1YYJhdjYnuZR1wY71mUMqLWeiohKvENoyO3ARWuI0aA8py9detIsXyETFr500sf3RqkSahXkvhPjSKXwzzicY5vED87jHMdNRrKsIPh1CpGzlCx2O2gPL/ZOghe3p+3odCMlUnTmFuLt74I=~1",
+      "bm_sz": "01615C621959529C0A28190B7CCBAD4E~YAAQRGHKFziJeLacAQAAbh/fuR8r0u/NlNUygxkud+Lo9VzWURDKvJDd+wRz+1Lpi3hCyQeeOWnvtD6ugHpK6Tug6yfV18Lfh0WVnkjnea4gSNKs01Izgmep/i4AZaM2GUyol96IRW08JKL4I6sR9F448GSeUGfOpSr37gDLaXco0bHkllUWWS7tiJQyQHMZmKOMbx2085LUyxQ/PL6av8hY/1l0F6tHfsPf6l2E959wG4lqeM9Vx8rcjA5c2iwgILX14lb8JB0J6szt/WymVOI8LXso4pPE0kwioBQExnpVOsXHgE484OwrTrir3Im5CNWmLjfpYoxPUqqhZVjwoTmNHDvItgUROAQphrxvNI1GcAYoImfDpLeOTbAR4oeR7rX8c3+LwGMaws3/j6+teTBHO2vN805QkvS0xMCOI+Xko/EZv1YqKKTYegluarm20E9J8XC3XOvCi5zo3Te60ZAtVpE0cFL6InhFoTVd~3621427~4604484"
+    },
+    "content_length": 975242
+  },
+  "products": [
+    {
+      "position": 1,
+      "name": "트레비 레몬 ECO 탄산수 무라벨, 350ml,",
+      "url": "https://www.coupang.com/vp/products/7366304144?itemId=16592434330&vendorItemId=76203054605&sourceType=CATEGORY&categoryId=497820",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/1025_amir_coupang_oct_80k/461f/bbca715130c5ee0e9ab9ef635b63efbcd0fd3bc3c66484c2e2cbb2f653b9.jpg",
+      "price": 170,
+      "currency": "KRW",
+      "rating": 5.0,
+      "review_count": 74121
+    },
+    {
+      "position": 2,
+      "name": "롯데칠성음료 트레비 라임, 300ml,",
+      "url": "https://www.coupang.com/vp/products/8267600706?itemId=195233659&vendorItemId=3017121672&sourceType=CATEGORY&categoryId=497820",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/vendor_inventory/c9ed/dbfe1579194ee6af4690b77003929e15ec7e1101a6ce885e283b9533a66c.jpg",
+      "price": 165,
+      "currency": "KRW",
+      "rating": 5.0,
+      "review_count": 61278
+    },
+    {
+      "position": 3,
+      "name": "탐사 아쿠아 스파클링 플레인 무라벨,",
+      "url": "https://www.coupang.com/vp/products/7419943131?itemId=20734290853&vendorItemId=87804828923&sourceType=CATEGORY&categoryId=497820",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/478382559222423-b19ecc8c-a8ae-420e-a9ce-0d83d2a1afe2.jpg",
+      "price": 3290,
+      "currency": "KRW",
+      "rating": 5.0,
+      "review_count": 24629
+    },
+    {
+      "position": 4,
+      "name": "탐사 아쿠아 스파클링 플레인,",
+      "url": "https://www.coupang.com/vp/products/7419943131?itemId=19245297049&vendorItemId=86361417304&sourceType=CATEGORY&categoryId=497820",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/1025_amir_coupang_oct_80k/fc72/256e847ce5b582de462a4dcf5155d7eb3ddb3ad8dc2d3c08b7fe65b68b36.jpg",
+      "price": 8490,
+      "currency": "KRW",
+      "rating": 5.0,
+      "review_count": 24629
+    },
+    {
+      "position": 5,
+      "name": "웅진빅토리아 더 빅토리아 플레인 탄산수 에코 무라벨, 350ml,",
+      "url": "https://www.coupang.com/vp/products/8267614598?itemId=14471976640&vendorItemId=81715296305&sourceType=CATEGORY&categoryId=497820",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/1053536170695551-c4cd5331-46ca-41bb-ba4b-0413ec0365a8.jpg",
+      "price": 157,
+      "currency": "KRW",
+      "rating": 5.0,
+      "review_count": 18633
+    },
+    {
+      "position": 6,
+      "name": "트레비 플레인, 190ml,",
+      "url": "https://www.coupang.com/vp/products/198053?itemId=21804856539&vendorItemId=71356987369&sourceType=CATEGORY&categoryId=497820",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/1025_amir_coupang_oct_80k/b69e/3245b03e31cd4c22a0471af97a9aa262916b7e463558b802874d7cce79b4.jpg",
+      "price": 171,
+      "currency": "KRW",
+      "rating": 5.0,
+      "review_count": 13195
+    },
+    {
+      "position": 7,
+      "name": "탐사스파클링 플레인 무라벨, 500ml,",
+      "url": "https://www.coupang.com/vp/products/6304053877?itemId=13051123791&vendorItemId=80313927137&sourceType=CATEGORY&categoryId=497820",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/729077036752739-33071492-7a55-44b9-9f0f-474ba015a7b0.jpg",
+      "price": 8790,
+      "currency": "KRW",
+      "rating": 5.0,
+      "review_count": 60143
+    },
+    {
+      "position": 8,
+      "name": "싱하 소다워터 탄산수, 325ml,",
+      "url": "https://www.coupang.com/vp/products/8128805813?itemId=18679229745&vendorItemId=3033173988&sourceType=CATEGORY&categoryId=497820",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/135496712496634-723931c3-a512-42d4-b176-57adc4c04faa.jpg",
+      "price": 19090,
+      "currency": "KRW",
+      "rating": 5.0,
+      "review_count": 22956
+    },
+    {
+      "position": 9,
+      "name": "탐사 아쿠아 스파클링 플레인 무라벨,",
+      "url": "https://www.coupang.com/vp/products/7419943131?itemId=21775525008&vendorItemId=88824346855&sourceType=CATEGORY&categoryId=497820",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/214236886543586-2f41f017-82f1-4cc8-aea6-77b909d3ffe2.jpg",
+      "price": 5790,
+      "currency": "KRW",
+      "rating": 5.0,
+      "review_count": 24629
+    },
+    {
+      "position": 10,
+      "name": "라인바싸 탄산음료 자몽 무라벨, 500ml,",
+      "url": "https://www.coupang.com/vp/products/8959730351?itemId=26409918379&vendorItemId=93385987809&sourceType=CATEGORY&categoryId=497820",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/213124802385535-21726fd9-e3e8-437a-a2c6-72c68edf8e60.jpg",
+      "price": 8370,
+      "currency": "KRW",
+      "rating": 5.0,
+      "review_count": 975
+    },
+    {
+      "position": 11,
+      "name": "트레비 ECO 탄산수 플레인 무라벨, 350ml,",
+      "url": "https://www.coupang.com/vp/products/6900074403?itemId=16867547346&vendorItemId=76203530585&sourceType=CATEGORY&categoryId=497820",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/1025_amir_coupang_oct_80k/461f/bbca715130c5ee0e9ab9ef635b63efbcd0fd3bc3c66484c2e2cbb2f653b9.jpg",
+      "price": 170,
+      "currency": "KRW",
+      "rating": 5.0,
+      "review_count": null
+    },
+    {
+      "position": 12,
+      "name": "트레비 탄산수 플레인, 300ml,",
+      "url": "https://www.coupang.com/vp/products/8157290024?itemId=17647710178&vendorItemId=91539018779&sourceType=CATEGORY&categoryId=497820",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/2024/11/27/11/7/52e087c9-5e95-4ba0-9d38-2095e8ba42d4.jpg",
+      "price": 10250,
+      "currency": "KRW",
+      "rating": 5.0,
+      "review_count": null
+    },
+    {
+      "position": 13,
+      "name": "몽베스트 탄산음료 라임, 500ml,",
+      "url": "https://www.coupang.com/vp/products/7419700320?itemId=19042798088&vendorItemId=85227035647&sourceType=CATEGORY&categoryId=497820",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/vendor_inventory/image_audit/prod/a47535f7-c1a6-4174-8aba-0c7d74345ce1_fixing_v2.png",
+      "price": 105,
+      "currency": "KRW",
+      "rating": 5.0,
+      "review_count": null
+    },
+    {
+      "position": 14,
+      "name": "웅진빅토리아 썸머스노우 탄산음료, 500ml,",
+      "url": "https://www.coupang.com/vp/products/7426622216?itemId=22489696009&vendorItemId=86351916632&sourceType=CATEGORY&categoryId=497820",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/vendor_inventory/9ce1/92980819851df065824deaf852bdbdd5dc7d6f371416ecc46bc320938c22.jpg",
+      "price": 11780,
+      "currency": "KRW",
+      "rating": 5.0,
+      "review_count": null
+    },
+    {
+      "position": 15,
+      "name": "트레비 ECO 탄산음료 라임 무라벨, 350ml,",
+      "url": "https://www.coupang.com/vp/products/7410009818?itemId=17410977098&vendorItemId=76203338434&sourceType=CATEGORY&categoryId=497820",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/96036354543936-42c965ff-54cf-4a15-b5db-e9df5ffa8731.jpg",
+      "price": 170,
+      "currency": "KRW",
+      "rating": 5.0,
+      "review_count": null
+    },
+    {
+      "position": 16,
+      "name": "탐사 아쿠아 스파클링 플레인 무라벨,",
+      "url": "https://www.coupang.com/vp/products/8316189847?itemId=24000358866&vendorItemId=91021222848&sourceType=CATEGORY&categoryId=497820",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/478382559222423-b19ecc8c-a8ae-420e-a9ce-0d83d2a1afe2.jpg",
+      "price": 3290,
+      "currency": "KRW",
+      "rating": 5.0,
+      "review_count": null
+    },
+    {
+      "position": 17,
+      "name": "산펠레그리노, 250ml,",
+      "url": "https://www.coupang.com/vp/products/11986996?itemId=19982535097&vendorItemId=94669695480&sourceType=CATEGORY&categoryId=497820",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/vendor_inventory/fadf/8053f5174b88a6a31d7dc6652e3695698785cbcf4ae5b0947f885184235c.jpg",
+      "price": 29030,
+      "currency": "KRW",
+      "rating": 5.0,
+      "review_count": null
+    },
+    {
+      "position": 18,
+      "name": "아이리스 후지산 탄산수 플레인 무라벨, 500ml,",
+      "url": "https://www.coupang.com/vp/products/8112557608?itemId=23172267625&vendorItemId=90524150580&sourceType=CATEGORY&categoryId=497820",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/vendor_inventory/image_audit/prod/107ad608-5ed6-4063-aac6-1fa0ce46da9f_fixing_v2.png",
+      "price": 12900,
+      "currency": "KRW",
+      "rating": 5.0,
+      "review_count": null
+    },
+    {
+      "position": 19,
+      "name": "씨그램 플레인 탄산수, 190ml,",
+      "url": "https://www.coupang.com/vp/products/7836611709?itemId=24278442367&vendorItemId=91761721869&sourceType=CATEGORY&categoryId=497820",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/84634607772446-6944251b-26de-408a-bbfc-115d763be95f.jpg",
+      "price": 175,
+      "currency": "KRW",
+      "rating": 5.0,
+      "review_count": null
+    },
+    {
+      "position": 20,
+      "name": "라인바싸 탄산음료 자몽 무라벨, 500ml,",
+      "url": "https://www.coupang.com/vp/products/8959730351?itemId=26216802004&vendorItemId=93394886838&sourceType=CATEGORY&categoryId=497820",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/89186850535898-1ccd94b7-24bc-4e34-aff5-51203d990cbb.jpg",
+      "price": 14500,
+      "currency": "KRW",
+      "rating": 5.0,
+      "review_count": 975
+    },
+    {
+      "position": 21,
+      "name": "몬스터 에너지 울트라, 355ml,",
+      "url": "https://www.coupang.com/vp/products/8424947419?itemId=24411503064&vendorItemId=3031645211&sourceType=CATEGORY&categoryId=497820",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/171386130734209-9f766858-2779-4538-aad5-594694d6b160.jpg",
+      "price": 366,
+      "currency": "KRW",
+      "rating": 5.0,
+      "review_count": null
+    },
+    {
+      "position": 22,
+      "name": "트레비 레몬 에코 탄산수 무라벨, 350ml,",
+      "url": "https://www.coupang.com/vp/products/7366304144?itemId=18990397573&vendorItemId=85172281866&sourceType=CATEGORY&categoryId=497820",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/35728982593811-94fcac67-b2b7-4119-a8f0-2a4276e7a93c.png",
+      "price": 149,
+      "currency": "KRW",
+      "rating": 5.0,
+      "review_count": 74121
+    },
+    {
+      "position": 23,
+      "name": "롯데 트레비 레몬, 355ml,",
+      "url": "https://www.coupang.com/vp/products/7643299573?itemId=21204981121&vendorItemId=77103585472&sourceType=CATEGORY&categoryId=497820",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/1025_amir_coupang_oct_80k/e796/6777aceacc7cfb4aa1217535aeae47b5ecd6a73fcd03e929baaff01ae6a3.jpg",
+      "price": 154,
+      "currency": "KRW",
+      "rating": 5.0,
+      "review_count": null
+    },
+    {
+      "position": 24,
+      "name": "웅진빅토리아 더빅토리아 애플망고 탄산음료, 500ml,",
+      "url": "https://www.coupang.com/vp/products/8147058698?itemId=23197796455&vendorItemId=90375424458&sourceType=CATEGORY&categoryId=497820",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/1025_amir_coupang_oct_80k/3084/0f08c7f8b0ce4569733c0ae1fd9e9095e7b0d598e733505558434d919fd1.jpg",
+      "price": 12400,
+      "currency": "KRW",
+      "rating": 5.0,
+      "review_count": null
+    },
+    {
+      "position": 25,
+      "name": "탐사 아쿠아 스파클링 플레인 무라벨,",
+      "url": "https://www.coupang.com/vp/products/8316189847?itemId=24000358857&vendorItemId=91021222841&sourceType=CATEGORY&categoryId=497820",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/55505935703771-d640d1eb-e4b4-4662-9805-b9816d6d796c.jpg",
+      "price": 5790,
+      "currency": "KRW",
+      "rating": 5.0,
+      "review_count": null
+    },
+    {
+      "position": 26,
+      "name": "갈바니나 유기농 블러드오렌지 소다수,",
+      "url": "https://www.coupang.com/vp/products/6414316475?itemId=17770515960&vendorItemId=84934719453&sourceType=CATEGORY&categoryId=497820",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/918092705393804-aad89650-8e22-4195-9118-7bdc419ad518.jpg",
+      "price": 746,
+      "currency": "KRW",
+      "rating": 5.0,
+      "review_count": null
+    },
+    {
+      "position": 27,
+      "name": "탐사 스파클링 플레인, 350ml,",
+      "url": "https://www.coupang.com/vp/products/8939105810?itemId=26138793918&vendorItemId=93118924153&sourceType=CATEGORY&categoryId=497820",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/425622095307903-9acfddaa-839b-4d7b-8217-5106455bdc69.jpg",
+      "price": 7740,
+      "currency": "KRW",
+      "rating": 5.0,
+      "review_count": null
+    },
+    {
+      "position": 28,
+      "name": "롯데 트레비 라임, 355ml,",
+      "url": "https://www.coupang.com/vp/products/7683443046?itemId=21194004183&vendorItemId=81796766579&sourceType=CATEGORY&categoryId=497820",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/1025_amir_coupang_oct_80k/3dc4/7d1620f6d374a96b0ed370e6cf8fa0711d6665443f985df6e01129bdd919.jpg",
+      "price": 154,
+      "currency": "KRW",
+      "rating": 5.0,
+      "review_count": null
+    },
+    {
+      "position": 29,
+      "name": "동원샘물 스파클링 맥스 탄산수 무라벨, 500ml,",
+      "url": "https://www.coupang.com/vp/products/8274685361?itemId=23851033015&vendorItemId=90874427967&sourceType=CATEGORY&categoryId=497820",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/1025_amir_coupang_oct_80k/08e2/a584e99b4401fe8c8915751a500cf31ec8d811e371021dbf7c71d6514110.jpg",
+      "price": 10900,
+      "currency": "KRW",
+      "rating": 5.0,
+      "review_count": null
+    },
+    {
+      "position": 30,
+      "name": "웅진빅토리아 플레인 탄산수 에코 무라벨, 350ml,",
+      "url": "https://www.coupang.com/vp/products/8267614598?itemId=18043968491&vendorItemId=82463834541&sourceType=CATEGORY&categoryId=497820",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/30115560232542-b27fb298-f461-4165-86db-2c4cc4050260.jpg",
+      "price": 136,
+      "currency": "KRW",
+      "rating": 5.0,
+      "review_count": 18633
+    },
+    {
+      "position": 31,
+      "name": "트레비 탄산수 플레인, 190ml,",
+      "url": "https://www.coupang.com/vp/products/198053?itemId=22497807062&vendorItemId=87418618168&sourceType=CATEGORY&categoryId=497820",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/1025_amir_coupang_oct_80k/1b31/80102aca4e620ead8e234bc5b73e0ded43dc468c0aa0dcbbbbb44a88b7b6.jpg",
+      "price": 165,
+      "currency": "KRW",
+      "rating": 5.0,
+      "review_count": 13195
+    },
+    {
+      "position": 32,
+      "name": "웅진빅토리아 내사랑유자C 탄산음료, 500ml,",
+      "url": "https://www.coupang.com/vp/products/8036860607?itemId=21320217815&vendorItemId=85127114829&sourceType=CATEGORY&categoryId=497820",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/1025_amir_coupang_oct_80k/b940/ce2d741f294e44321706a95c756fefdd59337b9e7446f7a02455fc94486b.jpg",
+      "price": 119,
+      "currency": "KRW",
+      "rating": 5.0,
+      "review_count": null
+    },
+    {
+      "position": 33,
+      "name": "탐사 스파클링 플레인, 1.5L,",
+      "url": "https://www.coupang.com/vp/products/8209182187?itemId=23557939556&vendorItemId=90583983330&sourceType=CATEGORY&categoryId=497820",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/205161496329816-f8a47434-9533-493d-b355-8ee8298c2b87.jpg",
+      "price": 12510,
+      "currency": "KRW",
+      "rating": 5.0,
+      "review_count": null
+    },
+    {
+      "position": 34,
+      "name": "더비나인 TOCTOC 톡톡 스파클링, 190ml,",
+      "url": "https://www.coupang.com/vp/products/7738046114?itemId=20811418804&vendorItemId=90555015248&sourceType=CATEGORY&categoryId=497820",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/1025_amir_coupang_oct_80k/f664/564c5fa8b3b0fef49a65f1939303f0fd60bad1a32914c2e956061c240e45.jpg",
+      "price": 172,
+      "currency": "KRW",
+      "rating": 5.0,
+      "review_count": null
+    },
+    {
+      "position": 35,
+      "name": "산베네데토 탄산수, 500ml,",
+      "url": "https://www.coupang.com/vp/products/8466113222?itemId=24495876585&vendorItemId=91220478270&sourceType=CATEGORY&categoryId=497820",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/64988924169076-9f6e57b1-1e10-4ee9-85ca-73bfe085e565.jpg",
+      "price": 20900,
+      "currency": "KRW",
+      "rating": 4.5,
+      "review_count": null
+    },
+    {
+      "position": 36,
+      "name": "라인바싸 탄산음료 요구르트,",
+      "url": "https://www.coupang.com/vp/products/8769330594?itemId=26141737379&vendorItemId=94549550108&sourceType=CATEGORY&categoryId=497820",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/2026/01/15/15/0/97a37204-54e4-4e57-80a0-8ee7d7470106.jpg",
+      "price": 9900,
+      "currency": "KRW",
+      "rating": 4.5,
+      "review_count": null
+    },
+    {
+      "position": 37,
+      "name": "탐사 스파클링 라임 무라벨,",
+      "url": "https://www.coupang.com/vp/products/6631576128?itemId=15120160552&vendorItemId=82341906604&sourceType=CATEGORY&categoryId=497820",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/1205203579650320-78f4b869-007b-4570-80d1-abd1d2dc2ee8.jpg",
+      "price": 10140,
+      "currency": "KRW",
+      "rating": 5.0,
+      "review_count": null
+    },
+    {
+      "position": 38,
+      "name": "싱하 소다워터 탄산수, 325ml,",
+      "url": "https://www.coupang.com/vp/products/1555483202?itemId=2660516496&vendorItemId=70651164175&sourceType=CATEGORY&categoryId=497820",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/135496712496634-723931c3-a512-42d4-b176-57adc4c04faa.jpg",
+      "price": 19090,
+      "currency": "KRW",
+      "rating": 5.0,
+      "review_count": null
+    },
+    {
+      "position": 39,
+      "name": "웅진빅토리아 더빅토리아 멜론, 500ml,",
+      "url": "https://www.coupang.com/vp/products/9029595473?itemId=26484464347&vendorItemId=93445993283&sourceType=CATEGORY&categoryId=497820",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/2025/08/29/14/2/6db6b8cb-ef18-4b4a-ae17-e3a411f3c52d.png",
+      "price": 11900,
+      "currency": "KRW",
+      "rating": 5.0,
+      "review_count": null
+    },
+    {
+      "position": 40,
+      "name": "탐사스파클링 레몬 무라벨, 500ml,",
+      "url": "https://www.coupang.com/vp/products/6304053875?itemId=13051123753&vendorItemId=80313927117&sourceType=CATEGORY&categoryId=497820",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/1207283937900334-73de9759-c80d-4735-ac71-123c6d6701a4.jpg",
+      "price": 10290,
+      "currency": "KRW",
+      "rating": 5.0,
+      "review_count": null
+    },
+    {
+      "position": 41,
+      "name": "탐사스파클링 플레인 무라벨, 500ml,",
+      "url": "https://www.coupang.com/vp/products/6304053877?itemId=19013169836&vendorItemId=86137790283&sourceType=CATEGORY&categoryId=497820",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/38805097450539-b2350fa9-18d4-4679-b34c-4a03be5dcc2b.jpg",
+      "price": 17050,
+      "currency": "KRW",
+      "rating": 5.0,
+      "review_count": 60143
+    },
+    {
+      "position": 42,
+      "name": "웅진 더 빅토리아 탄산수 탄산음료 18가지 종류 좋아하는 맛 찾기 기획세트, 1세트, 500ml 쿠폰할인 23 %",
+      "url": "https://www.coupang.com/vp/products/8480839318?itemId=24541972424&vendorItemId=91554444378&sourceType=CATEGORY&categoryId=497820",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/vendor_inventory/3fa5/54176cfccbd99a5c7a1caafbd97387b469d0ea279eb2b5e1d032bca90e0b.jpg",
+      "price": 25900,
+      "currency": "KRW",
+      "rating": 5.0,
+      "review_count": null
+    },
+    {
+      "position": 43,
+      "name": "탐사 아쿠아 스파클링 플레인,",
+      "url": "https://www.coupang.com/vp/products/7419943131?itemId=19772468961&vendorItemId=86875516814&sourceType=CATEGORY&categoryId=497820",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/213927523918993-0527cd57-1999-41f2-bcb1-6efead8d0d1e.jpg",
+      "price": 16470,
+      "currency": "KRW",
+      "rating": 5.0,
+      "review_count": 24629
+    },
+    {
+      "position": 44,
+      "name": "창 탄산수, 325ml,",
+      "url": "https://www.coupang.com/vp/products/8267602095?itemId=22330064060&vendorItemId=83882406639&sourceType=CATEGORY&categoryId=497820",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/vendor_inventory/eab7/57e5227dd9d15b963ce61914864afb6aa69d2b24771202c6b7272c884c9e.jpg",
+      "price": 17900,
+      "currency": "KRW",
+      "rating": 5.0,
+      "review_count": null
+    },
+    {
+      "position": 45,
+      "name": "싱하 소다워터 탄산수, 325ml,",
+      "url": "https://www.coupang.com/vp/products/8128805813?itemId=16576760137&vendorItemId=85861974402&sourceType=CATEGORY&categoryId=497820",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/221833966510644-d8c44743-93d7-401f-b20c-dab1128d7929.jpg",
+      "price": 38180,
+      "currency": "KRW",
+      "rating": 5.0,
+      "review_count": 22956
+    },
+    {
+      "position": 46,
+      "name": "몬스터에너지 울트라 음료, 355ml,",
+      "url": "https://www.coupang.com/vp/products/8424947419?itemId=549803863&vendorItemId=4442688660&sourceType=CATEGORY&categoryId=497820",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/2423967601407572-3ec15fd1-0540-4600-8ca0-05e671280a6c.jpg",
+      "price": 348,
+      "currency": "KRW",
+      "rating": 5.0,
+      "review_count": null
+    },
+    {
+      "position": 47,
+      "name": "페리에 플레인 탄산수, 200ml,",
+      "url": "https://www.coupang.com/vp/products/8261586817?itemId=1052131742&vendorItemId=90993875548&sourceType=CATEGORY&categoryId=497820",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/vendor_inventory/a6da/6b280aaab7f5c9a141d1050e3d6d2ccf47a8dc619b022f712286d66edaf1.jpg",
+      "price": 28000,
+      "currency": "KRW",
+      "rating": 5.0,
+      "review_count": null
+    },
+    {
+      "position": 48,
+      "name": "광동제약 아이스웨일 레몬라임, 500ml,",
+      "url": "https://www.coupang.com/vp/products/7235214501?itemId=20584663194&vendorItemId=80643220375&sourceType=CATEGORY&categoryId=497820",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/7906999621110918-d5ecd2f1-1b13-4ef2-a426-ac0988e61857.jpg",
+      "price": 11400,
+      "currency": "KRW",
+      "rating": 5.0,
+      "review_count": null
+    },
+    {
+      "position": 49,
+      "name": "탐사 스파클링 청포도 무라벨,",
+      "url": "https://www.coupang.com/vp/products/6631576127?itemId=15120160551&vendorItemId=82341906601&sourceType=CATEGORY&categoryId=497820",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/4157158459407039-6d5e1347-d239-4f6f-985a-d2942fea0e19.jpg",
+      "price": 9300,
+      "currency": "KRW",
+      "rating": 5.0,
+      "review_count": null
+    },
+    {
+      "position": 50,
+      "name": "탐사 스파클링 자몽 무라벨,",
+      "url": "https://www.coupang.com/vp/products/6631576125?itemId=15120160547&vendorItemId=82341906599&sourceType=CATEGORY&categoryId=497820",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/733887997991473-7ed7abd0-ab97-43ea-9a19-06a0f97cea3f.jpg",
+      "price": 10430,
+      "currency": "KRW",
+      "rating": 5.0,
+      "review_count": null
+    },
+    {
+      "position": 51,
+      "name": "웅진빅토리아 더 빅토리아 탄산수 에코 플레인 20p + 레몬 20p 무라벨, 350ml, 1세트",
+      "url": "https://www.coupang.com/vp/products/8622679240?itemId=25016088335&vendorItemId=92020966193&sourceType=CATEGORY&categoryId=497820",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/220463216616309-a99fcbc6-7cd6-44df-8a0e-2a36135319cc.jpg",
+      "price": 4777,
+      "currency": "KRW",
+      "rating": 5.0,
+      "review_count": null
+    },
+    {
+      "position": 52,
+      "name": "웅진빅토리아 더 빅토리아 캔 라임,",
+      "url": "https://www.coupang.com/vp/products/8038663335?itemId=19729765366&vendorItemId=4703428326&sourceType=CATEGORY&categoryId=497820",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/870040558669863-36730451-e000-4ec4-8324-9e080a1eb185.jpg",
+      "price": 143,
+      "currency": "KRW",
+      "rating": 4.5,
+      "review_count": null
+    },
+    {
+      "position": 53,
+      "name": "탐사 스파클링 플레인, 190ml,",
+      "url": "https://www.coupang.com/vp/products/4882989179?itemId=6359280637&vendorItemId=73654550981&sourceType=CATEGORY&categoryId=497820",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/1388261585218923-41ff8943-aba0-47e5-896e-7c978e122bfe.jpg",
+      "price": 9290,
+      "currency": "KRW",
+      "rating": 5.0,
+      "review_count": null
+    },
+    {
+      "position": 54,
+      "name": "광동제약 아이스웨일 플레인 제로 탄산수, 500ml,",
+      "url": "https://www.coupang.com/vp/products/8244112442?itemId=20584530301&vendorItemId=80643184013&sourceType=CATEGORY&categoryId=497820",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/464320506110395-1526d57b-a2a2-4cde-9d36-2b3ce85978e1.jpg",
+      "price": 9900,
+      "currency": "KRW",
+      "rating": 5.0,
+      "review_count": null
+    },
+    {
+      "position": 55,
+      "name": "산베네데토 탄산수, 250ml,",
+      "url": "https://www.coupang.com/vp/products/8128883210?itemId=24995567374&vendorItemId=3000333775&sourceType=CATEGORY&categoryId=497820",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/761350405572536-568b173b-e293-4312-a840-7341822036cc.jpg",
+      "price": 28000,
+      "currency": "KRW",
+      "rating": 5.0,
+      "review_count": null
+    },
+    {
+      "position": 56,
+      "name": "브리지톡 풀무원 스파클링 플레인, 500ml,",
+      "url": "https://www.coupang.com/vp/products/6807232458?itemId=16092332026&vendorItemId=83289985601&sourceType=CATEGORY&categoryId=497820",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/1491700524215641-e3ccf989-a989-4fde-9590-4da4c8891ba7.png",
+      "price": 10470,
+      "currency": "KRW",
+      "rating": 5.0,
+      "review_count": null
+    },
+    {
+      "position": 57,
+      "name": "트레비 라임 탄산수 펫, 300ml,",
+      "url": "https://www.coupang.com/vp/products/8267600706?itemId=24873399382&vendorItemId=91880291968&sourceType=CATEGORY&categoryId=497820",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/fa77c6d8-44a5-44d0-be22-2e85e10e24fa3082804404408020390.png",
+      "price": 156,
+      "currency": "KRW",
+      "rating": 5.0,
+      "review_count": 61278
+    },
+    {
+      "position": 58,
+      "name": "씨그램 플레인 탄산수, 190ml,",
+      "url": "https://www.coupang.com/vp/products/7836611709?itemId=3902650303&vendorItemId=91767502924&sourceType=CATEGORY&categoryId=497820",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/70991568760144-e9ced048-d4ac-4c33-bbae-e2e73937aff4.jpg",
+      "price": 175,
+      "currency": "KRW",
+      "rating": 5.0,
+      "review_count": null
+    },
+    {
+      "position": 59,
+      "name": "광동제약 아이스웨일 샤인머스켓 제로, 500ml,",
+      "url": "https://www.coupang.com/vp/products/7694509502?itemId=20584596621&vendorItemId=80631006506&sourceType=CATEGORY&categoryId=497820",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/463499973910917-9b8cd8b0-c8ae-410d-b69b-b2bf08c4e4d0.jpg",
+      "price": 10900,
+      "currency": "KRW",
+      "rating": 4.5,
+      "review_count": null
+    },
+    {
+      "position": 60,
+      "name": "시그너스 스파클링 청포도 탄산음료, 500ml,",
+      "url": "https://www.coupang.com/vp/products/6295034764?itemId=11043262819&vendorItemId=82489465827&sourceType=CATEGORY&categoryId=497820",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/1961599039266-2143c5ec-6cd3-446a-8312-ee84f1a65cb2.jpg",
+      "price": 9400,
+      "currency": "KRW",
+      "rating": 4.5,
+      "review_count": null
+    },
+    {
+      "position": 61,
+      "name": "산펠레그리노, 250ml,",
+      "url": "https://www.coupang.com/vp/products/7912979766?itemId=21718135422&vendorItemId=88767405236&sourceType=CATEGORY&categoryId=497820",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/1846305665379735-3acc4a46-3204-4d65-8129-de89d1e6ac0c.jpg",
+      "price": 484,
+      "currency": "KRW",
+      "rating": 5.0,
+      "review_count": null
+    },
+    {
+      "position": 62,
+      "name": "트레비 ECO 탄산수 플레인 무라벨, 350ml,",
+      "url": "https://www.coupang.com/vp/products/6900074403?itemId=18037445134&vendorItemId=85191841405&sourceType=CATEGORY&categoryId=497820",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/87cf1441-a50c-4df6-b628-365f36c80a545482704796185728776.png",
+      "price": 150,
+      "currency": "KRW",
+      "rating": 5.0,
+      "review_count": null
+    },
+    {
+      "position": 63,
+      "name": "트레비 플레인, 190ml,",
+      "url": "https://www.coupang.com/vp/products/198053?itemId=25630889980&vendorItemId=92621032697&sourceType=CATEGORY&categoryId=497820",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/cd2adecd-d582-4085-9826-e17c81f099867147042040134805597.png",
+      "price": 152,
+      "currency": "KRW",
+      "rating": 5.0,
+      "review_count": 13195
+    },
+    {
+      "position": 64,
+      "name": "더빅토리아 청귤 탄산음료,",
+      "url": "https://www.coupang.com/vp/products/8674061534?itemId=27265449556&vendorItemId=94232230826&sourceType=CATEGORY&categoryId=497820",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/2025/12/05/12/0/0b82b4d2-c60c-4100-a471-94f79adcc79d.jpg",
+      "price": 11890,
+      "currency": "KRW",
+      "rating": 5.0,
+      "review_count": null
+    },
+    {
+      "position": 65,
+      "name": "샤로티 스파클링 탄산수, 250ml,",
+      "url": "https://www.coupang.com/vp/products/6789896673?itemId=15994425341&vendorItemId=5328694691&sourceType=CATEGORY&categoryId=497820",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/2465889344172519-a5f49eb9-3777-428f-8dc5-a9d5fcf78c16.jpg",
+      "price": 580,
+      "currency": "KRW",
+      "rating": 4.5,
+      "review_count": null
+    },
+    {
+      "position": 66,
+      "name": "더비나인 TOCTOC 톡톡 스파클링 탄산수, 190ml,",
+      "url": "https://www.coupang.com/vp/products/7738046114?itemId=21523643710&vendorItemId=90555050996&sourceType=CATEGORY&categoryId=497820",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/vendor_inventory/41a8/a4a7d8a8e7094313ce298baaef365fa492374a1a7327ebc7cb687fe558c6.jpg",
+      "price": 146,
+      "currency": "KRW",
+      "rating": 5.0,
+      "review_count": null
+    },
+    {
+      "position": 67,
+      "name": "트레비 플레인 페트, 500ml,",
+      "url": "https://www.coupang.com/vp/products/8157290024?itemId=4071846201&vendorItemId=3051271304&sourceType=CATEGORY&categoryId=497820",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/274276509874925-e38f8e2a-edd8-4da1-83bb-a70746c0ddf0.jpg",
+      "price": 168,
+      "currency": "KRW",
+      "rating": 5.0,
+      "review_count": null
+    },
+    {
+      "position": 68,
+      "name": "탐사 스파클링 그린애플 무라벨,",
+      "url": "https://www.coupang.com/vp/products/6631576126?itemId=15120160549&vendorItemId=82341906603&sourceType=CATEGORY&categoryId=497820",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/37882150526390-99b3eab4-e2e2-4100-9256-664ebdd0e6e5.jpg",
+      "price": 12390,
+      "currency": "KRW",
+      "rating": 5.0,
+      "review_count": null
+    },
+    {
+      "position": 69,
+      "name": "트레비 ECO 탄산음료 라임 무라벨, 350ml,",
+      "url": "https://www.coupang.com/vp/products/7410009818?itemId=16624863832&vendorItemId=84639391282&sourceType=CATEGORY&categoryId=497820",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/7812787278094136-7e3ba8e5-2545-4476-84e0-a5ac7e9c6d88.jpg",
+      "price": 153,
+      "currency": "KRW",
+      "rating": 5.0,
+      "review_count": null
+    },
+    {
+      "position": 70,
+      "name": "산펠레그리노 탄산수 플레인 캔, 330ml,",
+      "url": "https://www.coupang.com/vp/products/9336979922?itemId=18505357140&vendorItemId=94682417828&sourceType=CATEGORY&categoryId=497820",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/vendor_inventory/437e/70b73c92f504c4d6c0e310e33d30936f02126fcda0a80a6858197e26db9d.jpg",
+      "price": 31500,
+      "currency": "KRW",
+      "rating": 5.0,
+      "review_count": null
+    },
+    {
+      "position": 71,
+      "name": "트레비 플레인, 190ml,",
+      "url": "https://www.coupang.com/vp/products/198053?itemId=22497807084&vendorItemId=92621032668&sourceType=CATEGORY&categoryId=497820",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/d0f84c34-936b-46fd-b793-89568f562e915825288270718881621.png",
+      "price": 161,
+      "currency": "KRW",
+      "rating": 5.0,
+      "review_count": 13195
+    },
+    {
+      "position": 72,
+      "name": "씨그램 플레인 탄산수, 190ml,",
+      "url": "https://www.coupang.com/vp/products/8814783877?itemId=25682998319&vendorItemId=92672302815&sourceType=CATEGORY&categoryId=497820",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/84634607772446-6944251b-26de-408a-bbfc-115d763be95f.jpg",
+      "price": 175,
+      "currency": "KRW",
+      "rating": 5.0,
+      "review_count": null
+    },
+    {
+      "position": 73,
+      "name": "웅진빅토리아 더빅토리아 애플망고 탄산음료, 500ml,",
+      "url": "https://www.coupang.com/vp/products/8147058698?itemId=23303886478&vendorItemId=90375466007&sourceType=CATEGORY&categoryId=497820",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/5435b60e-238f-4c79-9922-42379a28ec4d1357603734946178781.png",
+      "price": 21040,
+      "currency": "KRW",
+      "rating": 5.0,
+      "review_count": null
+    },
+    {
+      "position": 74,
+      "name": "트레비 ECO 탄산음료 라임 무라벨,",
+      "url": "https://www.coupang.com/vp/products/6135465628?itemId=11729748321&vendorItemId=79003714860&sourceType=CATEGORY&categoryId=497820",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/96036354543936-42c965ff-54cf-4a15-b5db-e9df5ffa8731.jpg",
+      "price": 11900,
+      "currency": "KRW",
+      "rating": 5.0,
+      "review_count": null
+    },
+    {
+      "position": 75,
+      "name": "페리에 플레인 탄산수, 330ml,",
+      "url": "https://www.coupang.com/vp/products/8261586817?itemId=24922160856&vendorItemId=3073232014&sourceType=CATEGORY&categoryId=497820",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/229044202076774-66118f51-4564-4227-b952-51fd941fd2f5.jpg",
+      "price": 415,
+      "currency": "KRW",
+      "rating": 5.0,
+      "review_count": null
+    },
+    {
+      "position": 76,
+      "name": "트레비 레몬 탄산수, 355ml,",
+      "url": "https://www.coupang.com/vp/products/7643299573?itemId=21204981120&vendorItemId=85072689185&sourceType=CATEGORY&categoryId=497820",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/1587935870936983-45245c26-976e-46dd-80c4-f0912df63b16.jpg",
+      "price": 154,
+      "currency": "KRW",
+      "rating": 5.0,
+      "review_count": null
+    },
+    {
+      "position": 77,
+      "name": "탐사 아쿠아 스파클링 플레인 무라벨,",
+      "url": "https://www.coupang.com/vp/products/7419943131?itemId=21775525011&vendorItemId=88824346856&sourceType=CATEGORY&categoryId=497820",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/60845003088030-3453b64b-e1ea-469a-9811-28dc92bbcdf1.jpg",
+      "price": 9370,
+      "currency": "KRW",
+      "rating": 5.0,
+      "review_count": 24629
+    },
+    {
+      "position": 78,
+      "name": "탐사 스파클링 플레인, 500ml,",
+      "url": "https://www.coupang.com/vp/products/68148071?itemId=19013173182&vendorItemId=86137793844&sourceType=CATEGORY&categoryId=497820",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/273cbe40-26ae-451a-a748-44867282632f3963336634784463438.png",
+      "price": 17090,
+      "currency": "KRW",
+      "rating": 5.0,
+      "review_count": null
+    },
+    {
+      "position": 79,
+      "name": "트레비 ECO 탄산수 플레인 무라벨,",
+      "url": "https://www.coupang.com/vp/products/6135464900?itemId=11729744376&vendorItemId=79003711048&sourceType=CATEGORY&categoryId=497820",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/1025_amir_coupang_oct_80k/461f/bbca715130c5ee0e9ab9ef635b63efbcd0fd3bc3c66484c2e2cbb2f653b9.jpg",
+      "price": 170,
+      "currency": "KRW",
+      "rating": 5.0,
+      "review_count": null
+    },
+    {
+      "position": 80,
+      "name": "트레비 탄산수 플레인, 300ml,",
+      "url": "https://www.coupang.com/vp/products/8157290024?itemId=24534977003&vendorItemId=91547550491&sourceType=CATEGORY&categoryId=497820",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/85b632cc-436a-4dd4-ba82-883613dadcfc7865468618710630009.png",
+      "price": 18670,
+      "currency": "KRW",
+      "rating": 5.0,
+      "review_count": null
+    },
+    {
+      "position": 81,
+      "name": "산펠레그리노 탄산수, 500ml,",
+      "url": "https://www.coupang.com/vp/products/9334773663?itemId=27106017592&vendorItemId=72901058091&sourceType=CATEGORY&categoryId=497820",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/458665107976002-b3565a42-9443-4491-bc10-e3af0f227501.jpg",
+      "price": 324,
+      "currency": "KRW",
+      "rating": 5.0,
+      "review_count": null
+    },
+    {
+      "position": 82,
+      "name": "몽베스트 탄산음료 라임, 500ml,",
+      "url": "https://www.coupang.com/vp/products/7419700320?itemId=18626124705&vendorItemId=85761503934&sourceType=CATEGORY&categoryId=497820",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/5515774224884589-63e1fda7-6753-4f36-8312-34c74e1e2ef7.jpg",
+      "price": 100,
+      "currency": "KRW",
+      "rating": 5.0,
+      "review_count": null
+    },
+    {
+      "position": 83,
+      "name": "탐사 아쿠아 스파클링 플레인 무라벨,",
+      "url": "https://www.coupang.com/vp/products/8316189847?itemId=24000358880&vendorItemId=91021222874&sourceType=CATEGORY&categoryId=497820",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/75897599888216-cc41dd4f-d609-4847-abdc-67ed421fadb3.jpg",
+      "price": 9370,
+      "currency": "KRW",
+      "rating": 5.0,
+      "review_count": null
+    },
+    {
+      "position": 84,
+      "name": "탐사 스파클링 플레인, 500ml,",
+      "url": "https://www.coupang.com/vp/products/68148071?itemId=535951702&vendorItemId=4398875781&sourceType=CATEGORY&categoryId=497820",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/171624124729720-21da10b3-92fa-4dc2-af28-06ecb23745a7.jpg",
+      "price": 8810,
+      "currency": "KRW",
+      "rating": 5.0,
+      "review_count": null
+    },
+    {
+      "position": 85,
+      "name": "아쿠아시스 스파클링 워터 탄산수 플레인 무라벨,",
+      "url": "https://www.coupang.com/vp/products/8941709923?itemId=26149399631&vendorItemId=93129387475&sourceType=CATEGORY&categoryId=497820",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/2025/07/24/18/2/e1d1d97c-b8cd-4179-85b8-41a3e96c50e4.png",
+      "price": 99,
+      "currency": "KRW",
+      "rating": 5.0,
+      "review_count": null
+    },
+    {
+      "position": 86,
+      "name": "라인바싸 탄산음료 자몽 무라벨, 500ml,",
+      "url": "https://www.coupang.com/vp/products/8959730351?itemId=26418946762&vendorItemId=93394886798&sourceType=CATEGORY&categoryId=497820",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/340201204568016-6044f3b5-a90a-48e7-b324-fd24d2bd1668.jpg",
+      "price": 21750,
+      "currency": "KRW",
+      "rating": 5.0,
+      "review_count": 975
+    },
+    {
+      "position": 87,
+      "name": "갈바니나 유기농 블러드오렌지 소다수,",
+      "url": "https://www.coupang.com/vp/products/6414316475?itemId=616293933&vendorItemId=4616886094&sourceType=CATEGORY&categoryId=497820",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/918278108633808-6e56fd3d-2e12-42e9-9132-aab881b34235.jpg",
+      "price": 29140,
+      "currency": "KRW",
+      "rating": 5.0,
+      "review_count": null
+    },
+    {
+      "position": 88,
+      "name": "조지아 카페 마일드 라떼 커피,",
+      "url": "https://www.coupang.com/vp/products/8401727564?itemId=25150405284&vendorItemId=93689598069&sourceType=CATEGORY&categoryId=497820",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/2025/09/26/15/6/bfe3b7f1-cf9c-479d-b06d-f633260a7cf6.jpg",
+      "price": 22640,
+      "currency": "KRW",
+      "rating": 4.5,
+      "review_count": null
+    },
+    {
+      "position": 89,
+      "name": "탐사 스파클링 플레인 무라벨, 350ml,",
+      "url": "https://www.coupang.com/vp/products/8209182147?itemId=23557939414&vendorItemId=90583983128&sourceType=CATEGORY&categoryId=497820",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/1240955552765401-6e3f2b6e-2699-45f7-a153-9fd9802d9692.jpg",
+      "price": 11370,
+      "currency": "KRW",
+      "rating": 5.0,
+      "review_count": null
+    },
+    {
+      "position": 90,
+      "name": "트레비 라임 탄산수 펫, 300ml,",
+      "url": "https://www.coupang.com/vp/products/8267600706?itemId=24873399294&vendorItemId=91880291817&sourceType=CATEGORY&categoryId=497820",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/6357b5a3-b918-490f-815e-ae3040988e543380470122453828132.png",
+      "price": 156,
+      "currency": "KRW",
+      "rating": 5.0,
+      "review_count": 61278
+    },
+    {
+      "position": 91,
+      "name": "트레비 탄산수 플레인, 300ml,",
+      "url": "https://www.coupang.com/vp/products/8157290024?itemId=24534977028&vendorItemId=91547550525&sourceType=CATEGORY&categoryId=497820",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/d2d4b116-d89d-42b9-9c07-7a735dcf6cc61138750607907471732.png",
+      "price": 28000,
+      "currency": "KRW",
+      "rating": 5.0,
+      "review_count": null
+    },
+    {
+      "position": 92,
+      "name": "탐사 스파클링 플레인, 350ml,",
+      "url": "https://www.coupang.com/vp/products/8939105810?itemId=26443140306&vendorItemId=93418714146&sourceType=CATEGORY&categoryId=497820",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/9f404da5-cef3-429a-9dca-383919fc6b016149694361306528432.png",
+      "price": 15010,
+      "currency": "KRW",
+      "rating": 5.0,
+      "review_count": null
+    },
+    {
+      "position": 93,
+      "name": "탐사 스파클링 플레인, 190ml,",
+      "url": "https://www.coupang.com/vp/products/4882989179?itemId=22601651377&vendorItemId=89643294735&sourceType=CATEGORY&categoryId=497820",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/aeebf798-df61-43aa-a03b-2e288907d6011022317442258783649.png",
+      "price": 18020,
+      "currency": "KRW",
+      "rating": 5.0,
+      "review_count": null
+    },
+    {
+      "position": 94,
+      "name": "광동제약 아이스웨일 레몬라임, 500ml,",
+      "url": "https://www.coupang.com/vp/products/7235214501?itemId=20584712122&vendorItemId=85193099132&sourceType=CATEGORY&categoryId=497820",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/6528225239471541-2b6bcb13-e2c8-4b15-b50c-769f234007de.jpg",
+      "price": 20980,
+      "currency": "KRW",
+      "rating": 5.0,
+      "review_count": null
+    },
+    {
+      "position": 95,
+      "name": "브리지톡 풀무원 스파클링 플레인, 500ml,",
+      "url": "https://www.coupang.com/vp/products/6807232458?itemId=18038504060&vendorItemId=85192874528&sourceType=CATEGORY&categoryId=497820",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/1491824525999751-fd179041-69fd-4047-8914-dc6e1ddff074.jpg",
+      "price": 101,
+      "currency": "KRW",
+      "rating": 5.0,
+      "review_count": null
+    },
+    {
+      "position": 96,
+      "name": "에비앙 스파클링 글라스 탄산수, 330ml,",
+      "url": "https://www.coupang.com/vp/products/8267584099?itemId=24674431614&vendorItemId=93469082521&sourceType=CATEGORY&categoryId=497820",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/2025/09/01/17/6/6d1d242d-5367-4c6e-af3a-676ca6bbc78d.jpg",
+      "price": 755,
+      "currency": "KRW",
+      "rating": 4.5,
+      "review_count": null
+    },
+    {
+      "position": 97,
+      "name": "트레비 레몬 에코 탄산수 무라벨, 350ml,",
+      "url": "https://www.coupang.com/vp/products/7366304144?itemId=16624734892&vendorItemId=85172281902&sourceType=CATEGORY&categoryId=497820",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/35754800487644-be6a44d3-2ecd-4fcf-a0f7-4a5be55cbebd.png",
+      "price": 149,
+      "currency": "KRW",
+      "rating": 5.0,
+      "review_count": 74121
+    },
+    {
+      "position": 98,
+      "name": "탐사스파클링 플레인 무라벨, 500ml,",
+      "url": "https://www.coupang.com/vp/products/6304053877?itemId=19013169918&vendorItemId=86137790339&sourceType=CATEGORY&categoryId=497820",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/235318305638159-e28f362a-0bf1-4c6a-b713-fd9cdf2b48e2.jpg",
+      "price": 25050,
+      "currency": "KRW",
+      "rating": 5.0,
+      "review_count": 60143
+    },
+    {
+      "position": 99,
+      "name": "몽베스트 탄산음료 라임, 500ml,",
+      "url": "https://www.coupang.com/vp/products/8316151633?itemId=24000210754&vendorItemId=91021076752&sourceType=CATEGORY&categoryId=497820",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/vendor_inventory/image_audit/prod/a47535f7-c1a6-4174-8aba-0c7d74345ce1_fixing_v2.png",
+      "price": 105,
+      "currency": "KRW",
+      "rating": 5.0,
+      "review_count": null
+    },
+    {
+      "position": 100,
+      "name": "트레비 탄산수 라임, 355ml,",
+      "url": "https://www.coupang.com/vp/products/7683443046?itemId=22211143151&vendorItemId=85193003930&sourceType=CATEGORY&categoryId=497820",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/f8cef6d4-edcb-40e2-b806-a3c39b2d13441912867915887177426.png",
+      "price": 151,
+      "currency": "KRW",
+      "rating": 5.0,
+      "review_count": null
+    },
+    {
+      "position": 101,
+      "name": "웅진빅토리아 썸머스노우 탄산음료, 500ml,",
+      "url": "https://www.coupang.com/vp/products/7426622216?itemId=23369359765&vendorItemId=86389964762&sourceType=CATEGORY&categoryId=497820",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/1221562090259150-5b21995f-bc02-4dac-bab6-962cbb4cc1bf.jpg",
+      "price": 23560,
+      "currency": "KRW",
+      "rating": 5.0,
+      "review_count": null
+    },
+    {
+      "position": 102,
+      "name": "트레비 플레인, 500ml,",
+      "url": "https://www.coupang.com/vp/products/8157290024?itemId=17770511125&vendorItemId=85072689212&sourceType=CATEGORY&categoryId=497820",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/1590078959958575-147db941-2b23-416e-8752-67e33f661a56.jpg",
+      "price": 156,
+      "currency": "KRW",
+      "rating": 5.0,
+      "review_count": null
+    },
+    {
+      "position": 103,
+      "name": "탐사 스파클링 플레인, 1.5L,",
+      "url": "https://www.coupang.com/vp/products/8209182187?itemId=24279590376&vendorItemId=91295955525&sourceType=CATEGORY&categoryId=497820",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/282c6ffc-5da7-491c-b300-0503734d85d0762160439602459543.png",
+      "price": 24260,
+      "currency": "KRW",
+      "rating": 5.0,
+      "review_count": null
+    },
+    {
+      "position": 104,
+      "name": "씨그램 플레인 탄산수, 190ml,",
+      "url": "https://www.coupang.com/vp/products/7836611709?itemId=7881243661&vendorItemId=91767502922&sourceType=CATEGORY&categoryId=497820",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/71061611160596-e5be1550-ea27-434a-b0d4-4dcd0bd71f2d.jpg",
+      "price": 166,
+      "currency": "KRW",
+      "rating": 5.0,
+      "review_count": null
+    },
+    {
+      "position": 105,
+      "name": "아이리스 후지산 탄산수 플레인 무라벨, 500ml,",
+      "url": "https://www.coupang.com/vp/products/8112557608?itemId=23303958409&vendorItemId=90524212097&sourceType=CATEGORY&categoryId=497820",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/2bb2e9d2-8bfe-477f-872d-385adb4d0bdc1132932279569034644.png",
+      "price": 25800,
+      "currency": "KRW",
+      "rating": 5.0,
+      "review_count": null
+    },
+    {
+      "position": 106,
+      "name": "더비나인 TOCTOC 톡톡 스파클링 탄산수, 190ml,",
+      "url": "https://www.coupang.com/vp/products/7738046114?itemId=21523643709&vendorItemId=90555051237&sourceType=CATEGORY&categoryId=497820",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/0b8c9c4c-fd9c-4134-bcf9-1b60c25268cc7530241004639567241.png",
+      "price": 143,
+      "currency": "KRW",
+      "rating": 5.0,
+      "review_count": null
+    },
+    {
+      "position": 107,
+      "name": "페리에 플레인 탄산수, 250ml,",
+      "url": "https://www.coupang.com/vp/products/8261586817?itemId=992067642&vendorItemId=5417934692&sourceType=CATEGORY&categoryId=497820",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/2019/10/04/17/1/15e68e18-922f-45f9-8451-80a400563896.jpg",
+      "price": 492,
+      "currency": "KRW",
+      "rating": 5.0,
+      "review_count": null
+    },
+    {
+      "position": 108,
+      "name": "동원샘물 스파클링 맥스 탄산수 무라벨, 500ml,",
+      "url": "https://www.coupang.com/vp/products/8539583207?itemId=24723134219&vendorItemId=91732331490&sourceType=CATEGORY&categoryId=497820",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/1025_amir_coupang_oct_80k/08e2/a584e99b4401fe8c8915751a500cf31ec8d811e371021dbf7c71d6514110.jpg",
+      "price": 10900,
+      "currency": "KRW",
+      "rating": 5.0,
+      "review_count": null
+    },
+    {
+      "position": 109,
+      "name": "동원샘물 스파클링 맥스 탄산수 무라벨, 500ml,",
+      "url": "https://www.coupang.com/vp/products/8274685361?itemId=23851038146&vendorItemId=90874432085&sourceType=CATEGORY&categoryId=497820",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/435947350935157-9ec327ae-9d42-4d13-9103-ca903c46438c.jpg",
+      "price": 21800,
+      "currency": "KRW",
+      "rating": 5.0,
+      "review_count": null
+    },
+    {
+      "position": 110,
+      "name": "산펠레그리노 탄산수, 500ml,",
+      "url": "https://www.coupang.com/vp/products/6135465257?itemId=11729746505&vendorItemId=79003713212&sourceType=CATEGORY&categoryId=497820",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/1598281362336452-9a8c55f5-6416-4d55-a77c-dee0cfdb40f5.jpg",
+      "price": 324,
+      "currency": "KRW",
+      "rating": 5.0,
+      "review_count": null
+    },
+    {
+      "position": 111,
+      "name": "시그너스 탄산수 플레인, 500ml,",
+      "url": "https://www.coupang.com/vp/products/1119895730?itemId=2085624345&vendorItemId=71300199222&sourceType=CATEGORY&categoryId=497820",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/1828640762742471-1a784e99-d1b3-4738-bc58-81808cbaf167.jpg",
+      "price": 8900,
+      "currency": "KRW",
+      "rating": 4.5,
+      "review_count": null
+    },
+    {
+      "position": 112,
+      "name": "페리에 플레인 탄산수, 330ml,",
+      "url": "https://www.coupang.com/vp/products/2171582865?itemId=3694143101&vendorItemId=71679452652&sourceType=CATEGORY&categoryId=497820",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/229044202076774-66118f51-4564-4227-b952-51fd941fd2f5.jpg",
+      "price": 415,
+      "currency": "KRW",
+      "rating": 5.0,
+      "review_count": null
+    },
+    {
+      "position": 113,
+      "name": "갈바니나 유기농 블러드오렌지 소다수,",
+      "url": "https://www.coupang.com/vp/products/6414316475?itemId=18869200108&vendorItemId=85998002230&sourceType=CATEGORY&categoryId=497820",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/563950903643854-aae4a2fd-2d6e-4f51-b8fb-ba14120fef0b.jpg",
+      "price": 704,
+      "currency": "KRW",
+      "rating": 5.0,
+      "review_count": null
+    },
+    {
+      "position": 114,
+      "name": "빅토리아 탄산수 종류별 8페트 B세트 (플래인 레몬 라임 내사랑유자C 애플망고 초록매실 썸머스노우 밸런스핏), 1박스, 500ml 쿠폰할인 27 %",
+      "url": "https://www.coupang.com/vp/products/9179001642?itemId=27065952898&vendorItemId=94034303152&sourceType=CATEGORY&categoryId=497820",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/vendor_inventory/6ccb/bf60bc47d8b3c5adb6fed0da53ac57d08d6d6c472c33260235b6185ab2f6.jpg",
+      "price": 11900,
+      "currency": "KRW",
+      "rating": 4.5,
+      "review_count": null
+    },
+    {
+      "position": 115,
+      "name": "사라토가 탄산수, 355ml,",
+      "url": "https://www.coupang.com/vp/products/7951126701?itemId=21945972808&vendorItemId=93310917000&sourceType=CATEGORY&categoryId=497820",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/2025/08/14/17/8/d4a37436-befb-427a-b12f-5ec46d576cc2.jpg",
+      "price": 1291,
+      "currency": "KRW",
+      "rating": 5.0,
+      "review_count": null
+    },
+    {
+      "position": 116,
+      "name": "산타비토리아 탄산수,",
+      "url": "https://www.coupang.com/vp/products/8691599446?itemId=25234985319&vendorItemId=92678586794&sourceType=CATEGORY&categoryId=497820",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/2025/06/05/10/2/af0780f2-0e03-4f96-aaac-94b79fba565f.jpg",
+      "price": 36400,
+      "currency": "KRW",
+      "rating": 5.0,
+      "review_count": null
+    },
+    {
+      "position": 117,
+      "name": "샤로티 스파클링 워터 플레인, 250ml,",
+      "url": "https://www.coupang.com/vp/products/6789896673?itemId=18868728254&vendorItemId=85997539540&sourceType=CATEGORY&categoryId=497820",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/2465075986941258-54b77b08-5ab9-479e-95d7-407fe7d277c2.jpg",
+      "price": 575,
+      "currency": "KRW",
+      "rating": 4.5,
+      "review_count": null
+    },
+    {
+      "position": 118,
+      "name": "웅진빅토리아 플레인 탄사수 에코 무라벨, 350ml,",
+      "url": "https://www.coupang.com/vp/products/8267614598?itemId=18171808429&vendorItemId=85321150028&sourceType=CATEGORY&categoryId=497820",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/30170558741917-a4664ca3-28e3-41c2-85ee-3d8f05d634da.jpg",
+      "price": 127,
+      "currency": "KRW",
+      "rating": 5.0,
+      "review_count": 18633
+    },
+    {
+      "position": 119,
+      "name": "웅진빅토리아 밸런스핏 탄산음료, 500ml,",
+      "url": "https://www.coupang.com/vp/products/8036855329?itemId=22489641149&vendorItemId=81134526890&sourceType=CATEGORY&categoryId=497820",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/vendor_inventory/image_audit/prod/7b7c86a1-2532-451d-989a-dbe7b03e31f1_fixing_v2.png",
+      "price": 119,
+      "currency": "KRW",
+      "rating": 5.0,
+      "review_count": null
+    },
+    {
+      "position": 120,
+      "name": "웅진빅토리아 밸런스핏 탄산음료, 500ml,",
+      "url": "https://www.coupang.com/vp/products/8036855329?itemId=22489646423&vendorItemId=82416650711&sourceType=CATEGORY&categoryId=497820",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/vendor_inventory/1c64/fff747abb8121a53dcdd2b36823147b0f335b02224bf004b8d57b29671b1.jpg",
+      "price": 119,
+      "currency": "KRW",
+      "rating": 5.0,
+      "review_count": null
+    }
+  ],
+  "html_content_length": 943263,
+  "is_challenge_page": false
+}

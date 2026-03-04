@@ -1,0 +1,47 @@
+{
+  "request_info": {
+    "url": "https://www.coupang.com/np/categories/497920?listSize=120&page=8&filterType=rocket",
+    "method": "GET",
+    "timestamp": "2026-03-05T02:22:22.229677",
+    "category_id": "497920",
+    "list_size": 120,
+    "page": 8
+  },
+  "response_info": {
+    "status_code": 200,
+    "headers": {
+      "content-type": "text/html; charset=utf-8",
+      "x-accel-expires": "0",
+      "cache-control": "no-store, no-cache, must-revalidate,private, no-cache, no-store, max-age=0, must-revalidate",
+      "server": "envoy",
+      "vary": "Accept-Encoding,rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch",
+      "x-build-id": "0.14.3-6772365dbbb99f1a85ab7d0a7399b72ab8bf7f09",
+      "x-cp-auth-member": "0",
+      "link": "<https://assets.coupangcdn.com/front/front-web-next/_next/static/css/7fa2651df2cdd3a4.css>; rel=preload; as=\"style\"; crossorigin=\"anonymous\", <https://assets.coupangcdn.com/front/front-web-next/_next/static/css/4866c133497f94ef.css>; rel=preload; as=\"style\"; crossorigin=\"anonymous\", <https://assets.coupangcdn.com/front/front-web-next/_next/static/css/17b6f855bd8d90c8.css>; rel=preload; as=\"style\"; crossorigin=\"anonymous\", <https://assets.coupangcdn.com/front/front-web-next/_next/static/css/8b8b55cc583c55e9.css>; rel=preload; as=\"style\"; crossorigin=\"anonymous\"",
+      "content-security-policy": "frame-src https://www.youtube.com/ https://www.googletagmanager.com/ https://www.googleadservices.com/ https://googleads.g.doubleclick.net/ https://*.facebook.net/ https://td.doubleclick.net/ https://*.criteo.com/ https://*.criteo.net/ https://*.coupang.com/ https://*.sentry.io/",
+      "x-xss-protection": "1; mode=block",
+      "x-envoy-upstream-service-time": "365",
+      "x-envoy-decorator-operation": ":0/*",
+      "x-akamai-transformed": "0 - 0 -",
+      "content-encoding": "gzip",
+      "date": "Wed, 04 Mar 2026 17:22:24 GMT",
+      "content-length": "33798",
+      "set-cookie": "sid=3e83e28f31174c62ac7cc779935778058adc4694; Max-Age=432000; Expires=Mon, 09 Mar 2026 17:22:24 GMT; Path=/; Domain=coupang.com, member_srl=; Max-Age=0; Expires=Wed, 04 Mar 2026 17:22:24 GMT; Path=/; Domain=coupang.com, SAID=; Max-Age=0; Expires=Wed, 04 Mar 2026 17:22:24 GMT; Path=/; Domain=coupang.com; HTTPOnly, ak_bmsc=5B9264A02717EA44BDCEFD784D2A5074~000000000000000000000000000000~YAAQdGHKF5oIhLacAQAAiknfuR/tsFolNzKsG5HGd7vHmBnkOuuNxadK5bItDDvp/S7D4aW96fSnmGCYm9ab/tl8BhzzLCiBWkavXwwfkP/JdTD7q6Kv9y8OR3JN6YX8Ets1fV3ADxNjEpHSl5rk+KVIPDjlN2i2VU8hhNpLhV4iGh0de0GXUEa/pGEONhDUPGU+6SLVFEmtazpjoRdfs7GONdHcg3/dzmUQJkH2DubU//JtE7FnOkuz+vU18K4i0YuhqHkHg79LO44+yG6FpuHmSeRoT/UDSCHr2wiT1WYwrsgRHpdo7jg90KLk/FQKhT+uo+73boIzfOZoTi2Q2TH2TukX7MzWc4c2zrQRoxQlkWyAMtP5u5e3spC+1409bxEvIkM3F0t5KD50jK+CImQVGMmphjeeR4KFBPzokLM7U84K7HH1iQ5jIoksIWwFG/7LA0vhOJ+Qm5h8ZPkj8mPqMwCVne9f+Wk5cE1rjA==; Domain=.coupang.com; Path=/; Expires=Wed, 04 Mar 2026 18:52:43 GMT; Max-Age=5419; HttpOnly, bm_s=YAAQdGHKF5sIhLacAQAAiknfuQUwfP2gm6M2z0ORQsidlXkw7otfcYJ12eL4uoL2ZQIVnHRa2wfsQOXdisSDx8kBUxQJ2WWwpC7vHxbGkLEvrnad53kxFDp7OhOIhNzdTNSaccVkJ5MKczvIM3M0RQDW93y0HY9zTfKr6olePaTP9324VnurrykIgXpyLrUNm9udCQAjMDDc/63jCFMcFGy3mkMkrEENEiTkdqTqrEs2TsNVzLgNzdvC9Lgr8pOZ8K8Vr5198d+GTk0pT19Vp64BmWiEpvVl6FXBSmcLfKuGYkw4KxyFwFDBGBOMGxhV3S/VkTQXfJLfyXYQIJTPPaTyLWq54bL9rXnoS8xgTJM524yn6GeHfWMQXNUoyAaGG7xHI13cIXO08QSjFA+wC3vN3ZgtB8Hk8VTEYlK6lGlYT2kR7UuSm1WirHMIYzwpx9mZWsonjPQgkeA04MOOuMIdUePt6DaylUj4Qg+gxi9eJzKLIoCCMGlq6j7cG2syC7KoO7xB1sjUSViQdILspTuAeF0akYE5wXmev5CRe9j3vYOJkV/E45BeIYxwPazPv4UQ3ql9MlPrNvpnxdQ2T1wJe1klFj7yCIDOfui5nfufqOs6OvmMHEgsO5CVFBiJudv2tJqHgq59hwHA3kH/0+sSXkGo9sC70dQO/92AXVD3SJ4h9BgQE/L184/3lx3fXWeUPSvntoivYeOPKD0M8ebSBQUyGNEO5zkFctGvsbdrhSlWiSIpTuE=; Domain=.coupang.com; Path=/; Expires=Sat, 04 Apr 2026 17:22:24 GMT; Max-Age=2678400; Secure; HttpOnly, bm_so=D2F30D7993CCB1D40FE81B45C6F995533E486037E9912630A947884BAD6774A9~YAAQdGHKF5wIhLacAQAAiknfuQYb9tuUu8nyV/Uz4Rf081UjUhkXAG3qGrxc5QyQdkdrarKskeU6Mf7yxC6cQRttHMoT2ryxFrgdYVYAEMpGjrn32uZ75vKz4kgjbat2VkYuyhW0ZL+00eUic3QtOGqAtheeJ9aqWjnM1w4xGbpv4fgMzr6R1AEY+9ii9BiHgELEIbyW8OeR0B+zsMgS4dxcEoydiftbm9FaiIEvUuiEISZCVellpq6++XbGGbEIvQMGj8r5Usp1AOBWGIVBFTs3cFdoVzS6nUzrsmogMrG6mgR9RHblengSbl1ZrfUpUzQMhGS1YQ9T9znAUfMgiIxhEUH4LyOPZat0Mzz8y3mR+GJiyboVL6kRDMUufkT1fPC5WfvxwQPvRh4r4GbdNVb10Qifgd5v1JyXdBE3D0NnFxMVUE0sMhZNYPIqPISgtYgbmXQdvmgiWsWXVdl9Eg==; Domain=.coupang.com; Path=/; Expires=Thu, 05 Mar 2026 17:22:24 GMT; Max-Age=86400; Secure, bm_sv=5BC448B0E6CE5B209A8708BC23944886~YAAQdGHKF50IhLacAQAAiknfuR92TvQ61855nRj1Uhclx2hP7a4Qz/H5MBBrAhpUBR6LU9UpEQuQ7q7THHIc6gThU53rb+SohHN3vGvwQosoiKif7wf1qG65CAP+VFL2Bm4o17yu0F93nGUEyyLRy7niy7jNSyFbSPnzuWXBJwJA8VUJ8oD0Z1aAPLi1octLPfTMwZvhw/BxXFQoKt+IPjvt6jnGo+hrlWbI62cKQJOxdktAynf+RYEaGU58m6P/Xdk=~1; Domain=.coupang.com; Path=/; Expires=Wed, 04 Mar 2026 18:52:45 GMT; Max-Age=5421; Secure, bm_sz=01615C621959529C0A28190B7CCBAD4E~YAAQdGHKF54IhLacAQAAiknfuR/cT69rmCCU7nKHOnisv83b1q5WJsfd/P2uHEp4MEWuLM0B0tC1aZAzPRGZGkyeMyGSVMmIftN9X6l1fLUd9kIt3jfnLPnYRNtIc+cXwQJ8KWxMwrXpCI6Y+13dHtMWMmwB5hcXDNARXkdwt+zJzhe8Q5Aj6B123ivd/dHGp+nmDxbwXIVqiLkGZzXBvw/o1HTeqRvb1Z3VrXfCB2qLRY3c4/zn6pBe9whUL2Iqt/XhUNhRTuqy/ZQJtYMmZCrOt5iKFVbY4mLRYC3vS3KK5KlZnhSTCLGrL/jbaQ4S8A3uGE//LkDsAPyjYfbL1LQpsF2YpKrmQpEfjC8Ys98dPvgDoLQx7wsM3OxnE6HtaAOOdSse/dS9LEhfkZkkvyfQfAwiEc2k2X2870JLpX90jwO4Qv/muIoO4GZnvrBzziR1UC2vrToJPgrdHxp2uVw1Y7PYIrEq1wmJpkma~3621427~4604484; Domain=.coupang.com; Path=/; Expires=Wed, 04 Mar 2026 20:52:43 GMT; Max-Age=12619",
+      "strict-transport-security": "max-age=31536000"
+    },
+    "cookies": {
+      "sid": "3e83e28f31174c62ac7cc779935778058adc4694",
+      "member_srl": "",
+      "SAID": "",
+      "ak_bmsc": "5B9264A02717EA44BDCEFD784D2A5074~000000000000000000000000000000~YAAQdGHKF5oIhLacAQAAiknfuR/tsFolNzKsG5HGd7vHmBnkOuuNxadK5bItDDvp/S7D4aW96fSnmGCYm9ab/tl8BhzzLCiBWkavXwwfkP/JdTD7q6Kv9y8OR3JN6YX8Ets1fV3ADxNjEpHSl5rk+KVIPDjlN2i2VU8hhNpLhV4iGh0de0GXUEa/pGEONhDUPGU+6SLVFEmtazpjoRdfs7GONdHcg3/dzmUQJkH2DubU//JtE7FnOkuz+vU18K4i0YuhqHkHg79LO44+yG6FpuHmSeRoT/UDSCHr2wiT1WYwrsgRHpdo7jg90KLk/FQKhT+uo+73boIzfOZoTi2Q2TH2TukX7MzWc4c2zrQRoxQlkWyAMtP5u5e3spC+1409bxEvIkM3F0t5KD50jK+CImQVGMmphjeeR4KFBPzokLM7U84K7HH1iQ5jIoksIWwFG/7LA0vhOJ+Qm5h8ZPkj8mPqMwCVne9f+Wk5cE1rjA==",
+      "bm_s": "YAAQdGHKF5sIhLacAQAAiknfuQUwfP2gm6M2z0ORQsidlXkw7otfcYJ12eL4uoL2ZQIVnHRa2wfsQOXdisSDx8kBUxQJ2WWwpC7vHxbGkLEvrnad53kxFDp7OhOIhNzdTNSaccVkJ5MKczvIM3M0RQDW93y0HY9zTfKr6olePaTP9324VnurrykIgXpyLrUNm9udCQAjMDDc/63jCFMcFGy3mkMkrEENEiTkdqTqrEs2TsNVzLgNzdvC9Lgr8pOZ8K8Vr5198d+GTk0pT19Vp64BmWiEpvVl6FXBSmcLfKuGYkw4KxyFwFDBGBOMGxhV3S/VkTQXfJLfyXYQIJTPPaTyLWq54bL9rXnoS8xgTJM524yn6GeHfWMQXNUoyAaGG7xHI13cIXO08QSjFA+wC3vN3ZgtB8Hk8VTEYlK6lGlYT2kR7UuSm1WirHMIYzwpx9mZWsonjPQgkeA04MOOuMIdUePt6DaylUj4Qg+gxi9eJzKLIoCCMGlq6j7cG2syC7KoO7xB1sjUSViQdILspTuAeF0akYE5wXmev5CRe9j3vYOJkV/E45BeIYxwPazPv4UQ3ql9MlPrNvpnxdQ2T1wJe1klFj7yCIDOfui5nfufqOs6OvmMHEgsO5CVFBiJudv2tJqHgq59hwHA3kH/0+sSXkGo9sC70dQO/92AXVD3SJ4h9BgQE/L184/3lx3fXWeUPSvntoivYeOPKD0M8ebSBQUyGNEO5zkFctGvsbdrhSlWiSIpTuE=",
+      "bm_so": "D2F30D7993CCB1D40FE81B45C6F995533E486037E9912630A947884BAD6774A9~YAAQdGHKF5wIhLacAQAAiknfuQYb9tuUu8nyV/Uz4Rf081UjUhkXAG3qGrxc5QyQdkdrarKskeU6Mf7yxC6cQRttHMoT2ryxFrgdYVYAEMpGjrn32uZ75vKz4kgjbat2VkYuyhW0ZL+00eUic3QtOGqAtheeJ9aqWjnM1w4xGbpv4fgMzr6R1AEY+9ii9BiHgELEIbyW8OeR0B+zsMgS4dxcEoydiftbm9FaiIEvUuiEISZCVellpq6++XbGGbEIvQMGj8r5Usp1AOBWGIVBFTs3cFdoVzS6nUzrsmogMrG6mgR9RHblengSbl1ZrfUpUzQMhGS1YQ9T9znAUfMgiIxhEUH4LyOPZat0Mzz8y3mR+GJiyboVL6kRDMUufkT1fPC5WfvxwQPvRh4r4GbdNVb10Qifgd5v1JyXdBE3D0NnFxMVUE0sMhZNYPIqPISgtYgbmXQdvmgiWsWXVdl9Eg==",
+      "bm_sv": "5BC448B0E6CE5B209A8708BC23944886~YAAQdGHKF50IhLacAQAAiknfuR92TvQ61855nRj1Uhclx2hP7a4Qz/H5MBBrAhpUBR6LU9UpEQuQ7q7THHIc6gThU53rb+SohHN3vGvwQosoiKif7wf1qG65CAP+VFL2Bm4o17yu0F93nGUEyyLRy7niy7jNSyFbSPnzuWXBJwJA8VUJ8oD0Z1aAPLi1octLPfTMwZvhw/BxXFQoKt+IPjvt6jnGo+hrlWbI62cKQJOxdktAynf+RYEaGU58m6P/Xdk=~1",
+      "bm_sz": "01615C621959529C0A28190B7CCBAD4E~YAAQdGHKF54IhLacAQAAiknfuR/cT69rmCCU7nKHOnisv83b1q5WJsfd/P2uHEp4MEWuLM0B0tC1aZAzPRGZGkyeMyGSVMmIftN9X6l1fLUd9kIt3jfnLPnYRNtIc+cXwQJ8KWxMwrXpCI6Y+13dHtMWMmwB5hcXDNARXkdwt+zJzhe8Q5Aj6B123ivd/dHGp+nmDxbwXIVqiLkGZzXBvw/o1HTeqRvb1Z3VrXfCB2qLRY3c4/zn6pBe9whUL2Iqt/XhUNhRTuqy/ZQJtYMmZCrOt5iKFVbY4mLRYC3vS3KK5KlZnhSTCLGrL/jbaQ4S8A3uGE//LkDsAPyjYfbL1LQpsF2YpKrmQpEfjC8Ys98dPvgDoLQx7wsM3OxnE6HtaAOOdSse/dS9LEhfkZkkvyfQfAwiEc2k2X2870JLpX90jwO4Qv/muIoO4GZnvrBzziR1UC2vrToJPgrdHxp2uVw1Y7PYIrEq1wmJpkma~3621427~4604484"
+    },
+    "content_length": 181139
+  },
+  "products": [],
+  "html_content_length": 170196,
+  "is_challenge_page": false
+}

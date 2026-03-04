@@ -1,0 +1,1246 @@
+{
+  "request_info": {
+    "url": "https://www.coupang.com/np/categories/195008?listSize=120&page=5&filterType=rocket",
+    "method": "GET",
+    "timestamp": "2026-03-05T02:22:01.824361",
+    "category_id": "195008",
+    "list_size": 120,
+    "page": 5
+  },
+  "response_info": {
+    "status_code": 200,
+    "headers": {
+      "content-type": "text/html; charset=utf-8",
+      "x-accel-expires": "0",
+      "cache-control": "no-store, no-cache, must-revalidate,private, no-cache, no-store, max-age=0, must-revalidate",
+      "server": "envoy",
+      "vary": "Accept-Encoding,rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch",
+      "x-build-id": "0.14.3-6772365dbbb99f1a85ab7d0a7399b72ab8bf7f09",
+      "x-cp-auth-member": "0",
+      "link": "<https://assets.coupangcdn.com/front/front-web-next/_next/static/css/7fa2651df2cdd3a4.css>; rel=preload; as=\"style\"; crossorigin=\"anonymous\", <https://assets.coupangcdn.com/front/front-web-next/_next/static/css/4866c133497f94ef.css>; rel=preload; as=\"style\"; crossorigin=\"anonymous\", <https://assets.coupangcdn.com/front/front-web-next/_next/static/css/17b6f855bd8d90c8.css>; rel=preload; as=\"style\"; crossorigin=\"anonymous\", <https://assets.coupangcdn.com/front/front-web-next/_next/static/css/8b8b55cc583c55e9.css>; rel=preload; as=\"style\"; crossorigin=\"anonymous\"",
+      "content-security-policy": "frame-src https://www.youtube.com/ https://www.googletagmanager.com/ https://www.googleadservices.com/ https://googleads.g.doubleclick.net/ https://*.facebook.net/ https://td.doubleclick.net/ https://*.criteo.com/ https://*.criteo.net/ https://*.coupang.com/ https://*.sentry.io/",
+      "x-xss-protection": "1; mode=block",
+      "x-envoy-upstream-service-time": "893",
+      "x-akamai-transformed": "0 - 0 -",
+      "content-encoding": "gzip",
+      "date": "Wed, 04 Mar 2026 17:22:03 GMT",
+      "set-cookie": "sid=3e83e28f31174c62ac7cc779935778058adc4694; Max-Age=432000; Expires=Mon, 09 Mar 2026 17:22:03 GMT; Path=/; Domain=coupang.com, member_srl=; Max-Age=0; Expires=Wed, 04 Mar 2026 17:22:03 GMT; Path=/; Domain=coupang.com, SAID=; Max-Age=0; Expires=Wed, 04 Mar 2026 17:22:03 GMT; Path=/; Domain=coupang.com; HTTPOnly, ak_bmsc=5B9264A02717EA44BDCEFD784D2A5074~000000000000000000000000000000~YAAQdGHKFy8GhLacAQAA+vjeuR9mUajizoltAJDwRap6lnIkDuj17jSTByJCoKUzalkpZb0jHcl06VTz+d6Is9ge3X7Nh+cqBy4+uJksE3XiFoIfuiUV6UeHQzfGXLTMMYsgRGrCGFLE4BDmgXtpMayBFz09Xac6sKlcfrsInUgCvSnjbnbmaUS7L0y8iYRINqlV53oCXZGzUzJfLCB0QleuFrwhsp08nV51ASHwlmKKCV9wsmKbP2Iw1Ioj3x2dZXeyOO/OehyyBMqCbwvdf4Sqe3NgjI+3nBeaac9CojWslPv2XwvkFzQ1cP8OfoOZ3hN9X8imJU3IYSXbPBCA2npbgfuJ94So2MmjQTqvw4eksT86ZKQuEyXYTuJl7F1qhI8X23stSLUqNq7MdulGHw3eKL+CCEgOkOMsrCFFk98bUXr/somQiMps9rYoDI5LRCuv7eL/Btn8JqLyIxhcLA1GF7dAzD8S71qoe7cRbA==; Domain=.coupang.com; Path=/; Expires=Wed, 04 Mar 2026 18:52:43 GMT; Max-Age=5440; HttpOnly, bm_s=YAAQdGHKFzAGhLacAQAA+vjeuQW5MGeKcCxTJO7fEQ3F1td2lTZiTXeKqbHJZVcNTgjIi3EJZK+DmMcXzYQyIA+Far9zG6tRQS5l2pE9pQQZ7l5/DiEtX4ZCvcPvFbM1HYS2afpGE/I7LoWmArcONol2ZupFVHIWa9OntltNxj0F7vJya5Z6lLa1EFmcuoxDUMImdqD5bkQs/8P1VGQ4CHyY5ibrb6E0Rx9IRvMSyZFfvfXnt/PdHpU+ecQv7Tlw0gT72jlb7ganq/ZqrAA5MH9ugbN1I+J7148O55CSlT5EOgKftXEdNqxN+H6KKP3b6QTGeldIDpY33mMfgbHBHPzerWV5l7GE2b2GDsjogD5M2YJ+cLXIPmG31pqswuRlzmERaZEOYw9KQ1IvEouEMeA/DoeZlIH0sbE9mbkGQBKlhkLDm4f09N0x22pCofGL6nYuBq0UrS3UDRjUQrkMRSx0QkQQspAorZPMGTyKLCMUFSTz4s+m/OvIvmdhBsNjjwCzrpCwru9EwItXVW+4YU8G7h3t+tBG3BWs6DVCvavZq1N9zFwAW4LJPp/O7PFCZ38+XxqMPEHExdKogg0jU57qwvriinzrJysYSm+49KEGrrJZZ9+d5H7ciT0XypzmjXodryaneHbip0kOlDMTDNFuaq4MxXSK177/sle00YnsuqIqEtC3fg/aJVufPUlr+WVyqKZ9zwyjQVrriiXvB/MiVguEYp3P/ycGUlr3ND/7x2oLTOGuYpY=; Domain=.coupang.com; Path=/; Expires=Sat, 04 Apr 2026 17:22:03 GMT; Max-Age=2678400; Secure; HttpOnly, bm_so=B599EBBB82E5847A8FCCE86575A4C3787F7D6BF43229252B8AD6E275345BA1D1~YAAQdGHKFzEGhLacAQAA+vjeuQa4fMOXSbNbRqezAzIpEuSdXodyGxXLKiW/TP3l7eVtE1lJaytskftnpL7O0E3NSsbAdi/iR2osslpRBtAVDjFDzXdpZoQKiZwtTj/PKekMlnAZNRZBPGT6UY3gIkBFvl665FM7T5CjYcNsqqEIv0xu5CDyPzteRZvLg5oMnurdbH9nfv8u3F9li7zO0kUftm2Mcn/0nfmTqbbrxFsRCZ3A78Zm7u6jq/+KLEea00H5eXFc27uomZq4t9v7+phFsLeNdjNfXPoLgG73Wn64OzgtLHDnUueQeeCe3LK6IyQYeCTWCya/29pfE5/87YhbIoajVEwB4voe8GlZ9M37yBILJ99JtS5XpnRD+Za1xJEeX5E0ZfcAxgrmuFRiBRy0nTh6MgNYaAzI53HCBNZ4H8HPrJmVFnjSEG5uHBdE6aLSVEVBKlWRDh+2+pLGUQ==; Domain=.coupang.com; Path=/; Expires=Thu, 05 Mar 2026 17:22:03 GMT; Max-Age=86400; Secure, bm_sv=5BC448B0E6CE5B209A8708BC23944886~YAAQdGHKFzIGhLacAQAA+vjeuR9RZIKVZw7czt50qsUABThPiMFPM3McrvFHbdU4q/SNytwMuh+Fo3n0y92O31fzBRBUMIsfTSdTFKh1kz+bM338jld4mwyu5W4idza+ltT65CILc5TvvI6//D4ljPKUR3EqVQRrxOn98KuDscr3fEPfWlMVqDJqqvEjIbaYrrkkGMrCTRei2HwZeNCbHeBzPVA4t/rF99LhjXoUuHNsvcFMCyxDlYYPxZijypQzW3w=~1; Domain=.coupang.com; Path=/; Expires=Wed, 04 Mar 2026 18:52:45 GMT; Max-Age=5442; Secure, bm_sz=01615C621959529C0A28190B7CCBAD4E~YAAQdGHKFzMGhLacAQAA+vjeuR89HLTXwgySZGAxSRO9dKTfIrTf6WT9LsH/i/gN7I9su5fGQGzXH3nUSwct/KrXvwz61LDdRAPjXrvxuL0rq/HxiEt1aVhixOMiZUEKztXBtRJewDjXYl/CJXPgFQMxRShBnmSYshJlV8o9lttNUnixkeqL+dNFTOQkdT7iv28NbVOm4nf29z1xe08IXOVSNI/Rw4oRdnh3VGgwh+uuvy8uKDK232/LdEL7kSAn2Qope2tsNsIpIhxcFbS8FVzvt4X4xeP/EnGAPExrityfOAdjaM3ogjp/2+gL8tKwvuplKS/0dfQMmmjBCUy0LkI9YYbNpp+t5O2Fe9YTm65jUQVRxUQ3KSyDqyGaYwp03WWEANkzqI7DYMxSBVgRUGZtAQ4zPghoEJnT1g/l1vgPZJn4DYdTXY1hKTBZBRAJ2FE04fX/EEXy64/29aOiQlQzTbhxpHWXJtX+or9n~3621427~4604484; Domain=.coupang.com; Path=/; Expires=Wed, 04 Mar 2026 20:52:43 GMT; Max-Age=12640",
+      "strict-transport-security": "max-age=31536000"
+    },
+    "cookies": {
+      "sid": "3e83e28f31174c62ac7cc779935778058adc4694",
+      "member_srl": "",
+      "SAID": "",
+      "ak_bmsc": "5B9264A02717EA44BDCEFD784D2A5074~000000000000000000000000000000~YAAQdGHKFy8GhLacAQAA+vjeuR9mUajizoltAJDwRap6lnIkDuj17jSTByJCoKUzalkpZb0jHcl06VTz+d6Is9ge3X7Nh+cqBy4+uJksE3XiFoIfuiUV6UeHQzfGXLTMMYsgRGrCGFLE4BDmgXtpMayBFz09Xac6sKlcfrsInUgCvSnjbnbmaUS7L0y8iYRINqlV53oCXZGzUzJfLCB0QleuFrwhsp08nV51ASHwlmKKCV9wsmKbP2Iw1Ioj3x2dZXeyOO/OehyyBMqCbwvdf4Sqe3NgjI+3nBeaac9CojWslPv2XwvkFzQ1cP8OfoOZ3hN9X8imJU3IYSXbPBCA2npbgfuJ94So2MmjQTqvw4eksT86ZKQuEyXYTuJl7F1qhI8X23stSLUqNq7MdulGHw3eKL+CCEgOkOMsrCFFk98bUXr/somQiMps9rYoDI5LRCuv7eL/Btn8JqLyIxhcLA1GF7dAzD8S71qoe7cRbA==",
+      "bm_s": "YAAQdGHKFzAGhLacAQAA+vjeuQW5MGeKcCxTJO7fEQ3F1td2lTZiTXeKqbHJZVcNTgjIi3EJZK+DmMcXzYQyIA+Far9zG6tRQS5l2pE9pQQZ7l5/DiEtX4ZCvcPvFbM1HYS2afpGE/I7LoWmArcONol2ZupFVHIWa9OntltNxj0F7vJya5Z6lLa1EFmcuoxDUMImdqD5bkQs/8P1VGQ4CHyY5ibrb6E0Rx9IRvMSyZFfvfXnt/PdHpU+ecQv7Tlw0gT72jlb7ganq/ZqrAA5MH9ugbN1I+J7148O55CSlT5EOgKftXEdNqxN+H6KKP3b6QTGeldIDpY33mMfgbHBHPzerWV5l7GE2b2GDsjogD5M2YJ+cLXIPmG31pqswuRlzmERaZEOYw9KQ1IvEouEMeA/DoeZlIH0sbE9mbkGQBKlhkLDm4f09N0x22pCofGL6nYuBq0UrS3UDRjUQrkMRSx0QkQQspAorZPMGTyKLCMUFSTz4s+m/OvIvmdhBsNjjwCzrpCwru9EwItXVW+4YU8G7h3t+tBG3BWs6DVCvavZq1N9zFwAW4LJPp/O7PFCZ38+XxqMPEHExdKogg0jU57qwvriinzrJysYSm+49KEGrrJZZ9+d5H7ciT0XypzmjXodryaneHbip0kOlDMTDNFuaq4MxXSK177/sle00YnsuqIqEtC3fg/aJVufPUlr+WVyqKZ9zwyjQVrriiXvB/MiVguEYp3P/ycGUlr3ND/7x2oLTOGuYpY=",
+      "bm_so": "B599EBBB82E5847A8FCCE86575A4C3787F7D6BF43229252B8AD6E275345BA1D1~YAAQdGHKFzEGhLacAQAA+vjeuQa4fMOXSbNbRqezAzIpEuSdXodyGxXLKiW/TP3l7eVtE1lJaytskftnpL7O0E3NSsbAdi/iR2osslpRBtAVDjFDzXdpZoQKiZwtTj/PKekMlnAZNRZBPGT6UY3gIkBFvl665FM7T5CjYcNsqqEIv0xu5CDyPzteRZvLg5oMnurdbH9nfv8u3F9li7zO0kUftm2Mcn/0nfmTqbbrxFsRCZ3A78Zm7u6jq/+KLEea00H5eXFc27uomZq4t9v7+phFsLeNdjNfXPoLgG73Wn64OzgtLHDnUueQeeCe3LK6IyQYeCTWCya/29pfE5/87YhbIoajVEwB4voe8GlZ9M37yBILJ99JtS5XpnRD+Za1xJEeX5E0ZfcAxgrmuFRiBRy0nTh6MgNYaAzI53HCBNZ4H8HPrJmVFnjSEG5uHBdE6aLSVEVBKlWRDh+2+pLGUQ==",
+      "bm_sv": "5BC448B0E6CE5B209A8708BC23944886~YAAQdGHKFzIGhLacAQAA+vjeuR9RZIKVZw7czt50qsUABThPiMFPM3McrvFHbdU4q/SNytwMuh+Fo3n0y92O31fzBRBUMIsfTSdTFKh1kz+bM338jld4mwyu5W4idza+ltT65CILc5TvvI6//D4ljPKUR3EqVQRrxOn98KuDscr3fEPfWlMVqDJqqvEjIbaYrrkkGMrCTRei2HwZeNCbHeBzPVA4t/rF99LhjXoUuHNsvcFMCyxDlYYPxZijypQzW3w=~1",
+      "bm_sz": "01615C621959529C0A28190B7CCBAD4E~YAAQdGHKFzMGhLacAQAA+vjeuR89HLTXwgySZGAxSRO9dKTfIrTf6WT9LsH/i/gN7I9su5fGQGzXH3nUSwct/KrXvwz61LDdRAPjXrvxuL0rq/HxiEt1aVhixOMiZUEKztXBtRJewDjXYl/CJXPgFQMxRShBnmSYshJlV8o9lttNUnixkeqL+dNFTOQkdT7iv28NbVOm4nf29z1xe08IXOVSNI/Rw4oRdnh3VGgwh+uuvy8uKDK232/LdEL7kSAn2Qope2tsNsIpIhxcFbS8FVzvt4X4xeP/EnGAPExrityfOAdjaM3ogjp/2+gL8tKwvuplKS/0dfQMmmjBCUy0LkI9YYbNpp+t5O2Fe9YTm65jUQVRxUQ3KSyDqyGaYwp03WWEANkzqI7DYMxSBVgRUGZtAQ4zPghoEJnT1g/l1vgPZJn4DYdTXY1hKTBZBRAJ2FE04fX/EEXy64/29aOiQlQzTbhxpHWXJtX+or9n~3621427~4604484"
+    },
+    "content_length": 942099
+  },
+  "products": [
+    {
+      "position": 1,
+      "name": "풀무원 퓨어 무라벨 생수, 330ml,",
+      "url": "https://www.coupang.com/vp/products/8010806804?itemId=27311078184&vendorItemId=86494130585&sourceType=CATEGORY&categoryId=194908",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/37717945000572-cf383b4f-4623-468b-bcd3-51c4fbe9bef1.png",
+      "price": 108,
+      "currency": "KRW",
+      "rating": 5.0,
+      "review_count": null
+    },
+    {
+      "position": 2,
+      "name": "지리산수 아워홈 블루,",
+      "url": "https://www.coupang.com/vp/products/8232325240?itemId=20067321328&vendorItemId=84995746287&sourceType=CATEGORY&categoryId=194908",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/10894057729996-9ecc4b35-c8a3-4b0f-9cc5-3d60df130409.jpg",
+      "price": 33,
+      "currency": "KRW",
+      "rating": 5.0,
+      "review_count": null
+    },
+    {
+      "position": 3,
+      "name": "딥스 해양심층수 딥스골드, 2L,",
+      "url": "https://www.coupang.com/vp/products/2171191557?itemId=19565825617&vendorItemId=86673695322&sourceType=CATEGORY&categoryId=194908",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/86322862567206-2bb5c3d0-d281-422d-8870-5a75d624ae06.jpg",
+      "price": 23000,
+      "currency": "KRW",
+      "rating": 5.0,
+      "review_count": null
+    },
+    {
+      "position": 4,
+      "name": "마신다 생수 무라벨, 500ml,",
+      "url": "https://www.coupang.com/vp/products/8284414290?itemId=23886702551&vendorItemId=90909495955&sourceType=CATEGORY&categoryId=194908",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/f3e3bea8-c005-4e46-a7b8-c19857cd8e847697574998819560488.png",
+      "price": 41,
+      "currency": "KRW",
+      "rating": 5.0,
+      "review_count": null
+    },
+    {
+      "position": 5,
+      "name": "천년동안 해양심층수, 1.2L,",
+      "url": "https://www.coupang.com/vp/products/5435626941?itemId=15032985968&vendorItemId=85895723960&sourceType=CATEGORY&categoryId=194908",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/91d744e5-ee6e-4478-88cc-55aebf18d5b56162288084734554663.png",
+      "price": 111,
+      "currency": "KRW",
+      "rating": 5.0,
+      "review_count": null
+    },
+    {
+      "position": 6,
+      "name": "딥스 춘식이 천연 미네랄 해양심층수, 500ml,",
+      "url": "https://www.coupang.com/vp/products/8643215409?itemId=25092429849&vendorItemId=92096134878&sourceType=CATEGORY&categoryId=194908",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/c7e424cc-de6b-464f-908b-feead79d28421184406052841391865.png",
+      "price": 41580,
+      "currency": "KRW",
+      "rating": 5.0,
+      "review_count": null
+    },
+    {
+      "position": 7,
+      "name": "닥터유 면역수, 530ml,",
+      "url": "https://www.coupang.com/vp/products/7425335066?itemId=19272841795&vendorItemId=85762535965&sourceType=CATEGORY&categoryId=194908",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/1194631151414638-efeca5e0-3ec2-42ee-aa22-845e2ca97f89.jpg",
+      "price": 82,
+      "currency": "KRW",
+      "rating": 5.0,
+      "review_count": null
+    },
+    {
+      "position": 8,
+      "name": "곰표 해양심층수, 500ml,",
+      "url": "https://www.coupang.com/vp/products/8409416183?itemId=24313632175&vendorItemId=92507430159&sourceType=CATEGORY&categoryId=194908",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/2025/05/13/15/2/30d0c293-883d-4daf-8b07-d06412817b65.jpg",
+      "price": 136,
+      "currency": "KRW",
+      "rating": 5.0,
+      "review_count": null
+    },
+    {
+      "position": 9,
+      "name": "몽베스트 위드어스 무라벨 생수 500mL 40p + 1L 24p,",
+      "url": "https://www.coupang.com/vp/products/8622679346?itemId=25016088507&vendorItemId=92020966494&sourceType=CATEGORY&categoryId=194908",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/56548068806606-87db1530-cc12-4f1e-9b85-ecddbfb5c548.jpg",
+      "price": 198,
+      "currency": "KRW",
+      "rating": 5.0,
+      "review_count": null
+    },
+    {
+      "position": 10,
+      "name": "풀무원샘물 생수, 500ml,",
+      "url": "https://www.coupang.com/vp/products/7031063126?itemId=25565073652&vendorItemId=92556293280&sourceType=CATEGORY&categoryId=194908",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/3fac5d94-3637-4f65-a780-03d6f0fb04b11833749394907284817.png",
+      "price": 51,
+      "currency": "KRW",
+      "rating": 4.5,
+      "review_count": null
+    },
+    {
+      "position": 11,
+      "name": "조이워터 생수 무라벨,",
+      "url": "https://www.coupang.com/vp/products/8631818336?itemId=25042689433&vendorItemId=92557595892&sourceType=CATEGORY&categoryId=194908",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/510879379502098-6f83b543-57b2-49e5-92c8-30b109717da4.jpg",
+      "price": 29,
+      "currency": "KRW",
+      "rating": 5.0,
+      "review_count": null
+    },
+    {
+      "position": 12,
+      "name": "딥스 해양심층수 골드, 300ml,",
+      "url": "https://www.coupang.com/vp/products/263151051?itemId=26268752400&vendorItemId=93687447564&sourceType=CATEGORY&categoryId=194908",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/7429286a-e4d8-4cd2-9aa8-84b704ef44a02600944784172267264.png",
+      "price": 53000,
+      "currency": "KRW",
+      "rating": 5.0,
+      "review_count": null
+    },
+    {
+      "position": 13,
+      "name": "딥스 해양심층수 에코골드 무라벨, 2L,",
+      "url": "https://www.coupang.com/vp/products/6840727452?itemId=18626584286&vendorItemId=85761960094&sourceType=CATEGORY&categoryId=194908",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/116177292074212-a718401b-a519-4ded-888a-fac36553f44e.jpg",
+      "price": 47000,
+      "currency": "KRW",
+      "rating": 5.0,
+      "review_count": null
+    },
+    {
+      "position": 14,
+      "name": "천년동안 베이비워터, 350ml,",
+      "url": "https://www.coupang.com/vp/products/6224901464?itemId=2683944245&vendorItemId=86554128566&sourceType=CATEGORY&categoryId=194908",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/36253638359461-09a07019-4618-4fad-8e98-3ac1eea4271b.jpg",
+      "price": 248,
+      "currency": "KRW",
+      "rating": 5.0,
+      "review_count": null
+    },
+    {
+      "position": 15,
+      "name": "에이웰88 알칼리수, 500ml,",
+      "url": "https://www.coupang.com/vp/products/6885690783?itemId=19189359523&vendorItemId=83702043102&sourceType=CATEGORY&categoryId=194908",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/1769932109697195-7584ac1f-70e8-405c-a386-ea24cd15cab1.jpg",
+      "price": 160,
+      "currency": "KRW",
+      "rating": 5.0,
+      "review_count": null
+    },
+    {
+      "position": 16,
+      "name": "가야산천년수 천년수 무라벨 생수, 2L,",
+      "url": "https://www.coupang.com/vp/products/6203736108?itemId=27805402146&vendorItemId=94765324601&sourceType=CATEGORY&categoryId=194908",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/ad8eaeb1-c16c-4f5f-8053-44180a2ff57c11689170533654792521.png",
+      "price": 27,
+      "currency": "KRW",
+      "rating": 5.0,
+      "review_count": null
+    },
+    {
+      "position": 17,
+      "name": "에비앙 글라스 생수, 750ml,",
+      "url": "https://www.coupang.com/vp/products/31304020?itemId=15538441379&vendorItemId=4380740059&sourceType=CATEGORY&categoryId=194908",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/2019/02/13/13/4/7e4ee2e5-a9fb-48e1-a362-6cd5b7610616.jpg",
+      "price": 545,
+      "currency": "KRW",
+      "rating": 4.5,
+      "review_count": null
+    },
+    {
+      "position": 18,
+      "name": "딥스 그린 먹는 해양심층수, 2L,",
+      "url": "https://www.coupang.com/vp/products/121747330?itemId=18627090189&vendorItemId=85762462602&sourceType=CATEGORY&categoryId=194908",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/116177549959242-fe9727f8-7994-45bb-a6f7-20b691264a1b.jpg",
+      "price": 32040,
+      "currency": "KRW",
+      "rating": 5.0,
+      "review_count": null
+    },
+    {
+      "position": 19,
+      "name": "백산수 생수 무라벨, 1L,",
+      "url": "https://www.coupang.com/vp/products/8174374237?itemId=25564954265&vendorItemId=92556176314&sourceType=CATEGORY&categoryId=194908",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/23c9bd8a-d19c-43e7-b6c5-3bff756a60268454152333722548575.png",
+      "price": 45850,
+      "currency": "KRW",
+      "rating": 5.0,
+      "review_count": null
+    },
+    {
+      "position": 20,
+      "name": "아이시스 음료 화이트캡 무라벨,",
+      "url": "https://www.coupang.com/vp/products/9359900389?itemId=27780683567&vendorItemId=94741007153&sourceType=CATEGORY&categoryId=194908",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/fac3e39e-a48e-4a20-98f3-b962d1aaf5166995221213137762674.png",
+      "price": 51,
+      "currency": "KRW",
+      "rating": 5.0,
+      "review_count": null
+    },
+    {
+      "position": 21,
+      "name": "천년동안 무라벨, 350ml,",
+      "url": "https://www.coupang.com/vp/products/8288418934?itemId=13680628973&vendorItemId=85907731968&sourceType=CATEGORY&categoryId=194908",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/36254889871970-e15b5de4-2426-4136-8a4d-b084db2efea8.jpg",
+      "price": 211,
+      "currency": "KRW",
+      "rating": 5.0,
+      "review_count": null
+    },
+    {
+      "position": 22,
+      "name": "딥스 해양심층수 그린, 500ml,",
+      "url": "https://www.coupang.com/vp/products/121747330?itemId=25630822091&vendorItemId=92620966201&sourceType=CATEGORY&categoryId=194908",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/0df9ade7-9e88-4714-84c1-e398ed667137201000436625009560.png",
+      "price": 69000,
+      "currency": "KRW",
+      "rating": 5.0,
+      "review_count": null
+    },
+    {
+      "position": 23,
+      "name": "풀무원샘물, 500ml,",
+      "url": "https://www.coupang.com/vp/products/9246015613?itemId=25612852275&vendorItemId=88408748971&sourceType=CATEGORY&categoryId=194908",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/1381961401535148-26672f6f-f06d-44e8-9b46-5eb1f282ca4a.png",
+      "price": 51,
+      "currency": "KRW",
+      "rating": 5.0,
+      "review_count": null
+    },
+    {
+      "position": 24,
+      "name": "남양천연수 무라벨, 2L,",
+      "url": "https://www.coupang.com/vp/products/7400869079?itemId=18799029982&vendorItemId=85929841895&sourceType=CATEGORY&categoryId=194908",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/58093807733603-2a7336a9-7a0d-48c5-bad8-2e328c25f4c8.jpg",
+      "price": 32,
+      "currency": "KRW",
+      "rating": 5.0,
+      "review_count": null
+    },
+    {
+      "position": 25,
+      "name": "아이시스 8.0 초경량 페트 생수, 500ml,",
+      "url": "https://www.coupang.com/vp/products/9392685489?itemId=21366859980&vendorItemId=94018859011&sourceType=CATEGORY&categoryId=194908",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/c8e1107c-fd21-45cc-acaf-a5352268fe6c2259105755367866666.png",
+      "price": 67,
+      "currency": "KRW",
+      "rating": 4.5,
+      "review_count": null
+    },
+    {
+      "position": 26,
+      "name": "팔도 뽀로로 샘물, 250ml,",
+      "url": "https://www.coupang.com/vp/products/11411660?itemId=18172811417&vendorItemId=85322103118&sourceType=CATEGORY&categoryId=194908",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/vendor_inventory/image_audit/prod/be1a46e0-484b-482e-9967-d1f30c731248_fixing_v2.png",
+      "price": 22800,
+      "currency": "KRW",
+      "rating": 5.0,
+      "review_count": null
+    },
+    {
+      "position": 27,
+      "name": "풀무원샘물 무라벨 생수, 500ml,",
+      "url": "https://www.coupang.com/vp/products/6239512369?itemId=25564953495&vendorItemId=92556175745&sourceType=CATEGORY&categoryId=194908",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/65772200995599-88c178fc-7558-4200-88b6-8826071eebf7.jpg",
+      "price": 50,
+      "currency": "KRW",
+      "rating": 5.0,
+      "review_count": null
+    },
+    {
+      "position": 28,
+      "name": "토레타 제로 무라벨 이온음료, 340ml,",
+      "url": "https://www.coupang.com/vp/products/8316259498?itemId=24000580224&vendorItemId=91021440262&sourceType=CATEGORY&categoryId=194908",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/1085417736163652-a1b2a37d-6c31-489a-b9b0-189a821e285e.jpg",
+      "price": 216,
+      "currency": "KRW",
+      "rating": 5.0,
+      "review_count": null
+    },
+    {
+      "position": 29,
+      "name": "탐사수 무라벨, 330ml,",
+      "url": "https://www.coupang.com/vp/products/5625704601?itemId=19013169748&vendorItemId=86137790222&sourceType=CATEGORY&categoryId=194908",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/8ca2d28d-d248-4e71-986b-5cfae7b33f587363918183787655481.png",
+      "price": 32980,
+      "currency": "KRW",
+      "rating": 5.0,
+      "review_count": null
+    },
+    {
+      "position": 30,
+      "name": "팔도 뽀로로 샘물, 지하수, 250ml,",
+      "url": "https://www.coupang.com/vp/products/7851828872?itemId=21403366521&vendorItemId=88459959611&sourceType=CATEGORY&categoryId=194908",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/69650672477225-d45e49c4-2e0d-4692-b2aa-4d50cc640c63.jpg",
+      "price": 15200,
+      "currency": "KRW",
+      "rating": 5.0,
+      "review_count": null
+    },
+    {
+      "position": 31,
+      "name": "휘오 다이아몬드 EC 무라벨,",
+      "url": "https://www.coupang.com/vp/products/9043881292?itemId=27266377211&vendorItemId=94233151582&sourceType=CATEGORY&categoryId=194908",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/137ff629-e2f5-4a17-9513-ba45e58800d710905878617246959818.png",
+      "price": 79,
+      "currency": "KRW",
+      "rating": 4.5,
+      "review_count": null
+    },
+    {
+      "position": 32,
+      "name": "남양유업 천연수 무라벨, 500ml,",
+      "url": "https://www.coupang.com/vp/products/8636268580?itemId=25058613142&vendorItemId=92062877130&sourceType=CATEGORY&categoryId=194908",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/251463734566704-0c2a272b-f29b-4919-9882-3bb283e11a1b.jpg",
+      "price": 47,
+      "currency": "KRW",
+      "rating": 5.0,
+      "review_count": null
+    },
+    {
+      "position": 33,
+      "name": "딥스 그린 먹는 해양심층수, 2L,",
+      "url": "https://www.coupang.com/vp/products/121747330?itemId=5173751054&vendorItemId=84639400151&sourceType=CATEGORY&categoryId=194908",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/370371533168950-b813c2ab-5eb0-48e1-9dbe-86c9d3b92a03.jpg",
+      "price": 48060,
+      "currency": "KRW",
+      "rating": 5.0,
+      "review_count": null
+    },
+    {
+      "position": 34,
+      "name": "유니온천년알카리수, 500ml,",
+      "url": "https://www.coupang.com/vp/products/7335484362?itemId=18729360270&vendorItemId=85861966171&sourceType=CATEGORY&categoryId=194908",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/1129986625754117-91362367-a6a1-4930-86d6-1cd6a8c7cc4f.jpg",
+      "price": 44400,
+      "currency": "KRW",
+      "rating": 5.0,
+      "review_count": null
+    },
+    {
+      "position": 35,
+      "name": "모닝캄 생수 무라벨,",
+      "url": "https://www.coupang.com/vp/products/9246844812?itemId=27356907738&vendorItemId=94323002213&sourceType=CATEGORY&categoryId=194908",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/4ca7ad0a-b562-4c58-9055-7310a3a1eb4711231046571917281462.png",
+      "price": 47,
+      "currency": "KRW",
+      "rating": 5.0,
+      "review_count": null
+    },
+    {
+      "position": 36,
+      "name": "먹는샘물산수 가벼운샘 무라벨, 500ml,",
+      "url": "https://www.coupang.com/vp/products/8267592020?itemId=23560799044&vendorItemId=86471109493&sourceType=CATEGORY&categoryId=194908",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/438631616185407-9cb2a847-abc6-48fe-a6e0-004323e066bf.png",
+      "price": 22960,
+      "currency": "KRW",
+      "rating": 5.0,
+      "review_count": null
+    },
+    {
+      "position": 37,
+      "name": "피지워터 생수, 330ml,",
+      "url": "https://www.coupang.com/vp/products/2170976146?itemId=26450817753&vendorItemId=93426276277&sourceType=CATEGORY&categoryId=194908",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/7ddba064-c305-448c-b2d2-15c59f3083d4245357332854876821.png",
+      "price": 334,
+      "currency": "KRW",
+      "rating": 5.0,
+      "review_count": null
+    },
+    {
+      "position": 38,
+      "name": "가야산천년수 천년수 무라벨 생수, 1L,",
+      "url": "https://www.coupang.com/vp/products/6203736108?itemId=19356808379&vendorItemId=86469895898&sourceType=CATEGORY&categoryId=194908",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/2460482069173460-d09e8a00-eb2b-4d92-b64d-c09da4257c12.jpg",
+      "price": 44,
+      "currency": "KRW",
+      "rating": 5.0,
+      "review_count": null
+    },
+    {
+      "position": 39,
+      "name": "몽베스트 위드어스 생수 무라벨 500mL 40p + 2L 18p,",
+      "url": "https://www.coupang.com/vp/products/8622679280?itemId=25016088413&vendorItemId=92020966283&sourceType=CATEGORY&categoryId=194908",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/55717233685228-25bf5e8d-326c-4d49-af5a-6a7c7673b8de.jpg",
+      "price": 1069,
+      "currency": "KRW",
+      "rating": 5.0,
+      "review_count": null
+    },
+    {
+      "position": 40,
+      "name": "딥스 해양심층수 그린, 2L,",
+      "url": "https://www.coupang.com/vp/products/1391849286?itemId=19565696447&vendorItemId=86673569703&sourceType=CATEGORY&categoryId=194908",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/f85c84f7-77eb-4abf-87de-d09be30e4cc82459143016430811041.png",
+      "price": 32040,
+      "currency": "KRW",
+      "rating": 5.0,
+      "review_count": null
+    },
+    {
+      "position": 41,
+      "name": "아이시스 음료 화이트캡 무라벨,",
+      "url": "https://www.coupang.com/vp/products/9359909711?itemId=27780683625&vendorItemId=94741007164&sourceType=CATEGORY&categoryId=194908",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/fa39ce70-d5a6-4478-99fa-3d8a1033a3c84887714476152928868.png",
+      "price": 80,
+      "currency": "KRW",
+      "rating": 5.0,
+      "review_count": null
+    },
+    {
+      "position": 42,
+      "name": "천년동안 해양심층수, 350ml,",
+      "url": "https://www.coupang.com/vp/products/5435626941?itemId=3745458254&vendorItemId=85895724366&sourceType=CATEGORY&categoryId=194908",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/36253825490987-2422bf70-a235-40df-ab75-ab773ac396b3.jpg",
+      "price": 199,
+      "currency": "KRW",
+      "rating": 5.0,
+      "review_count": null
+    },
+    {
+      "position": 43,
+      "name": "백산수 무라벨 생수 2L 18p + 백산수 2L 18p,",
+      "url": "https://www.coupang.com/vp/products/9028848588?itemId=25056839876&vendorItemId=92061165933&sourceType=CATEGORY&categoryId=194908",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/314807042557694-8ac19ac2-45fe-4752-a815-a2c0a5d4444c.png",
+      "price": 49,
+      "currency": "KRW",
+      "rating": 5.0,
+      "review_count": null
+    },
+    {
+      "position": 44,
+      "name": "모닝캄 생수 무라벨,",
+      "url": "https://www.coupang.com/vp/products/9246844812?itemId=27357005618&vendorItemId=94323097546&sourceType=CATEGORY&categoryId=194908",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/22a26a6d-e8b8-4efe-bbaa-fa5bb51414bf7980673031651699829.png",
+      "price": 28,
+      "currency": "KRW",
+      "rating": 5.0,
+      "review_count": null
+    },
+    {
+      "position": 45,
+      "name": "동해약천골지장수 생수,",
+      "url": "https://www.coupang.com/vp/products/5464024945?itemId=14336009971&vendorItemId=93433696566&sourceType=CATEGORY&categoryId=194908",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/vendor_inventory/images/be31d433-5295-4152-a3b4-c72eace53f2215715351927834736235.png",
+      "price": 193,
+      "currency": "KRW",
+      "rating": 5.0,
+      "review_count": null
+    },
+    {
+      "position": 46,
+      "name": "휘오 순수 생수, 500ml,",
+      "url": "https://www.coupang.com/vp/products/6062866109?itemId=21338146987&vendorItemId=88396610027&sourceType=CATEGORY&categoryId=194908",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/996202616311134-7f7b9e93-2bef-4ebb-9b15-d8f73777ae2a.jpg",
+      "price": 27600,
+      "currency": "KRW",
+      "rating": 4.5,
+      "review_count": null
+    },
+    {
+      "position": 47,
+      "name": "딥스 에코그린 미니,",
+      "url": "https://www.coupang.com/vp/products/8406033107?itemId=24302163621&vendorItemId=92556294025&sourceType=CATEGORY&categoryId=194908",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/339120692055110-5045f84d-560b-4671-b6a9-70cec3b6d79a.jpg",
+      "price": 83000,
+      "currency": "KRW",
+      "rating": 5.0,
+      "review_count": null
+    },
+    {
+      "position": 48,
+      "name": "백산수 무라벨, 500ml,",
+      "url": "https://www.coupang.com/vp/products/8174374237?itemId=16077795745&vendorItemId=87257266428&sourceType=CATEGORY&categoryId=194908",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/54869049601981-c8142946-da6f-42ba-85be-866e6c0a78bd.jpg",
+      "price": 51720,
+      "currency": "KRW",
+      "rating": 5.0,
+      "review_count": null
+    },
+    {
+      "position": 49,
+      "name": "Volvic 내추럴 미네랄 워터, 500ml,",
+      "url": "https://www.coupang.com/vp/products/567493?itemId=20696794080&vendorItemId=87768197207&sourceType=CATEGORY&categoryId=194908",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/278d9986-fcec-4d09-97ea-d7b2b0268f748582012167843989214.png",
+      "price": 208,
+      "currency": "KRW",
+      "rating": 5.0,
+      "review_count": null
+    },
+    {
+      "position": 50,
+      "name": "씨그램 라임 탄산수, 350ml,",
+      "url": "https://www.coupang.com/vp/products/9335269227?itemId=24067928788&vendorItemId=91087694702&sourceType=CATEGORY&categoryId=194908",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/994599903418691-c52ff943-422c-4a8e-a8dd-d3e5b5f3a6a9.jpg",
+      "price": 25960,
+      "currency": "KRW",
+      "rating": 5.0,
+      "review_count": null
+    },
+    {
+      "position": 51,
+      "name": "에이수 알칼리수 무라벨, 500ml,",
+      "url": "https://www.coupang.com/vp/products/8152057628?itemId=26310665979&vendorItemId=93288230267&sourceType=CATEGORY&categoryId=194908",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/3ad130b7-028d-4aa7-b02a-6d1c0e80e0175052892270566842721.png",
+      "price": 148,
+      "currency": "KRW",
+      "rating": 5.0,
+      "review_count": null
+    },
+    {
+      "position": 52,
+      "name": "나노에이치 수소수, 500ml,",
+      "url": "https://www.coupang.com/vp/products/171415527?itemId=490151721&vendorItemId=4239746759&sourceType=CATEGORY&categoryId=194908",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/2018/12/26/10/5/93eb7988-aad5-468e-8e3e-39c278908f4f.jpg",
+      "price": 70250,
+      "currency": "KRW",
+      "rating": 4.5,
+      "review_count": null
+    },
+    {
+      "position": 53,
+      "name": "에이수 Rap 알칼리 암반수, 2L,",
+      "url": "https://www.coupang.com/vp/products/6685723111?itemId=18798939513&vendorItemId=85929753458&sourceType=CATEGORY&categoryId=194908",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/615512794474432-3f1c95d9-ede0-4d88-a0e8-3ded39a6bc08.jpg",
+      "price": 27600,
+      "currency": "KRW",
+      "rating": 5.0,
+      "review_count": null
+    },
+    {
+      "position": 54,
+      "name": "남양천연수 무라벨, 500ml,",
+      "url": "https://www.coupang.com/vp/products/7400869079?itemId=18667329250&vendorItemId=85801769650&sourceType=CATEGORY&categoryId=194908",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/58572724394707-4caa4e68-a58d-4191-bf0d-a708651d3c29.jpg",
+      "price": 47,
+      "currency": "KRW",
+      "rating": 5.0,
+      "review_count": null
+    },
+    {
+      "position": 55,
+      "name": "닥터유 면역수, 530ml,",
+      "url": "https://www.coupang.com/vp/products/7038410878?itemId=19566251170&vendorItemId=86674109745&sourceType=CATEGORY&categoryId=194908",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/829060c1-c33f-4b0a-b67a-bc68b58671e16185160568648908277.png",
+      "price": 83,
+      "currency": "KRW",
+      "rating": 5.0,
+      "review_count": null
+    },
+    {
+      "position": 56,
+      "name": "아이시스 8.0 초경량 페트 생수, 500ml,",
+      "url": "https://www.coupang.com/vp/products/8244112543?itemId=27050439945&vendorItemId=94018859149&sourceType=CATEGORY&categoryId=194908",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/1d97bb4c-3925-4513-aece-2f24d580e91b16827594000538395538.png",
+      "price": 70,
+      "currency": "KRW",
+      "rating": 5.0,
+      "review_count": null
+    },
+    {
+      "position": 57,
+      "name": "딥스 해양심층수 에코그린 무라벨, 500ml,",
+      "url": "https://www.coupang.com/vp/products/6964981360?itemId=25564952047&vendorItemId=92556174187&sourceType=CATEGORY&categoryId=194908",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/d8a4afe2-3865-4f5e-b169-5ce6c32f73077726546219982583695.png",
+      "price": 117,
+      "currency": "KRW",
+      "rating": 5.0,
+      "review_count": null
+    },
+    {
+      "position": 58,
+      "name": "마신다 생수 무라벨, 500ml,",
+      "url": "https://www.coupang.com/vp/products/8284414290?itemId=23886702534&vendorItemId=90909495940&sourceType=CATEGORY&categoryId=194908",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/1d512698-481d-421d-917b-d098edfec30a8083179240483357923.png",
+      "price": 41,
+      "currency": "KRW",
+      "rating": 5.0,
+      "review_count": null
+    },
+    {
+      "position": 59,
+      "name": "천년동안 해양심층수, 500ml,",
+      "url": "https://www.coupang.com/vp/products/5435626941?itemId=19454768884&vendorItemId=85895655093&sourceType=CATEGORY&categoryId=194908",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/5e1e8478-33c5-48ad-be55-83142d31d6894303566937890282834.png",
+      "price": 145,
+      "currency": "KRW",
+      "rating": 5.0,
+      "review_count": null
+    },
+    {
+      "position": 60,
+      "name": "천년동안 키즈워터, 1.2L,",
+      "url": "https://www.coupang.com/vp/products/8243593631?itemId=10010188144&vendorItemId=77293211154&sourceType=CATEGORY&categoryId=194908",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/1671746690004272-e37f7069-1f6d-4622-b7af-351e166be0a9.jpg",
+      "price": 135,
+      "currency": "KRW",
+      "rating": 5.0,
+      "review_count": null
+    },
+    {
+      "position": 61,
+      "name": "조이워터 생수 무라벨,",
+      "url": "https://www.coupang.com/vp/products/8631818336?itemId=25566397383&vendorItemId=92557595709&sourceType=CATEGORY&categoryId=194908",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/2915278262929425-6f5b37be-1068-4556-b795-0d5a125d24ce.jpg",
+      "price": 45,
+      "currency": "KRW",
+      "rating": 5.0,
+      "review_count": null
+    },
+    {
+      "position": 62,
+      "name": "기픈물 자연드림 리필엠 종이팩 마그네슘 2배 해양심층수, 500ml,",
+      "url": "https://www.coupang.com/vp/products/7151107070?itemId=26990564687&vendorItemId=93959310397&sourceType=CATEGORY&categoryId=194908",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/4c06d699-a150-4d21-98eb-53c06c7bc0ba6286094352839430110.png",
+      "price": 267,
+      "currency": "KRW",
+      "rating": 5.0,
+      "review_count": null
+    },
+    {
+      "position": 63,
+      "name": "가야산천년수 무라벨 먹는샘물, 330ml,",
+      "url": "https://www.coupang.com/vp/products/6203736108?itemId=23053540455&vendorItemId=86493937400&sourceType=CATEGORY&categoryId=194908",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/2460482489317657-5c2c8340-3f5b-4be5-b42d-8a30190a2038.jpg",
+      "price": 68,
+      "currency": "KRW",
+      "rating": 5.0,
+      "review_count": null
+    },
+    {
+      "position": 64,
+      "name": "딥스 해양심층수 골드, 500ml,",
+      "url": "https://www.coupang.com/vp/products/263151051?itemId=18336201617&vendorItemId=85480600892&sourceType=CATEGORY&categoryId=194908",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/ada5e398-3f46-4b20-9ffd-75ba3d4115572719546775775575576.png",
+      "price": 195,
+      "currency": "KRW",
+      "rating": 5.0,
+      "review_count": null
+    },
+    {
+      "position": 65,
+      "name": "딥스 해양심층수 에코골드 무라벨, 2L,",
+      "url": "https://www.coupang.com/vp/products/6840727452?itemId=25565074849&vendorItemId=92556294346&sourceType=CATEGORY&categoryId=194908",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/270ced06-19cb-4de2-97dd-398c5e5fbb243934397301677858259.png",
+      "price": 71000,
+      "currency": "KRW",
+      "rating": 5.0,
+      "review_count": null
+    },
+    {
+      "position": 66,
+      "name": "일화 광천수 생수,",
+      "url": "https://www.coupang.com/vp/products/5766325188?itemId=9782791613&vendorItemId=86495568266&sourceType=CATEGORY&categoryId=194908",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/6b071b28-d314-43a6-af22-ed6655cd9a856749569379443696845.png",
+      "price": 13680,
+      "currency": "KRW",
+      "rating": 4.5,
+      "review_count": null
+    },
+    {
+      "position": 67,
+      "name": "딥스 해양심층수 그린, 500ml,",
+      "url": "https://www.coupang.com/vp/products/121747330?itemId=3748391696&vendorItemId=85101034363&sourceType=CATEGORY&categoryId=194908",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/134744773694835-223857ac-cd86-494f-9ce9-7602ae97fa4a.jpg",
+      "price": 46000,
+      "currency": "KRW",
+      "rating": 5.0,
+      "review_count": null
+    },
+    {
+      "position": 68,
+      "name": "기픈물 자연드림 리필엠 종이팩 마그네슘 2배 해양심층수, 330ml,",
+      "url": "https://www.coupang.com/vp/products/7151107070?itemId=26990611689&vendorItemId=93959357227&sourceType=CATEGORY&categoryId=194908",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/25710227307578-a36eef31-2eed-4091-b3a0-7a0baa89edf9.jpg",
+      "price": 328,
+      "currency": "KRW",
+      "rating": 5.0,
+      "review_count": null
+    },
+    {
+      "position": 69,
+      "name": "딥스 해양심층수 에코골드 무라벨, 500ml,",
+      "url": "https://www.coupang.com/vp/products/6840727452?itemId=25564952752&vendorItemId=92556174835&sourceType=CATEGORY&categoryId=194908",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/ad1159af-62fc-47c6-b226-2be6464d20a7778746113764274644.png",
+      "price": 59000,
+      "currency": "KRW",
+      "rating": 5.0,
+      "review_count": null
+    },
+    {
+      "position": 70,
+      "name": "딥스 춘식이 천연 미네랄 해양심층수, 500ml,",
+      "url": "https://www.coupang.com/vp/products/8643215409?itemId=25092429908&vendorItemId=92096134914&sourceType=CATEGORY&categoryId=194908",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/a9bf00fa-235b-49c1-a153-abcec45fe4886766488667889968286.png",
+      "price": 62370,
+      "currency": "KRW",
+      "rating": 5.0,
+      "review_count": null
+    },
+    {
+      "position": 71,
+      "name": "가야산천년수 천년수 무라벨 생수, 2L,",
+      "url": "https://www.coupang.com/vp/products/6203736108?itemId=27735047069&vendorItemId=94696262206&sourceType=CATEGORY&categoryId=194908",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/fa43fefb-3246-4074-ae56-d6027144110a1153259801337889686.png",
+      "price": 27,
+      "currency": "KRW",
+      "rating": 5.0,
+      "review_count": null
+    },
+    {
+      "position": 72,
+      "name": "딥스 해양심층수 에코골드 무라벨, 500ml,",
+      "url": "https://www.coupang.com/vp/products/6840727452?itemId=25935747483&vendorItemId=92919099883&sourceType=CATEGORY&categoryId=194908",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/9b83014b-7027-4eb3-93c5-37053c8a18bf6850914256225365832.png",
+      "price": 198,
+      "currency": "KRW",
+      "rating": 5.0,
+      "review_count": null
+    },
+    {
+      "position": 73,
+      "name": "에이수, 500ml,",
+      "url": "https://www.coupang.com/vp/products/6685723111?itemId=18729065683&vendorItemId=85861665441&sourceType=CATEGORY&categoryId=194908",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/vendor_inventory/image_audit/prod/0fceb824-9aaf-46c5-a9b2-d2931e898ee6_fixing_v2.png",
+      "price": 29600,
+      "currency": "KRW",
+      "rating": 5.0,
+      "review_count": null
+    },
+    {
+      "position": 74,
+      "name": "천년동안 베이비워터, 1.2L,",
+      "url": "https://www.coupang.com/vp/products/6224901464?itemId=19421768941&vendorItemId=86533233893&sourceType=CATEGORY&categoryId=194908",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/36253558509793-45674ea3-1411-4e07-bfd2-1a36b15d90aa.jpg",
+      "price": 136,
+      "currency": "KRW",
+      "rating": 5.0,
+      "review_count": null
+    },
+    {
+      "position": 75,
+      "name": "아이시스 음료 화이트캡 무라벨,",
+      "url": "https://www.coupang.com/vp/products/9359897936?itemId=27780683590&vendorItemId=94741007161&sourceType=CATEGORY&categoryId=194908",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/b5d9d9dd-91e7-4e5e-89a9-84bf2826ff4e14081197854439261987.png",
+      "price": 29,
+      "currency": "KRW",
+      "rating": 5.0,
+      "review_count": null
+    },
+    {
+      "position": 76,
+      "name": "지리산물하나 eco 생수 무라벨, 500ml,",
+      "url": "https://www.coupang.com/vp/products/8401729000?itemId=22205177489&vendorItemId=94765325501&sourceType=CATEGORY&categoryId=194908",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/97b88650-e647-4792-9212-f5e10a60ed2c707319392195004453.png",
+      "price": 43,
+      "currency": "KRW",
+      "rating": 5.0,
+      "review_count": null
+    },
+    {
+      "position": 77,
+      "name": "기픈물 저스트 종이팩 해양심층수, 1L,",
+      "url": "https://www.coupang.com/vp/products/8068462801?itemId=22816984854&vendorItemId=94173763204&sourceType=CATEGORY&categoryId=194908",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/804aab70-a69b-4e08-a07d-701098cf86123627594642464910033.png",
+      "price": 96,
+      "currency": "KRW",
+      "rating": 5.0,
+      "review_count": null
+    },
+    {
+      "position": 78,
+      "name": "휘오 순수 생수, 500ml,",
+      "url": "https://www.coupang.com/vp/products/6062866109?itemId=18268411531&vendorItemId=88396610000&sourceType=CATEGORY&categoryId=194908",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/97879416646393-e20c2c00-b71f-4240-a7ce-8ef18ddeffcc.jpg",
+      "price": 34500,
+      "currency": "KRW",
+      "rating": 4.5,
+      "review_count": null
+    },
+    {
+      "position": 79,
+      "name": "웅진 깊을수록 무라벨,",
+      "url": "https://www.coupang.com/vp/products/9301916281?itemId=27565509112&vendorItemId=94529483741&sourceType=CATEGORY&categoryId=194908",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/168923749701620-f0fe8aa5-e7fb-4617-9158-e64abbc3f5ad.jpg",
+      "price": 39,
+      "currency": "KRW",
+      "rating": 5.0,
+      "review_count": null
+    },
+    {
+      "position": 80,
+      "name": "조이워터 생수 무라벨,",
+      "url": "https://www.coupang.com/vp/products/8631818336?itemId=25566397422&vendorItemId=92557595733&sourceType=CATEGORY&categoryId=194908",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/511068755445486-07270838-28c9-4cb9-a8f3-8c3c1520e1f7.jpg",
+      "price": 45,
+      "currency": "KRW",
+      "rating": 5.0,
+      "review_count": null
+    },
+    {
+      "position": 81,
+      "name": "퓨어락 로열플러스 분유 2단계, 800g,",
+      "url": "https://www.coupang.com/vp/products/7781197330?itemId=21030985309&vendorItemId=90745457247&sourceType=CATEGORY&categoryId=194908",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/2024/07/19/12/5/f198abb7-42f0-42ed-afbe-a7755adeee33.jpg",
+      "price": 5540,
+      "currency": "KRW",
+      "rating": 4.5,
+      "review_count": null
+    },
+    {
+      "position": 82,
+      "name": "모닝캄 생수 무라벨,",
+      "url": "https://www.coupang.com/vp/products/9246844812?itemId=27357005722&vendorItemId=94323097650&sourceType=CATEGORY&categoryId=194908",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/c4d46976-9827-4fa9-af99-866e76cf52e513279659172050716442.png",
+      "price": 28,
+      "currency": "KRW",
+      "rating": 5.0,
+      "review_count": null
+    },
+    {
+      "position": 83,
+      "name": "아이시스 음료 화이트캡 무라벨,",
+      "url": "https://www.coupang.com/vp/products/9359897936?itemId=27780683565&vendorItemId=94741007143&sourceType=CATEGORY&categoryId=194908",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/d6995e95-4e75-49e9-a643-0cf0d039020016970322168314848273.png",
+      "price": 29,
+      "currency": "KRW",
+      "rating": 5.0,
+      "review_count": null
+    },
+    {
+      "position": 84,
+      "name": "환타 멜론, 350ml,",
+      "url": "https://www.coupang.com/vp/products/8773759801?itemId=25606315374&vendorItemId=92459445336&sourceType=CATEGORY&categoryId=194908",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/8f3ba754-a545-4b8a-93ff-e2f305d6cbdb3984751425567083165.png",
+      "price": 33380,
+      "currency": "KRW",
+      "rating": 4.5,
+      "review_count": null
+    },
+    {
+      "position": 85,
+      "name": "백산수 생수 무라벨 2L 24p + 1L 12p, 1세트",
+      "url": "https://www.coupang.com/vp/products/8622679418?itemId=25016088754&vendorItemId=92020966673&sourceType=CATEGORY&categoryId=194908",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/203680489268849-3ee6f665-c347-443d-895e-8bbc30e2703e.jpg",
+      "price": 29800,
+      "currency": "KRW",
+      "rating": 4.0,
+      "review_count": null
+    },
+    {
+      "position": 86,
+      "name": "뉴질랜드 통가리로워터 프리미엄 미네랄워터,",
+      "url": "https://www.coupang.com/vp/products/8115264030?itemId=23006351945&vendorItemId=90040234315&sourceType=CATEGORY&categoryId=194908",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/vendor_inventory/image_audit/prod/f1bb10c8-d38a-4bf3-9132-9d6908467056_fixing_v2.png",
+      "price": 40900,
+      "currency": "KRW",
+      "rating": 5.0,
+      "review_count": null
+    },
+    {
+      "position": 87,
+      "name": "딥스 그린 먹는 해양심층수, 2L,",
+      "url": "https://www.coupang.com/vp/products/121747330?itemId=18627090216&vendorItemId=85762462615&sourceType=CATEGORY&categoryId=194908",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/116177631856860-b3b9964f-42a2-4cdf-bee0-29976cd49b5b.jpg",
+      "price": 40050,
+      "currency": "KRW",
+      "rating": 5.0,
+      "review_count": null
+    },
+    {
+      "position": 88,
+      "name": "에이수 Rap 알칼리 암반수, 2L,",
+      "url": "https://www.coupang.com/vp/products/6685723111?itemId=18798941274&vendorItemId=85929755165&sourceType=CATEGORY&categoryId=194908",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/838690435423172-ee045994-0ffe-4b57-b3f0-d9ca668a2eb4.jpg",
+      "price": 36800,
+      "currency": "KRW",
+      "rating": 5.0,
+      "review_count": null
+    },
+    {
+      "position": 89,
+      "name": "라인바싸 플레인 탄산수, 190ml,",
+      "url": "https://www.coupang.com/vp/products/8144640732?itemId=21997939441&vendorItemId=91818125142&sourceType=CATEGORY&categoryId=194908",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/c2032091-7598-4f22-b6ec-93cc091d966d3157098119045966956.png",
+      "price": 179,
+      "currency": "KRW",
+      "rating": 5.0,
+      "review_count": null
+    },
+    {
+      "position": 90,
+      "name": "광천수 일화 광천수,",
+      "url": "https://www.coupang.com/vp/products/5766325188?itemId=9782791542&vendorItemId=86505301972&sourceType=CATEGORY&categoryId=194908",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/5142688672121789-01eccdfd-9474-4d00-805d-7cfc40e386f5.jpg",
+      "price": 13850,
+      "currency": "KRW",
+      "rating": 4.5,
+      "review_count": null
+    },
+    {
+      "position": 91,
+      "name": "기픈물 자연드림 마그네슘 강화 종이팩 해양심층수, 330ml,",
+      "url": "https://www.coupang.com/vp/products/7170031032?itemId=24284790646&vendorItemId=93989780035&sourceType=CATEGORY&categoryId=194908",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/4b2da8d8-1036-40f8-ae51-d8d04edb9919597392506530668311.png",
+      "price": 269,
+      "currency": "KRW",
+      "rating": 5.0,
+      "review_count": null
+    },
+    {
+      "position": 92,
+      "name": "아이시스 생수, 500ml,",
+      "url": "https://www.coupang.com/vp/products/7229656613?itemId=25564953224&vendorItemId=92556175314&sourceType=CATEGORY&categoryId=194908",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/c94588a1-dbdc-43e0-8c24-e79f5449e2922400983355467189379.png",
+      "price": 39610,
+      "currency": "KRW",
+      "rating": 5.0,
+      "review_count": null
+    },
+    {
+      "position": 93,
+      "name": "가벼운샘, 2L,",
+      "url": "https://www.coupang.com/vp/products/8267592020?itemId=23037190997&vendorItemId=87017279544&sourceType=CATEGORY&categoryId=194908",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/552047014650888-3f7826e2-f11a-42d0-8da3-1557b5adeb98.jpg",
+      "price": 23040,
+      "currency": "KRW",
+      "rating": 5.0,
+      "review_count": null
+    },
+    {
+      "position": 94,
+      "name": "아쿠아시스 무라벨 생수, 2L,",
+      "url": "https://www.coupang.com/vp/products/8773906801?itemId=27735047487&vendorItemId=94696262720&sourceType=CATEGORY&categoryId=194908",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/d57dad4b-6c6a-44d2-ab12-51d7e9a1d95b18101811338758108673.png",
+      "price": 27,
+      "currency": "KRW",
+      "rating": 5.0,
+      "review_count": null
+    },
+    {
+      "position": 95,
+      "name": "동원 윤곽 NINE 차 제로,",
+      "url": "https://www.coupang.com/vp/products/8778193592?itemId=25691809077&vendorItemId=92680979896&sourceType=CATEGORY&categoryId=194908",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/40aa428a-e0d9-47cd-a7bd-89525c55306d2579762737061946762.png",
+      "price": 33920,
+      "currency": "KRW",
+      "rating": 5.0,
+      "review_count": null
+    },
+    {
+      "position": 96,
+      "name": "일화 광천수 생수,",
+      "url": "https://www.coupang.com/vp/products/5766325188?itemId=17694482852&vendorItemId=86495568403&sourceType=CATEGORY&categoryId=194908",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/c8538491-ebf8-410d-a0fb-f6c31545b54c6800814909467972447.png",
+      "price": 17740,
+      "currency": "KRW",
+      "rating": 4.5,
+      "review_count": null
+    },
+    {
+      "position": 97,
+      "name": "와일드알프 베이비워터, 1L,",
+      "url": "https://www.coupang.com/vp/products/6398708113?itemId=19574050884&vendorItemId=86681775850&sourceType=CATEGORY&categoryId=194908",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/91fbefc3-5bec-4748-8ead-4635592cdf767167636214477704765.png",
+      "price": 308,
+      "currency": "KRW",
+      "rating": 5.0,
+      "review_count": null
+    },
+    {
+      "position": 98,
+      "name": "팔도 뽀로로 샘물, 250ml,",
+      "url": "https://www.coupang.com/vp/products/11411660?itemId=18172812352&vendorItemId=85322103838&sourceType=CATEGORY&categoryId=194908",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/2769406502880831-db4cbd42-40f8-444a-8e78-e268625e9c9f.jpg",
+      "price": 38000,
+      "currency": "KRW",
+      "rating": 5.0,
+      "review_count": null
+    },
+    {
+      "position": 99,
+      "name": "뉴질랜드 통가리로워터 프리미엄 미네랄워터,",
+      "url": "https://www.coupang.com/vp/products/8115264030?itemId=26573804464&vendorItemId=93547300005&sourceType=CATEGORY&categoryId=194908",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/vendor_inventory/images/bd6d1dc9-e10e-496a-9628-42eb46b80b0c15970387479629247388.png",
+      "price": 305,
+      "currency": "KRW",
+      "rating": 5.0,
+      "review_count": null
+    },
+    {
+      "position": 100,
+      "name": "휘오 순수 생수, 500ml,",
+      "url": "https://www.coupang.com/vp/products/6062866109?itemId=21338147019&vendorItemId=88396610130&sourceType=CATEGORY&categoryId=194908",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/97917353388484-eb7c3f5e-da42-4685-8a75-9a8f49667900.jpg",
+      "price": 41400,
+      "currency": "KRW",
+      "rating": 4.5,
+      "review_count": null
+    },
+    {
+      "position": 101,
+      "name": "지리산수 무라벨,",
+      "url": "https://www.coupang.com/vp/products/8675481827?itemId=27805402052&vendorItemId=94765324437&sourceType=CATEGORY&categoryId=194908",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/cce461e1-083d-4807-bbb9-31be589a5a9e3579029412246499494.png",
+      "price": 78,
+      "currency": "KRW",
+      "rating": 5.0,
+      "review_count": null
+    },
+    {
+      "position": 102,
+      "name": "조이워터 생수 무라벨,",
+      "url": "https://www.coupang.com/vp/products/8631818336?itemId=25042688871&vendorItemId=92557595925&sourceType=CATEGORY&categoryId=194908",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/510854957769040-c9bd3e01-fe67-42ba-898d-37b488d8c66b.jpg",
+      "price": 29,
+      "currency": "KRW",
+      "rating": 5.0,
+      "review_count": null
+    },
+    {
+      "position": 103,
+      "name": "소우주001 유리병 오투 미네랄워터 미세플라스틱없는 물 고순도 산소 충전 (12병 세트),",
+      "url": "https://www.coupang.com/vp/products/9041456839?itemId=27200141727&vendorItemId=94167563894&sourceType=CATEGORY&categoryId=194908",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/vendor_inventory/26d6/48a0257ecab412d3714e17b2f7f9d6dd79653586e75fdde214e5d752613b.jpg",
+      "price": 30000,
+      "currency": "KRW",
+      "rating": 4.5,
+      "review_count": null
+    },
+    {
+      "position": 104,
+      "name": "유니온 천년 알칼리수, 2L,",
+      "url": "https://www.coupang.com/vp/products/6398709416?itemId=19679930933&vendorItemId=86785326970&sourceType=CATEGORY&categoryId=194908",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/7225423317353071-f8300220-4f09-4e7b-a6c8-455e25fd85ae.jpg",
+      "price": 77,
+      "currency": "KRW",
+      "rating": 5.0,
+      "review_count": null
+    },
+    {
+      "position": 105,
+      "name": "피지워터 생수, 1.5L,",
+      "url": "https://www.coupang.com/vp/products/2304274654?itemId=3971722209&vendorItemId=71956080931&sourceType=CATEGORY&categoryId=194908",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/12092874174624-cc7776e3-0574-411f-9329-97829f8fe8cc.jpg",
+      "price": 40610,
+      "currency": "KRW",
+      "rating": 5.0,
+      "review_count": null
+    },
+    {
+      "position": 106,
+      "name": "딥스 춘식이 천연 미네랄 해양심층수, 500ml,",
+      "url": "https://www.coupang.com/vp/products/8643215409?itemId=25092429869&vendorItemId=92096134891&sourceType=CATEGORY&categoryId=194908",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/2639e994-bcb7-4d95-836b-eda63528ac23458703397064475619.png",
+      "price": 83160,
+      "currency": "KRW",
+      "rating": 5.0,
+      "review_count": null
+    },
+    {
+      "position": 107,
+      "name": "천년동안 키즈워터, 350ml,",
+      "url": "https://www.coupang.com/vp/products/8243593631?itemId=12720437872&vendorItemId=85907544925&sourceType=CATEGORY&categoryId=194908",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/2874033604327794-a928a720-375e-490b-8e3b-085ff87b1242.jpg",
+      "price": 231,
+      "currency": "KRW",
+      "rating": 5.0,
+      "review_count": null
+    },
+    {
+      "position": 108,
+      "name": "크리스탈 무라벨 생수,",
+      "url": "https://www.coupang.com/vp/products/8538346409?itemId=27805402411&vendorItemId=94765325070&sourceType=CATEGORY&categoryId=194908",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/3576ad75-dd08-49e2-8031-0ac21b922c3114082776312452673989.png",
+      "price": 47,
+      "currency": "KRW",
+      "rating": 4.5,
+      "review_count": null
+    },
+    {
+      "position": 109,
+      "name": "마신다 생수 무라벨, 500ml,",
+      "url": "https://www.coupang.com/vp/products/8284414290?itemId=27584357776&vendorItemId=94696083097&sourceType=CATEGORY&categoryId=194908",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/dc68e1dd-b702-48dc-90c6-12de97cbb59f11873944161274639222.png",
+      "price": 41,
+      "currency": "KRW",
+      "rating": 5.0,
+      "review_count": null
+    },
+    {
+      "position": 110,
+      "name": "수수소수 덕유산 수 수소워터, 500ml,",
+      "url": "https://www.coupang.com/vp/products/4784824771?itemId=23287306940&vendorItemId=93179486108&sourceType=CATEGORY&categoryId=194908",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/5d1e1240-3366-4b32-902f-e74a23a300a09120125152683691271.png",
+      "price": 85700,
+      "currency": "KRW",
+      "rating": 4.5,
+      "review_count": null
+    },
+    {
+      "position": 111,
+      "name": "일화 광천수 생수,",
+      "url": "https://www.coupang.com/vp/products/5766325188?itemId=25565075052&vendorItemId=92556294655&sourceType=CATEGORY&categoryId=194908",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/078ad523-3bd2-4430-9618-846bdc36b44f3874473396605878619.png",
+      "price": 25860,
+      "currency": "KRW",
+      "rating": 4.5,
+      "review_count": null
+    },
+    {
+      "position": 112,
+      "name": "아이시스 8.0, 500ml,",
+      "url": "https://www.coupang.com/vp/products/8157288192?itemId=19315919066&vendorItemId=86430127582&sourceType=CATEGORY&categoryId=194908",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/557841108185298-c04dd6d4-3ecf-41d1-9735-dcda2d4906bb.jpg",
+      "price": 70,
+      "currency": "KRW",
+      "rating": 5.0,
+      "review_count": null
+    },
+    {
+      "position": 113,
+      "name": "아쿠아파나 미네랄워터, 500ml,",
+      "url": "https://www.coupang.com/vp/products/6937189948?itemId=7883329642&vendorItemId=94682475367&sourceType=CATEGORY&categoryId=194908",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/vendor_inventory/c7ef/c23b0140122d4a66105bce236c3338e39acd0ad69d4a0793384f9530f08c.png",
+      "price": 46830,
+      "currency": "KRW",
+      "rating": 4.5,
+      "review_count": null
+    },
+    {
+      "position": 114,
+      "name": "오타키리 워터 932 샘물 PET, 500ml,",
+      "url": "https://www.coupang.com/vp/products/8267582820?itemId=9341554226&vendorItemId=84894944803&sourceType=CATEGORY&categoryId=194908",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/vendor_inventory/image_audit/prod/734372fb-4747-4dc7-aa30-49bff650b6fb_fixing_v2.png",
+      "price": 62850,
+      "currency": "KRW",
+      "rating": 5.0,
+      "review_count": null
+    },
+    {
+      "position": 115,
+      "name": "딥스 해양심층수 골드, 500ml,",
+      "url": "https://www.coupang.com/vp/products/263151051?itemId=17910172088&vendorItemId=85072859453&sourceType=CATEGORY&categoryId=194908",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/134356032779368-88530795-3e85-4bb8-ad37-0f3f8ffdff10.jpg",
+      "price": 195,
+      "currency": "KRW",
+      "rating": 5.0,
+      "review_count": null
+    },
+    {
+      "position": 116,
+      "name": "풀무원샘물, 500ml,",
+      "url": "https://www.coupang.com/vp/products/9246015613?itemId=25612852014&vendorItemId=88408747662&sourceType=CATEGORY&categoryId=194908",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/1381935636613188-0f8f6b79-99b9-42a6-b4c9-04dc63813f55.png",
+      "price": 51,
+      "currency": "KRW",
+      "rating": 5.0,
+      "review_count": null
+    },
+    {
+      "position": 117,
+      "name": "제주삼다수, 330ml,",
+      "url": "https://www.coupang.com/vp/products/8157269417?itemId=20383214268&vendorItemId=86471109434&sourceType=CATEGORY&categoryId=194908",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/71397023661744-d39feafe-b3ce-4c29-9f7b-493f315c4be3.jpg",
+      "price": 130,
+      "currency": "KRW",
+      "rating": 5.0,
+      "review_count": null
+    },
+    {
+      "position": 118,
+      "name": "몽베스트 생수, 330ml,",
+      "url": "https://www.coupang.com/vp/products/4683535861?itemId=19116128694&vendorItemId=86433745541&sourceType=CATEGORY&categoryId=194908",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/221436307874470-29db1a47-fca5-4c4d-a9d6-b18aaf6b6c89.jpg",
+      "price": 15910,
+      "currency": "KRW",
+      "rating": 5.0,
+      "review_count": null
+    },
+    {
+      "position": 119,
+      "name": "제주삼다수 광복 80주년 에디션 생수, 2L,",
+      "url": "https://www.coupang.com/vp/products/8939115826?itemId=26149083709&vendorItemId=93129077644&sourceType=CATEGORY&categoryId=194908",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/5657c14a-9cdc-412a-86ea-c358dabc86348946889192998639026.png",
+      "price": 14500,
+      "currency": "KRW",
+      "rating": 5.0,
+      "review_count": null
+    },
+    {
+      "position": 120,
+      "name": "제주삼다수, 330ml,",
+      "url": "https://www.coupang.com/vp/products/8157269417?itemId=22431834075&vendorItemId=86471109537&sourceType=CATEGORY&categoryId=194908",
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/vendor_inventory/009a/39435526bd51a0d8a40ee86e52b9644343b22889d6846b207802ef89428e.jpg",
+      "price": 130,
+      "currency": "KRW",
+      "rating": 5.0,
+      "review_count": null
+    }
+  ],
+  "html_content_length": 913206,
+  "is_challenge_page": false
+}
