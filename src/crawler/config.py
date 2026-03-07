@@ -22,6 +22,13 @@ class CrawlConfig:
     proxy_ip: str = ""
     proxy_port: Optional[int] = None
     proxy_scheme: str = "socks5"
+    redis_host: str = "127.0.0.1"
+    redis_port: int = 6379
+    redis_db: int = 0
+    redis_password: str = ""
+    redis_queue_key: str = "deal_sniffer:clp:raw_html"
+    parser_consume_count: int = 100
+    parser_block_timeout_sec: int = 5
 
 
 DEFAULT_CONFIG = CrawlConfig()

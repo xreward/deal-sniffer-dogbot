@@ -102,12 +102,19 @@ class ClpFetcher:
                 },
             }
 
+        html = response.text or ""
         return {
-            "response": response,
             "request_info": {
                 "url": str(response.url),
                 "method": "GET",
                 "timestamp": datetime.now().isoformat(),
                 "target_url": target_url,
             },
+            "response_info": {
+                "status_code": response.status_code,
+                "headers": dict(response.headers),
+                "cookies": dict(response.cookies) if response.cookies else {},
+                "content_length": len(response.content),
+            },
+            "html": html,
         }

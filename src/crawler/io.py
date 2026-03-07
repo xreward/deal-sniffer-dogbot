@@ -48,6 +48,31 @@ def write_clp_report(path: Path, results: List[dict]) -> None:
     path.write_text("\n".join(lines) + "\n", encoding="utf-8")
 
 
+def write_fetch_report(path: Path, results: List[dict], queue_key: str) -> None:
+    queued_count = 0
+    fail_count = 0
+    lines: List[str] = []
+
+    for result in results:
+        is_success = bool(result["success"])
+        if is_success:
+            queued_count += 1
+        else:
+            fail_count += 1
+
+        status_text = "QUEUED" if is_success else "FAIL"
+        lines.append(
+            f"[{status_text}] url={result['target_url']} status={result['status_code']} html_length={result['html_length']}"
+        )
+
+    lines.append("")
+    lines.append(f"QUEUE: {queue_key}")
+    lines.append(
+        f"TOTAL: queued={queued_count}, fail={fail_count}, total={len(results)}"
+    )
+    path.write_text("\n".join(lines) + "\n", encoding="utf-8")
+
+
 def save_cookie_header(cookie_header: str, cookie_path: Path) -> None:
     payload = {
         "cookie_string": cookie_header,

@@ -85,6 +85,7 @@ def prepare_browser_session(
         ]
 
         for tag, url, wait_sec in warmup_steps:
+            print(f"start {tag} -> {url}")
             driver.get(url)
             time.sleep(wait_sec)
             report["steps"].append(snapshot_page(driver, debug_dir, tag))
@@ -142,4 +143,3 @@ def default_user_data_dir() -> Path:
         )
 
     return Path.home() / ".config" / "deal-sniffer-dogbot" / "chrome-profile"
-

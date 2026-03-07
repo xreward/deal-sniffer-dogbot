@@ -1,15 +1,12 @@
 import json
 import re
 from datetime import datetime
-from typing import Dict, List, Optional, TYPE_CHECKING
+from typing import Dict, List, Optional
 
 from bs4 import BeautifulSoup
 
 from ..config import CrawlConfig
 from ..io import ensure_directory
-
-if TYPE_CHECKING:
-    from .fetcher import ClpFetcher
 
 
 class ClpParser:
@@ -17,41 +14,38 @@ class ClpParser:
         self.config = config
         ensure_directory(config.output_dir)
 
-    def fetch_and_parse_clp(
-        self,
-        fetcher: "ClpFetcher",
-        target_url: str,
-    ) -> dict:
-        fetch_result = fetcher.fetch(target_url=target_url)
+    def parse_fetch_result(self, fetch_result: dict) -> dict:
         if "error" in fetch_result:
             return fetch_result
 
-        response = fetch_result["response"]
+        request_info = dict(fetch_result.get("request_info", {}))
+        response_info = dict(fetch_result.get("response_info", {}))
+
         result = {
-            "request_info": fetch_result["request_info"],
-            "response_info": {
-                "status_code": response.status_code,
-                "headers": dict(response.headers),
-                "cookies": dict(response.cookies) if response.cookies else {},
-                "content_length": len(response.content),
-            },
+            "request_info": request_info,
+            "response_info": response_info,
             "products": [],
         }
 
-        if response.status_code != 200:
+        status_code = response_info.get("status_code")
+        if status_code != 200:
             return result
 
-        html = response.text
+        html = str(fetch_result.get("html", ""))
         result["products"] = self.parse_clp_products(html)
         result["html_content_length"] = len(html)
         result["is_challenge_page"] = "chlgeId" in html or len(html) < 5000
 
-        category_id = self._extract_category_id(target_url)
-        page = self._extract_page(target_url)
+        target_url = request_info.get("target_url") or request_info.get("url", "")
+        category_id = self._extract_category_id(str(target_url))
+        page = self._extract_page(str(target_url))
         ts = datetime.now().strftime("%Y%m%d_%H%M%S")
         filename = f"parsed_{category_id}_{page}_{ts}.json"
         self.save_parsed_json(result, filename)
         return result
+
+    def fetch_and_parse_clp(self, fetcher, target_url: str) -> dict:
+        return self.parse_fetch_result(fetcher.fetch(target_url=target_url))
 
     @staticmethod
     def _extract_category_id(url: str) -> str:
